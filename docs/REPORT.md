@@ -177,6 +177,7 @@ VICTORY로 전체 클리어를 알리고 N / NEW GAME과 R / RETRY를 구분합�
 
 - 게임 구현 및 소스: 위 최종 검사와 실행 확인 완료.
 - GitHub 소스: https://github.com/seorune/knight-slimes (비공개). 제출 전 채점자의 접근 권한 확인이 필요합니다.
+- 실행 파일: https://github.com/seorune/knight-slimes/releases/tag/v1.0.0 — Java 17용 JAR을 업로드하고 다시 내려받아 SHA-256 일치를 확인했습니다.
 - 레포트: 이 문서. 노션 원본과 함께 Git 저장소에 Markdown 사본을 보관합니다.
 - 시연 영상: 내일 녹화 후 유튜브 업로드·링크 첨부 필요. 아직 첨부하지 않았습니다.
 - 발표자료: 작성자가 내일 별도 제작합니다. 안내자료 기준 2분 이내입니다.
