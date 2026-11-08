@@ -1,0 +1,47 @@
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+eclipse.project.name = appName + '-core'
+
+dependencies {
+  api "com.badlogicgames.gdx:gdx:$gdxVersion"
+
+  if(enableGraalNative == 'true') {
+    implementation "io.github.berstanio:gdx-svmhelper-annotations:$graalHelperVersion"
+  }
+}
+
+// Dependency-free model assertions are executable even without JUnit.
+tasks.register('verifyRules', JavaExec) {
+  group = 'verification'
+  description = 'Run deterministic gameplay rules and the real stage route.'
+  dependsOn testClasses
+  classpath = sourceSets.test.runtimeClasspath
+  mainClass = 'io.jbnu.test.StageModelTest'
+  enableAssertions = true
+}
+tasks.register('verifyBossCampaign', JavaExec) {
+  group = 'verification'
+  description = 'Run the real-input boss route and complete three-stage campaign.'
+  dependsOn testClasses
+  classpath = sourceSets.test.runtimeClasspath
+  mainClass = 'io.jbnu.test.StageThreeRouteTest'
+  enableAssertions = true
+}
+tasks.register('verifyEchoTargets', JavaExec) {
+  group = 'verification'
+  description = 'Run echo target eligibility, lifecycle and door assertions.'
+  dependsOn testClasses
+  classpath = sourceSets.test.runtimeClasspath
+  mainClass = 'io.jbnu.test.EchoTargetTest'
+  enableAssertions = true
+}
+tasks.register('verifyEchoCampaign', JavaExec) {
+  group = 'verification'
+  description = 'Run seeded full campaigns with lower and inverted upper boss routes.'
+  dependsOn testClasses
+  classpath = sourceSets.test.runtimeClasspath
+  mainClass = 'io.jbnu.test.EchoRouteTest'
+  enableAssertions = true
+}
+tasks.named('check') {
+  dependsOn tasks.named('verifyRules'), tasks.named('verifyBossCampaign'), tasks.named('verifyEchoTargets'), tasks.named('verifyEchoCampaign')
+}

@@ -1,0 +1,85 @@
+buildscript {
+  repositories {
+    mavenCentral()
+    gradlePluginPortal()
+    mavenLocal()
+    google()
+    maven { url 'https://central.sonatype.com/repository/maven-snapshots/' }
+  }
+  dependencies {
+
+
+  }
+}
+
+allprojects {
+  apply plugin: 'eclipse'
+  apply plugin: 'idea'
+
+  idea {
+    module {
+      outputDir file('build/classes/java/main')
+      testOutputDir file('build/classes/java/test')
+    }
+  }
+}
+
+// Shared by the release copy and its index; editable source/proof assets stay in the project.
+ext.runtimeAssets = {
+  fileTree(rootProject.file('assets')) {
+    exclude 'assets.txt', 'art/source/**', 'art-direction/**', '**/proof/**',
+      'art/knight_swing/provenance/**', 'block.png', 'flag.png', 'libgdx.png', 'player.png'
+    // PixelAssets loads atlas sheets and these two backgrounds, never individual preview crops.
+    exclude { entry ->
+      def path = entry.path
+      path.startsWith('art/') && path.endsWith('.png') &&
+        !path.endsWith('/sheet.png') && !(path in [
+          'art/pixel_knight/background/warm_lower.png',
+          'art/pixel_knight/background/cold_upper.png'
+        ])
+    }
+  }
+}
+
+// From https://lyze.dev/2021/04/29/libGDX-Internal-Assets-List/
+def assetIndex = layout.buildDirectory.file('generated/release-assets/assets.txt')
+def generateAssetList = tasks.register('generateAssetList') {
+  inputs.files(provider { rootProject.runtimeAssets() })
+  outputs.file(assetIndex)
+  doLast {
+    def assetsFolder = rootProject.file('assets').toPath()
+    def paths = rootProject.runtimeAssets().files.collect {
+      assetsFolder.relativize(it.toPath()).toString().replace('\\', '/')
+    }.sort()
+    def output = assetIndex.get().asFile
+    output.parentFile.mkdirs()
+    output.setText(paths.join('\n') + '\n', 'UTF-8')
+  }
+}
+
+configure(subprojects) {
+  apply plugin: 'java-library'
+  sourceCompatibility = 8
+
+  tasks.register('generateAssetList') {
+    dependsOn generateAssetList
+  }
+  processResources.dependsOn generateAssetList
+
+  compileJava {
+    options.incremental = true
+  }
+}
+
+subprojects {
+  version = "$projectVersion"
+  ext.appName = 'Project2'
+  repositories {
+    mavenCentral()
+    mavenLocal()
+    maven { url 'https://central.sonatype.com/repository/maven-snapshots/' }
+    maven { url 'https://jitpack.io' }
+  }
+}
+
+eclipse.project.name = 'Project2' + '-parent'

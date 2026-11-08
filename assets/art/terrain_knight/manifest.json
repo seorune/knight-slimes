@@ -1,0 +1,2915 @@
+{
+  "schema_version": 1,
+  "status": "locally_authored_sideview_first_pass",
+  "provenance": "locally authored procedural pixel artwork",
+  "logical_pixel_scale": 1,
+  "world_layout": {
+    "above": "cool",
+    "below": "warm"
+  },
+  "sources": [],
+  "groups": {
+    "terrain_warm": {
+      "frame_count": 15,
+      "cell_size": [
+        32,
+        32
+      ],
+      "sheet_size": [
+        128,
+        128
+      ],
+      "columns": 4,
+      "gutter": 0,
+      "filter": "nearest",
+      "logical_pixel_scale": 1,
+      "sheet": "assets/art/terrain_knight/terrain_warm/sheet.png",
+      "frames": [
+        {
+          "index": 0,
+          "name": "stone_fill",
+          "path": "assets/art/terrain_knight/terrain_warm/stone_fill.png",
+          "rect": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "alpha_bbox": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "collision_rects": [
+            [
+              0,
+              0,
+              32,
+              32
+            ]
+          ],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        },
+        {
+          "index": 1,
+          "name": "surface_top",
+          "path": "assets/art/terrain_knight/terrain_warm/surface_top.png",
+          "rect": [
+            32,
+            0,
+            32,
+            32
+          ],
+          "alpha_bbox": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "collision_rects": [
+            [
+              0,
+              0,
+              32,
+              32
+            ]
+          ],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        },
+        {
+          "index": 2,
+          "name": "wall_left",
+          "path": "assets/art/terrain_knight/terrain_warm/wall_left.png",
+          "rect": [
+            64,
+            0,
+            32,
+            32
+          ],
+          "alpha_bbox": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "collision_rects": [
+            [
+              0,
+              0,
+              32,
+              32
+            ]
+          ],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        },
+        {
+          "index": 3,
+          "name": "wall_right",
+          "path": "assets/art/terrain_knight/terrain_warm/wall_right.png",
+          "rect": [
+            96,
+            0,
+            32,
+            32
+          ],
+          "alpha_bbox": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "collision_rects": [
+            [
+              0,
+              0,
+              32,
+              32
+            ]
+          ],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        },
+        {
+          "index": 4,
+          "name": "platform",
+          "path": "assets/art/terrain_knight/terrain_warm/platform.png",
+          "rect": [
+            0,
+            32,
+            32,
+            32
+          ],
+          "alpha_bbox": [
+            0,
+            0,
+            32,
+            8
+          ],
+          "collision_rects": [
+            [
+              0,
+              0,
+              32,
+              8
+            ]
+          ],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        },
+        {
+          "index": 5,
+          "name": "outside_tl",
+          "path": "assets/art/terrain_knight/terrain_warm/outside_tl.png",
+          "rect": [
+            32,
+            32,
+            32,
+            32
+          ],
+          "alpha_bbox": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "collision_rects": [
+            [
+              0,
+              0,
+              32,
+              32
+            ]
+          ],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        },
+        {
+          "index": 6,
+          "name": "outside_tr",
+          "path": "assets/art/terrain_knight/terrain_warm/outside_tr.png",
+          "rect": [
+            64,
+            32,
+            32,
+            32
+          ],
+          "alpha_bbox": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "collision_rects": [
+            [
+              0,
+              0,
+              32,
+              32
+            ]
+          ],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        },
+        {
+          "index": 7,
+          "name": "outside_bl",
+          "path": "assets/art/terrain_knight/terrain_warm/outside_bl.png",
+          "rect": [
+            96,
+            32,
+            32,
+            32
+          ],
+          "alpha_bbox": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "collision_rects": [
+            [
+              0,
+              0,
+              32,
+              32
+            ]
+          ],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        },
+        {
+          "index": 8,
+          "name": "outside_br",
+          "path": "assets/art/terrain_knight/terrain_warm/outside_br.png",
+          "rect": [
+            0,
+            64,
+            32,
+            32
+          ],
+          "alpha_bbox": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "collision_rects": [
+            [
+              0,
+              0,
+              32,
+              32
+            ]
+          ],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        },
+        {
+          "index": 9,
+          "name": "inside_tl",
+          "path": "assets/art/terrain_knight/terrain_warm/inside_tl.png",
+          "rect": [
+            32,
+            64,
+            32,
+            32
+          ],
+          "alpha_bbox": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "collision_rects": [
+            [
+              4,
+              0,
+              28,
+              4
+            ],
+            [
+              0,
+              4,
+              32,
+              28
+            ]
+          ],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        },
+        {
+          "index": 10,
+          "name": "inside_tr",
+          "path": "assets/art/terrain_knight/terrain_warm/inside_tr.png",
+          "rect": [
+            64,
+            64,
+            32,
+            32
+          ],
+          "alpha_bbox": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "collision_rects": [
+            [
+              0,
+              0,
+              28,
+              4
+            ],
+            [
+              0,
+              4,
+              32,
+              28
+            ]
+          ],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        },
+        {
+          "index": 11,
+          "name": "inside_bl",
+          "path": "assets/art/terrain_knight/terrain_warm/inside_bl.png",
+          "rect": [
+            96,
+            64,
+            32,
+            32
+          ],
+          "alpha_bbox": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "collision_rects": [
+            [
+              0,
+              0,
+              32,
+              28
+            ],
+            [
+              4,
+              28,
+              28,
+              4
+            ]
+          ],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        },
+        {
+          "index": 12,
+          "name": "inside_br",
+          "path": "assets/art/terrain_knight/terrain_warm/inside_br.png",
+          "rect": [
+            0,
+            96,
+            32,
+            32
+          ],
+          "alpha_bbox": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "collision_rects": [
+            [
+              0,
+              0,
+              32,
+              28
+            ],
+            [
+              0,
+              28,
+              28,
+              4
+            ]
+          ],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        },
+        {
+          "index": 13,
+          "name": "bottom",
+          "path": "assets/art/terrain_knight/terrain_warm/bottom.png",
+          "rect": [
+            32,
+            96,
+            32,
+            32
+          ],
+          "alpha_bbox": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "collision_rects": [
+            [
+              0,
+              0,
+              32,
+              32
+            ]
+          ],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        },
+        {
+          "index": 14,
+          "name": "seam",
+          "path": "assets/art/terrain_knight/terrain_warm/seam.png",
+          "rect": [
+            64,
+            96,
+            32,
+            32
+          ],
+          "alpha_bbox": [
+            0,
+            14,
+            32,
+            18
+          ],
+          "collision_rects": [],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        }
+      ],
+      "clips": {
+        "stone_fill": {
+          "frames": [
+            0
+          ],
+          "frame_duration_seconds": 0.14,
+          "duration_seconds": 0.14,
+          "loop": false,
+          "timing_provenance": "suggested prototype timing; not gameplay-integrated"
+        },
+        "surface_top": {
+          "frames": [
+            1
+          ],
+          "frame_duration_seconds": 0.14,
+          "duration_seconds": 0.14,
+          "loop": false,
+          "timing_provenance": "suggested prototype timing; not gameplay-integrated"
+        },
+        "wall_left": {
+          "frames": [
+            2
+          ],
+          "frame_duration_seconds": 0.14,
+          "duration_seconds": 0.14,
+          "loop": false,
+          "timing_provenance": "suggested prototype timing; not gameplay-integrated"
+        },
+        "wall_right": {
+          "frames": [
+            3
+          ],
+          "frame_duration_seconds": 0.14,
+          "duration_seconds": 0.14,
+          "loop": false,
+          "timing_provenance": "suggested prototype timing; not gameplay-integrated"
+        },
+        "platform": {
+          "frames": [
+            4
+          ],
+          "frame_duration_seconds": 0.14,
+          "duration_seconds": 0.14,
+          "loop": false,
+          "timing_provenance": "suggested prototype timing; not gameplay-integrated"
+        },
+        "outside_tl": {
+          "frames": [
+            5
+          ],
+          "frame_duration_seconds": 0.14,
+          "duration_seconds": 0.14,
+          "loop": false,
+          "timing_provenance": "suggested prototype timing; not gameplay-integrated"
+        },
+        "outside_tr": {
+          "frames": [
+            6
+          ],
+          "frame_duration_seconds": 0.14,
+          "duration_seconds": 0.14,
+          "loop": false,
+          "timing_provenance": "suggested prototype timing; not gameplay-integrated"
+        },
+        "outside_bl": {
+          "frames": [
+            7
+          ],
+          "frame_duration_seconds": 0.14,
+          "duration_seconds": 0.14,
+          "loop": false,
+          "timing_provenance": "suggested prototype timing; not gameplay-integrated"
+        },
+        "outside_br": {
+          "frames": [
+            8
+          ],
+          "frame_duration_seconds": 0.14,
+          "duration_seconds": 0.14,
+          "loop": false,
+          "timing_provenance": "suggested prototype timing; not gameplay-integrated"
+        },
+        "inside_tl": {
+          "frames": [
+            9
+          ],
+          "frame_duration_seconds": 0.14,
+          "duration_seconds": 0.14,
+          "loop": false,
+          "timing_provenance": "suggested prototype timing; not gameplay-integrated"
+        },
+        "inside_tr": {
+          "frames": [
+            10
+          ],
+          "frame_duration_seconds": 0.14,
+          "duration_seconds": 0.14,
+          "loop": false,
+          "timing_provenance": "suggested prototype timing; not gameplay-integrated"
+        },
+        "inside_bl": {
+          "frames": [
+            11
+          ],
+          "frame_duration_seconds": 0.14,
+          "duration_seconds": 0.14,
+          "loop": false,
+          "timing_provenance": "suggested prototype timing; not gameplay-integrated"
+        },
+        "inside_br": {
+          "frames": [
+            12
+          ],
+          "frame_duration_seconds": 0.14,
+          "duration_seconds": 0.14,
+          "loop": false,
+          "timing_provenance": "suggested prototype timing; not gameplay-integrated"
+        },
+        "bottom": {
+          "frames": [
+            13
+          ],
+          "frame_duration_seconds": 0.14,
+          "duration_seconds": 0.14,
+          "loop": false,
+          "timing_provenance": "suggested prototype timing; not gameplay-integrated"
+        },
+        "seam": {
+          "frames": [
+            14
+          ],
+          "frame_duration_seconds": 0.14,
+          "duration_seconds": 0.14,
+          "loop": false,
+          "timing_provenance": "suggested prototype timing; not gameplay-integrated"
+        }
+      },
+      "palette": "warm",
+      "world_region": "below",
+      "seam_verification": {
+        "stone_fill": [
+          "left_equals_right",
+          "top_equals_bottom"
+        ],
+        "arbitrary_adjacencies_verified": false
+      }
+    },
+    "bricks_warm": {
+      "frame_count": 2,
+      "cell_size": [
+        32,
+        16
+      ],
+      "sheet_size": [
+        128,
+        16
+      ],
+      "columns": 4,
+      "gutter": 0,
+      "filter": "nearest",
+      "logical_pixel_scale": 1,
+      "sheet": "assets/art/terrain_knight/bricks_warm/sheet.png",
+      "frames": [
+        {
+          "index": 0,
+          "name": "corpse_round",
+          "path": "assets/art/terrain_knight/bricks_warm/corpse_round.png",
+          "rect": [
+            0,
+            0,
+            32,
+            16
+          ],
+          "alpha_bbox": [
+            0,
+            0,
+            32,
+            16
+          ],
+          "collision_rects": [
+            [
+              0,
+              0,
+              32,
+              16
+            ]
+          ],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        },
+        {
+          "index": 1,
+          "name": "corpse_diamond",
+          "path": "assets/art/terrain_knight/bricks_warm/corpse_diamond.png",
+          "rect": [
+            32,
+            0,
+            32,
+            16
+          ],
+          "alpha_bbox": [
+            0,
+            0,
+            32,
+            16
+          ],
+          "collision_rects": [
+            [
+              0,
+              0,
+              32,
+              16
+            ]
+          ],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        }
+      ],
+      "clips": {
+        "corpse_round": {
+          "frames": [
+            0
+          ],
+          "frame_duration_seconds": 0.14,
+          "duration_seconds": 0.14,
+          "loop": false,
+          "timing_provenance": "suggested prototype timing; not gameplay-integrated"
+        },
+        "corpse_diamond": {
+          "frames": [
+            1
+          ],
+          "frame_duration_seconds": 0.14,
+          "duration_seconds": 0.14,
+          "loop": false,
+          "timing_provenance": "suggested prototype timing; not gameplay-integrated"
+        }
+      },
+      "spawn_policy": "original_only; clones vanish without brick",
+      "core_mapping": {
+        "round": "melee_original",
+        "diamond": "ranged_original"
+      }
+    },
+    "exit_warm": {
+      "frame_count": 4,
+      "cell_size": [
+        64,
+        96
+      ],
+      "sheet_size": [
+        256,
+        96
+      ],
+      "columns": 4,
+      "gutter": 0,
+      "filter": "nearest",
+      "logical_pixel_scale": 1,
+      "sheet": "assets/art/terrain_knight/exit_warm/sheet.png",
+      "frames": [
+        {
+          "index": 0,
+          "name": "closed",
+          "path": "assets/art/terrain_knight/exit_warm/closed.png",
+          "rect": [
+            0,
+            0,
+            64,
+            96
+          ],
+          "alpha_bbox": [
+            4,
+            8,
+            60,
+            96
+          ],
+          "collision_rects": [],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        },
+        {
+          "index": 1,
+          "name": "open_0",
+          "path": "assets/art/terrain_knight/exit_warm/open_0.png",
+          "rect": [
+            64,
+            0,
+            64,
+            96
+          ],
+          "alpha_bbox": [
+            4,
+            8,
+            60,
+            96
+          ],
+          "collision_rects": [],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        },
+        {
+          "index": 2,
+          "name": "open_1",
+          "path": "assets/art/terrain_knight/exit_warm/open_1.png",
+          "rect": [
+            128,
+            0,
+            64,
+            96
+          ],
+          "alpha_bbox": [
+            4,
+            8,
+            60,
+            96
+          ],
+          "collision_rects": [],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        },
+        {
+          "index": 3,
+          "name": "open_2",
+          "path": "assets/art/terrain_knight/exit_warm/open_2.png",
+          "rect": [
+            192,
+            0,
+            64,
+            96
+          ],
+          "alpha_bbox": [
+            4,
+            8,
+            60,
+            96
+          ],
+          "collision_rects": [],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        }
+      ],
+      "clips": {
+        "closed": {
+          "frames": [
+            0
+          ],
+          "frame_duration_seconds": 0.14,
+          "duration_seconds": 0.14,
+          "loop": false,
+          "timing_provenance": "suggested prototype timing; not gameplay-integrated"
+        },
+        "open": {
+          "frames": [
+            1,
+            2,
+            3,
+            2
+          ],
+          "frame_duration_seconds": 0.16,
+          "duration_seconds": 0.64,
+          "loop": true,
+          "timing_provenance": "suggested prototype timing; not gameplay-integrated"
+        }
+      },
+      "arch_silhouette": "fixed across states; only interior illumination changes",
+      "trigger_rect": [
+        18,
+        32,
+        28,
+        56
+      ],
+      "trigger_is_collision": false
+    },
+    "terrain_cool": {
+      "frame_count": 15,
+      "cell_size": [
+        32,
+        32
+      ],
+      "sheet_size": [
+        128,
+        128
+      ],
+      "columns": 4,
+      "gutter": 0,
+      "filter": "nearest",
+      "logical_pixel_scale": 1,
+      "sheet": "assets/art/terrain_knight/terrain_cool/sheet.png",
+      "frames": [
+        {
+          "index": 0,
+          "name": "stone_fill",
+          "path": "assets/art/terrain_knight/terrain_cool/stone_fill.png",
+          "rect": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "alpha_bbox": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "collision_rects": [
+            [
+              0,
+              0,
+              32,
+              32
+            ]
+          ],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        },
+        {
+          "index": 1,
+          "name": "surface_top",
+          "path": "assets/art/terrain_knight/terrain_cool/surface_top.png",
+          "rect": [
+            32,
+            0,
+            32,
+            32
+          ],
+          "alpha_bbox": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "collision_rects": [
+            [
+              0,
+              0,
+              32,
+              32
+            ]
+          ],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        },
+        {
+          "index": 2,
+          "name": "wall_left",
+          "path": "assets/art/terrain_knight/terrain_cool/wall_left.png",
+          "rect": [
+            64,
+            0,
+            32,
+            32
+          ],
+          "alpha_bbox": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "collision_rects": [
+            [
+              0,
+              0,
+              32,
+              32
+            ]
+          ],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        },
+        {
+          "index": 3,
+          "name": "wall_right",
+          "path": "assets/art/terrain_knight/terrain_cool/wall_right.png",
+          "rect": [
+            96,
+            0,
+            32,
+            32
+          ],
+          "alpha_bbox": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "collision_rects": [
+            [
+              0,
+              0,
+              32,
+              32
+            ]
+          ],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        },
+        {
+          "index": 4,
+          "name": "platform",
+          "path": "assets/art/terrain_knight/terrain_cool/platform.png",
+          "rect": [
+            0,
+            32,
+            32,
+            32
+          ],
+          "alpha_bbox": [
+            0,
+            0,
+            32,
+            8
+          ],
+          "collision_rects": [
+            [
+              0,
+              0,
+              32,
+              8
+            ]
+          ],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        },
+        {
+          "index": 5,
+          "name": "outside_tl",
+          "path": "assets/art/terrain_knight/terrain_cool/outside_tl.png",
+          "rect": [
+            32,
+            32,
+            32,
+            32
+          ],
+          "alpha_bbox": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "collision_rects": [
+            [
+              0,
+              0,
+              32,
+              32
+            ]
+          ],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        },
+        {
+          "index": 6,
+          "name": "outside_tr",
+          "path": "assets/art/terrain_knight/terrain_cool/outside_tr.png",
+          "rect": [
+            64,
+            32,
+            32,
+            32
+          ],
+          "alpha_bbox": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "collision_rects": [
+            [
+              0,
+              0,
+              32,
+              32
+            ]
+          ],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        },
+        {
+          "index": 7,
+          "name": "outside_bl",
+          "path": "assets/art/terrain_knight/terrain_cool/outside_bl.png",
+          "rect": [
+            96,
+            32,
+            32,
+            32
+          ],
+          "alpha_bbox": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "collision_rects": [
+            [
+              0,
+              0,
+              32,
+              32
+            ]
+          ],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        },
+        {
+          "index": 8,
+          "name": "outside_br",
+          "path": "assets/art/terrain_knight/terrain_cool/outside_br.png",
+          "rect": [
+            0,
+            64,
+            32,
+            32
+          ],
+          "alpha_bbox": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "collision_rects": [
+            [
+              0,
+              0,
+              32,
+              32
+            ]
+          ],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        },
+        {
+          "index": 9,
+          "name": "inside_tl",
+          "path": "assets/art/terrain_knight/terrain_cool/inside_tl.png",
+          "rect": [
+            32,
+            64,
+            32,
+            32
+          ],
+          "alpha_bbox": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "collision_rects": [
+            [
+              4,
+              0,
+              28,
+              4
+            ],
+            [
+              0,
+              4,
+              32,
+              28
+            ]
+          ],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        },
+        {
+          "index": 10,
+          "name": "inside_tr",
+          "path": "assets/art/terrain_knight/terrain_cool/inside_tr.png",
+          "rect": [
+            64,
+            64,
+            32,
+            32
+          ],
+          "alpha_bbox": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "collision_rects": [
+            [
+              0,
+              0,
+              28,
+              4
+            ],
+            [
+              0,
+              4,
+              32,
+              28
+            ]
+          ],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        },
+        {
+          "index": 11,
+          "name": "inside_bl",
+          "path": "assets/art/terrain_knight/terrain_cool/inside_bl.png",
+          "rect": [
+            96,
+            64,
+            32,
+            32
+          ],
+          "alpha_bbox": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "collision_rects": [
+            [
+              0,
+              0,
+              32,
+              28
+            ],
+            [
+              4,
+              28,
+              28,
+              4
+            ]
+          ],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        },
+        {
+          "index": 12,
+          "name": "inside_br",
+          "path": "assets/art/terrain_knight/terrain_cool/inside_br.png",
+          "rect": [
+            0,
+            96,
+            32,
+            32
+          ],
+          "alpha_bbox": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "collision_rects": [
+            [
+              0,
+              0,
+              32,
+              28
+            ],
+            [
+              0,
+              28,
+              28,
+              4
+            ]
+          ],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        },
+        {
+          "index": 13,
+          "name": "bottom",
+          "path": "assets/art/terrain_knight/terrain_cool/bottom.png",
+          "rect": [
+            32,
+            96,
+            32,
+            32
+          ],
+          "alpha_bbox": [
+            0,
+            0,
+            32,
+            32
+          ],
+          "collision_rects": [
+            [
+              0,
+              0,
+              32,
+              32
+            ]
+          ],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        },
+        {
+          "index": 14,
+          "name": "seam",
+          "path": "assets/art/terrain_knight/terrain_cool/seam.png",
+          "rect": [
+            64,
+            96,
+            32,
+            32
+          ],
+          "alpha_bbox": [
+            0,
+            14,
+            32,
+            18
+          ],
+          "collision_rects": [],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        }
+      ],
+      "clips": {
+        "stone_fill": {
+          "frames": [
+            0
+          ],
+          "frame_duration_seconds": 0.14,
+          "duration_seconds": 0.14,
+          "loop": false,
+          "timing_provenance": "suggested prototype timing; not gameplay-integrated"
+        },
+        "surface_top": {
+          "frames": [
+            1
+          ],
+          "frame_duration_seconds": 0.14,
+          "duration_seconds": 0.14,
+          "loop": false,
+          "timing_provenance": "suggested prototype timing; not gameplay-integrated"
+        },
+        "wall_left": {
+          "frames": [
+            2
+          ],
+          "frame_duration_seconds": 0.14,
+          "duration_seconds": 0.14,
+          "loop": false,
+          "timing_provenance": "suggested prototype timing; not gameplay-integrated"
+        },
+        "wall_right": {
+          "frames": [
+            3
+          ],
+          "frame_duration_seconds": 0.14,
+          "duration_seconds": 0.14,
+          "loop": false,
+          "timing_provenance": "suggested prototype timing; not gameplay-integrated"
+        },
+        "platform": {
+          "frames": [
+            4
+          ],
+          "frame_duration_seconds": 0.14,
+          "duration_seconds": 0.14,
+          "loop": false,
+          "timing_provenance": "suggested prototype timing; not gameplay-integrated"
+        },
+        "outside_tl": {
+          "frames": [
+            5
+          ],
+          "frame_duration_seconds": 0.14,
+          "duration_seconds": 0.14,
+          "loop": false,
+          "timing_provenance": "suggested prototype timing; not gameplay-integrated"
+        },
+        "outside_tr": {
+          "frames": [
+            6
+          ],
+          "frame_duration_seconds": 0.14,
+          "duration_seconds": 0.14,
+          "loop": false,
+          "timing_provenance": "suggested prototype timing; not gameplay-integrated"
+        },
+        "outside_bl": {
+          "frames": [
+            7
+          ],
+          "frame_duration_seconds": 0.14,
+          "duration_seconds": 0.14,
+          "loop": false,
+          "timing_provenance": "suggested prototype timing; not gameplay-integrated"
+        },
+        "outside_br": {
+          "frames": [
+            8
+          ],
+          "frame_duration_seconds": 0.14,
+          "duration_seconds": 0.14,
+          "loop": false,
+          "timing_provenance": "suggested prototype timing; not gameplay-integrated"
+        },
+        "inside_tl": {
+          "frames": [
+            9
+          ],
+          "frame_duration_seconds": 0.14,
+          "duration_seconds": 0.14,
+          "loop": false,
+          "timing_provenance": "suggested prototype timing; not gameplay-integrated"
+        },
+        "inside_tr": {
+          "frames": [
+            10
+          ],
+          "frame_duration_seconds": 0.14,
+          "duration_seconds": 0.14,
+          "loop": false,
+          "timing_provenance": "suggested prototype timing; not gameplay-integrated"
+        },
+        "inside_bl": {
+          "frames": [
+            11
+          ],
+          "frame_duration_seconds": 0.14,
+          "duration_seconds": 0.14,
+          "loop": false,
+          "timing_provenance": "suggested prototype timing; not gameplay-integrated"
+        },
+        "inside_br": {
+          "frames": [
+            12
+          ],
+          "frame_duration_seconds": 0.14,
+          "duration_seconds": 0.14,
+          "loop": false,
+          "timing_provenance": "suggested prototype timing; not gameplay-integrated"
+        },
+        "bottom": {
+          "frames": [
+            13
+          ],
+          "frame_duration_seconds": 0.14,
+          "duration_seconds": 0.14,
+          "loop": false,
+          "timing_provenance": "suggested prototype timing; not gameplay-integrated"
+        },
+        "seam": {
+          "frames": [
+            14
+          ],
+          "frame_duration_seconds": 0.14,
+          "duration_seconds": 0.14,
+          "loop": false,
+          "timing_provenance": "suggested prototype timing; not gameplay-integrated"
+        }
+      },
+      "palette": "cool",
+      "world_region": "above",
+      "seam_verification": {
+        "stone_fill": [
+          "left_equals_right",
+          "top_equals_bottom"
+        ],
+        "arbitrary_adjacencies_verified": false
+      }
+    },
+    "bricks_cool": {
+      "frame_count": 2,
+      "cell_size": [
+        32,
+        16
+      ],
+      "sheet_size": [
+        128,
+        16
+      ],
+      "columns": 4,
+      "gutter": 0,
+      "filter": "nearest",
+      "logical_pixel_scale": 1,
+      "sheet": "assets/art/terrain_knight/bricks_cool/sheet.png",
+      "frames": [
+        {
+          "index": 0,
+          "name": "corpse_round",
+          "path": "assets/art/terrain_knight/bricks_cool/corpse_round.png",
+          "rect": [
+            0,
+            0,
+            32,
+            16
+          ],
+          "alpha_bbox": [
+            0,
+            0,
+            32,
+            16
+          ],
+          "collision_rects": [
+            [
+              0,
+              0,
+              32,
+              16
+            ]
+          ],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        },
+        {
+          "index": 1,
+          "name": "corpse_diamond",
+          "path": "assets/art/terrain_knight/bricks_cool/corpse_diamond.png",
+          "rect": [
+            32,
+            0,
+            32,
+            16
+          ],
+          "alpha_bbox": [
+            0,
+            0,
+            32,
+            16
+          ],
+          "collision_rects": [
+            [
+              0,
+              0,
+              32,
+              16
+            ]
+          ],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        }
+      ],
+      "clips": {
+        "corpse_round": {
+          "frames": [
+            0
+          ],
+          "frame_duration_seconds": 0.14,
+          "duration_seconds": 0.14,
+          "loop": false,
+          "timing_provenance": "suggested prototype timing; not gameplay-integrated"
+        },
+        "corpse_diamond": {
+          "frames": [
+            1
+          ],
+          "frame_duration_seconds": 0.14,
+          "duration_seconds": 0.14,
+          "loop": false,
+          "timing_provenance": "suggested prototype timing; not gameplay-integrated"
+        }
+      },
+      "spawn_policy": "original_only; clones vanish without brick",
+      "core_mapping": {
+        "round": "melee_original",
+        "diamond": "ranged_original"
+      }
+    },
+    "exit_cool": {
+      "frame_count": 4,
+      "cell_size": [
+        64,
+        96
+      ],
+      "sheet_size": [
+        256,
+        96
+      ],
+      "columns": 4,
+      "gutter": 0,
+      "filter": "nearest",
+      "logical_pixel_scale": 1,
+      "sheet": "assets/art/terrain_knight/exit_cool/sheet.png",
+      "frames": [
+        {
+          "index": 0,
+          "name": "closed",
+          "path": "assets/art/terrain_knight/exit_cool/closed.png",
+          "rect": [
+            0,
+            0,
+            64,
+            96
+          ],
+          "alpha_bbox": [
+            4,
+            8,
+            60,
+            96
+          ],
+          "collision_rects": [],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        },
+        {
+          "index": 1,
+          "name": "open_0",
+          "path": "assets/art/terrain_knight/exit_cool/open_0.png",
+          "rect": [
+            64,
+            0,
+            64,
+            96
+          ],
+          "alpha_bbox": [
+            4,
+            8,
+            60,
+            96
+          ],
+          "collision_rects": [],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        },
+        {
+          "index": 2,
+          "name": "open_1",
+          "path": "assets/art/terrain_knight/exit_cool/open_1.png",
+          "rect": [
+            128,
+            0,
+            64,
+            96
+          ],
+          "alpha_bbox": [
+            4,
+            8,
+            60,
+            96
+          ],
+          "collision_rects": [],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        },
+        {
+          "index": 3,
+          "name": "open_2",
+          "path": "assets/art/terrain_knight/exit_cool/open_2.png",
+          "rect": [
+            192,
+            0,
+            64,
+            96
+          ],
+          "alpha_bbox": [
+            4,
+            8,
+            60,
+            96
+          ],
+          "collision_rects": [],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        }
+      ],
+      "clips": {
+        "closed": {
+          "frames": [
+            0
+          ],
+          "frame_duration_seconds": 0.14,
+          "duration_seconds": 0.14,
+          "loop": false,
+          "timing_provenance": "suggested prototype timing; not gameplay-integrated"
+        },
+        "open": {
+          "frames": [
+            1,
+            2,
+            3,
+            2
+          ],
+          "frame_duration_seconds": 0.16,
+          "duration_seconds": 0.64,
+          "loop": true,
+          "timing_provenance": "suggested prototype timing; not gameplay-integrated"
+        }
+      },
+      "arch_silhouette": "fixed across states; only interior illumination changes",
+      "trigger_rect": [
+        18,
+        32,
+        28,
+        56
+      ],
+      "trigger_is_collision": false
+    },
+    "hud": {
+      "frame_count": 10,
+      "cell_size": [
+        16,
+        16
+      ],
+      "sheet_size": [
+        64,
+        48
+      ],
+      "columns": 4,
+      "gutter": 0,
+      "filter": "nearest",
+      "logical_pixel_scale": 1,
+      "sheet": "assets/art/terrain_knight/hud/sheet.png",
+      "frames": [
+        {
+          "index": 0,
+          "name": "parry",
+          "path": "assets/art/terrain_knight/hud/parry.png",
+          "rect": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "alpha_bbox": [
+            1,
+            1,
+            15,
+            15
+          ],
+          "collision_rects": [],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        },
+        {
+          "index": 1,
+          "name": "just",
+          "path": "assets/art/terrain_knight/hud/just.png",
+          "rect": [
+            16,
+            0,
+            16,
+            16
+          ],
+          "alpha_bbox": [
+            1,
+            1,
+            15,
+            15
+          ],
+          "collision_rects": [],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        },
+        {
+          "index": 2,
+          "name": "melee",
+          "path": "assets/art/terrain_knight/hud/melee.png",
+          "rect": [
+            32,
+            0,
+            16,
+            16
+          ],
+          "alpha_bbox": [
+            1,
+            1,
+            15,
+            15
+          ],
+          "collision_rects": [],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        },
+        {
+          "index": 3,
+          "name": "timestop",
+          "path": "assets/art/terrain_knight/hud/timestop.png",
+          "rect": [
+            48,
+            0,
+            16,
+            16
+          ],
+          "alpha_bbox": [
+            1,
+            1,
+            15,
+            15
+          ],
+          "collision_rects": [],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        },
+        {
+          "index": 4,
+          "name": "wound",
+          "path": "assets/art/terrain_knight/hud/wound.png",
+          "rect": [
+            0,
+            16,
+            16,
+            16
+          ],
+          "alpha_bbox": [
+            1,
+            1,
+            15,
+            15
+          ],
+          "collision_rects": [],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        },
+        {
+          "index": 5,
+          "name": "heal",
+          "path": "assets/art/terrain_knight/hud/heal.png",
+          "rect": [
+            16,
+            16,
+            16,
+            16
+          ],
+          "alpha_bbox": [
+            1,
+            1,
+            15,
+            15
+          ],
+          "collision_rects": [],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        },
+        {
+          "index": 6,
+          "name": "pause",
+          "path": "assets/art/terrain_knight/hud/pause.png",
+          "rect": [
+            32,
+            16,
+            16,
+            16
+          ],
+          "alpha_bbox": [
+            1,
+            1,
+            15,
+            15
+          ],
+          "collision_rects": [],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        },
+        {
+          "index": 7,
+          "name": "restart",
+          "path": "assets/art/terrain_knight/hud/restart.png",
+          "rect": [
+            48,
+            16,
+            16,
+            16
+          ],
+          "alpha_bbox": [
+            1,
+            1,
+            15,
+            15
+          ],
+          "collision_rects": [],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        },
+        {
+          "index": 8,
+          "name": "exit",
+          "path": "assets/art/terrain_knight/hud/exit.png",
+          "rect": [
+            0,
+            32,
+            16,
+            16
+          ],
+          "alpha_bbox": [
+            1,
+            1,
+            15,
+            15
+          ],
+          "collision_rects": [],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        },
+        {
+          "index": 9,
+          "name": "gravity",
+          "path": "assets/art/terrain_knight/hud/gravity.png",
+          "rect": [
+            16,
+            32,
+            16,
+            16
+          ],
+          "alpha_bbox": [
+            1,
+            1,
+            15,
+            15
+          ],
+          "collision_rects": [],
+          "collision_coordinate_system": "top-left x,y,width,height"
+        }
+      ],
+      "clips": {
+        "parry": {
+          "frames": [
+            0
+          ],
+          "frame_duration_seconds": 0.14,
+          "duration_seconds": 0.14,
+          "loop": false,
+          "timing_provenance": "suggested prototype timing; not gameplay-integrated"
+        },
+        "just": {
+          "frames": [
+            1
+          ],
+          "frame_duration_seconds": 0.14,
+          "duration_seconds": 0.14,
+          "loop": false,
+          "timing_provenance": "suggested prototype timing; not gameplay-integrated"
+        },
+        "melee": {
+          "frames": [
+            2
+          ],
+          "frame_duration_seconds": 0.14,
+          "duration_seconds": 0.14,
+          "loop": false,
+          "timing_provenance": "suggested prototype timing; not gameplay-integrated"
+        },
+        "timestop": {
+          "frames": [
+            3
+          ],
+          "frame_duration_seconds": 0.14,
+          "duration_seconds": 0.14,
+          "loop": false,
+          "timing_provenance": "suggested prototype timing; not gameplay-integrated"
+        },
+        "wound": {
+          "frames": [
+            4
+          ],
+          "frame_duration_seconds": 0.14,
+          "duration_seconds": 0.14,
+          "loop": false,
+          "timing_provenance": "suggested prototype timing; not gameplay-integrated"
+        },
+        "heal": {
+          "frames": [
+            5
+          ],
+          "frame_duration_seconds": 0.14,
+          "duration_seconds": 0.14,
+          "loop": false,
+          "timing_provenance": "suggested prototype timing; not gameplay-integrated"
+        },
+        "pause": {
+          "frames": [
+            6
+          ],
+          "frame_duration_seconds": 0.14,
+          "duration_seconds": 0.14,
+          "loop": false,
+          "timing_provenance": "suggested prototype timing; not gameplay-integrated"
+        },
+        "restart": {
+          "frames": [
+            7
+          ],
+          "frame_duration_seconds": 0.14,
+          "duration_seconds": 0.14,
+          "loop": false,
+          "timing_provenance": "suggested prototype timing; not gameplay-integrated"
+        },
+        "exit": {
+          "frames": [
+            8
+          ],
+          "frame_duration_seconds": 0.14,
+          "duration_seconds": 0.14,
+          "loop": false,
+          "timing_provenance": "suggested prototype timing; not gameplay-integrated"
+        },
+        "gravity": {
+          "frames": [
+            9
+          ],
+          "frame_duration_seconds": 0.14,
+          "duration_seconds": 0.14,
+          "loop": false,
+          "timing_provenance": "suggested prototype timing; not gameplay-integrated"
+        }
+      }
+    }
+  },
+  "files": [
+    {
+      "path": "assets/art/terrain_knight/terrain_warm/sheet.png",
+      "width": 128,
+      "height": 128,
+      "color_type": "RGBA8",
+      "sha256": "30507d0bd42be2e51986f0f32a89d133f0e7ad89ece11708f5c6ed50f73a403d",
+      "transparent_pixels": 2800,
+      "opaque_pixels": 13584,
+      "has_alpha": true,
+      "alpha_bbox": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/terrain_warm/stone_fill.png",
+      "width": 32,
+      "height": 32,
+      "color_type": "RGBA8",
+      "sha256": "f1c4a0211f4b02b4af8a83a98dc9a8d22f5f60ef380ed58c5c3f3431766c59c2",
+      "transparent_pixels": 0,
+      "opaque_pixels": 1024,
+      "has_alpha": true,
+      "alpha_bbox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/terrain_warm/surface_top.png",
+      "width": 32,
+      "height": 32,
+      "color_type": "RGBA8",
+      "sha256": "d2f6af350e0d8f6f38798cbfe5df7a8ac6341731d2dfa2ae21b4aef74c43fac6",
+      "transparent_pixels": 0,
+      "opaque_pixels": 1024,
+      "has_alpha": true,
+      "alpha_bbox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/terrain_warm/wall_left.png",
+      "width": 32,
+      "height": 32,
+      "color_type": "RGBA8",
+      "sha256": "f8f7f212fa2b13701ddef1c226bfab5052b76576705303af7291b11fece8562c",
+      "transparent_pixels": 0,
+      "opaque_pixels": 1024,
+      "has_alpha": true,
+      "alpha_bbox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/terrain_warm/wall_right.png",
+      "width": 32,
+      "height": 32,
+      "color_type": "RGBA8",
+      "sha256": "3fb7f199709e71f6c5461caf6b4d0f21f2cb26202859b5bae1cd3509dd46e582",
+      "transparent_pixels": 0,
+      "opaque_pixels": 1024,
+      "has_alpha": true,
+      "alpha_bbox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/terrain_warm/platform.png",
+      "width": 32,
+      "height": 32,
+      "color_type": "RGBA8",
+      "sha256": "0c8e1b08784bf26271e90f8513b097c3a6d23443fe8c7f0d22e4543e973f0f0d",
+      "transparent_pixels": 768,
+      "opaque_pixels": 256,
+      "has_alpha": true,
+      "alpha_bbox": [
+        0,
+        0,
+        32,
+        8
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/terrain_warm/outside_tl.png",
+      "width": 32,
+      "height": 32,
+      "color_type": "RGBA8",
+      "sha256": "a6b1e94934c3cf88d80417e3860c45dcfd6e4ecc9073085aab7cf710ac0ec482",
+      "transparent_pixels": 0,
+      "opaque_pixels": 1024,
+      "has_alpha": true,
+      "alpha_bbox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/terrain_warm/outside_tr.png",
+      "width": 32,
+      "height": 32,
+      "color_type": "RGBA8",
+      "sha256": "22b9ddfa4e6d97288028067d9ec3335abe13cc7ccb9c616ce0de9fc007e8f86f",
+      "transparent_pixels": 0,
+      "opaque_pixels": 1024,
+      "has_alpha": true,
+      "alpha_bbox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/terrain_warm/outside_bl.png",
+      "width": 32,
+      "height": 32,
+      "color_type": "RGBA8",
+      "sha256": "6de081d2a60ff0d84ba551d9451c430bd9e7464327096cc7dbc1048f788c26b6",
+      "transparent_pixels": 0,
+      "opaque_pixels": 1024,
+      "has_alpha": true,
+      "alpha_bbox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/terrain_warm/outside_br.png",
+      "width": 32,
+      "height": 32,
+      "color_type": "RGBA8",
+      "sha256": "9f1cd643c47811a694c58c5b8efed9e8250550bbd8f57f1a6aa05d99e1d3463b",
+      "transparent_pixels": 0,
+      "opaque_pixels": 1024,
+      "has_alpha": true,
+      "alpha_bbox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/terrain_warm/inside_tl.png",
+      "width": 32,
+      "height": 32,
+      "color_type": "RGBA8",
+      "sha256": "f7b16d80b66a1345933b33eeaf4b5ec2eb1f9a547c56565823b4bccacbe64155",
+      "transparent_pixels": 16,
+      "opaque_pixels": 1008,
+      "has_alpha": true,
+      "alpha_bbox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/terrain_warm/inside_tr.png",
+      "width": 32,
+      "height": 32,
+      "color_type": "RGBA8",
+      "sha256": "7dec0b3456e2d8b3aa5eff2474c218bc773eea0f1101b6774fafdb1191617f54",
+      "transparent_pixels": 16,
+      "opaque_pixels": 1008,
+      "has_alpha": true,
+      "alpha_bbox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/terrain_warm/inside_bl.png",
+      "width": 32,
+      "height": 32,
+      "color_type": "RGBA8",
+      "sha256": "dfa59567c50fb6ce97568b2235091ba92de6d5925de22486f42a4780832c978c",
+      "transparent_pixels": 16,
+      "opaque_pixels": 1008,
+      "has_alpha": true,
+      "alpha_bbox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/terrain_warm/inside_br.png",
+      "width": 32,
+      "height": 32,
+      "color_type": "RGBA8",
+      "sha256": "3a61c7952d4dcb95a13504beb54d8516f8ba8b19d22e44beba8193c37c681e0d",
+      "transparent_pixels": 16,
+      "opaque_pixels": 1008,
+      "has_alpha": true,
+      "alpha_bbox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/terrain_warm/bottom.png",
+      "width": 32,
+      "height": 32,
+      "color_type": "RGBA8",
+      "sha256": "8fe8d88a4b860060c11ad274fba45b47f0c6e363772350643aae966982daaad5",
+      "transparent_pixels": 0,
+      "opaque_pixels": 1024,
+      "has_alpha": true,
+      "alpha_bbox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/terrain_warm/seam.png",
+      "width": 32,
+      "height": 32,
+      "color_type": "RGBA8",
+      "sha256": "391abb52b63b0338c5cfc994cdea7670450f5fada684a3aba5e6b0fb0aef9497",
+      "transparent_pixels": 944,
+      "opaque_pixels": 80,
+      "has_alpha": true,
+      "alpha_bbox": [
+        0,
+        14,
+        32,
+        18
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/bricks_warm/sheet.png",
+      "width": 128,
+      "height": 16,
+      "color_type": "RGBA8",
+      "sha256": "a2e3e1a62811433aa611bff094d2211dd286687acdb3ad2b2f1d47718b5d22a1",
+      "transparent_pixels": 1024,
+      "opaque_pixels": 1024,
+      "has_alpha": true,
+      "alpha_bbox": [
+        0,
+        0,
+        64,
+        16
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/bricks_warm/corpse_round.png",
+      "width": 32,
+      "height": 16,
+      "color_type": "RGBA8",
+      "sha256": "91e249b575b1b7ac562df0dec06e88180e8a834b8e9430a6dbfdd4c66e16cf5f",
+      "transparent_pixels": 0,
+      "opaque_pixels": 512,
+      "has_alpha": true,
+      "alpha_bbox": [
+        0,
+        0,
+        32,
+        16
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/bricks_warm/corpse_diamond.png",
+      "width": 32,
+      "height": 16,
+      "color_type": "RGBA8",
+      "sha256": "a8f1f53a7006216520f61f9e52b9312dbb628b2e710ef698c3ed8f058602af3a",
+      "transparent_pixels": 0,
+      "opaque_pixels": 512,
+      "has_alpha": true,
+      "alpha_bbox": [
+        0,
+        0,
+        32,
+        16
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/exit_warm/sheet.png",
+      "width": 256,
+      "height": 96,
+      "color_type": "RGBA8",
+      "sha256": "9c83b3258543e0a1586be01663f03c0c80efb3a86b885ddf00c77950f298ecb7",
+      "transparent_pixels": 8576,
+      "opaque_pixels": 16000,
+      "has_alpha": true,
+      "alpha_bbox": [
+        4,
+        8,
+        252,
+        96
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/exit_warm/closed.png",
+      "width": 64,
+      "height": 96,
+      "color_type": "RGBA8",
+      "sha256": "b45eb7f8245f5ec6d2beb53f78e7056aa91cbe47b55e2c1d2c2bf6a84bc82499",
+      "transparent_pixels": 2144,
+      "opaque_pixels": 4000,
+      "has_alpha": true,
+      "alpha_bbox": [
+        4,
+        8,
+        60,
+        96
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/exit_warm/open_0.png",
+      "width": 64,
+      "height": 96,
+      "color_type": "RGBA8",
+      "sha256": "ff3d2aad534be526d5d38d9b69e64dc8d51a9527d00de0921b640eaa9955ecb9",
+      "transparent_pixels": 2144,
+      "opaque_pixels": 4000,
+      "has_alpha": true,
+      "alpha_bbox": [
+        4,
+        8,
+        60,
+        96
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/exit_warm/open_1.png",
+      "width": 64,
+      "height": 96,
+      "color_type": "RGBA8",
+      "sha256": "985a26a61c67bd8ef3df5ba31d414f3ee63a7f668f80e12892c44680cee58d00",
+      "transparent_pixels": 2144,
+      "opaque_pixels": 4000,
+      "has_alpha": true,
+      "alpha_bbox": [
+        4,
+        8,
+        60,
+        96
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/exit_warm/open_2.png",
+      "width": 64,
+      "height": 96,
+      "color_type": "RGBA8",
+      "sha256": "68f18949c0898ea3cde4940e848ee81779b8715cb5cbd6f6b6e9de4d4445c1b6",
+      "transparent_pixels": 2144,
+      "opaque_pixels": 4000,
+      "has_alpha": true,
+      "alpha_bbox": [
+        4,
+        8,
+        60,
+        96
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/terrain_cool/sheet.png",
+      "width": 128,
+      "height": 128,
+      "color_type": "RGBA8",
+      "sha256": "5bf157895883c50b09494de9ef8abe9257329330757ad67ec957fc50ae9d3769",
+      "transparent_pixels": 2800,
+      "opaque_pixels": 13584,
+      "has_alpha": true,
+      "alpha_bbox": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/terrain_cool/stone_fill.png",
+      "width": 32,
+      "height": 32,
+      "color_type": "RGBA8",
+      "sha256": "a055a795c454268b793396247b2bc9a9a2d98d1c64c278a26abe9f95c68ec566",
+      "transparent_pixels": 0,
+      "opaque_pixels": 1024,
+      "has_alpha": true,
+      "alpha_bbox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/terrain_cool/surface_top.png",
+      "width": 32,
+      "height": 32,
+      "color_type": "RGBA8",
+      "sha256": "436a6dca1598a7d8bb73a0f91dcdc764776ef67bbe53620b0a5600e6427e41e9",
+      "transparent_pixels": 0,
+      "opaque_pixels": 1024,
+      "has_alpha": true,
+      "alpha_bbox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/terrain_cool/wall_left.png",
+      "width": 32,
+      "height": 32,
+      "color_type": "RGBA8",
+      "sha256": "24b061d64b41b55f99444de427565dfc25486aabad97595c663eea72602e8c5b",
+      "transparent_pixels": 0,
+      "opaque_pixels": 1024,
+      "has_alpha": true,
+      "alpha_bbox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/terrain_cool/wall_right.png",
+      "width": 32,
+      "height": 32,
+      "color_type": "RGBA8",
+      "sha256": "ba9f031e4b413ff6cbbbd1dba2e441601957f54e5a7802d892e9ba73a887ee5d",
+      "transparent_pixels": 0,
+      "opaque_pixels": 1024,
+      "has_alpha": true,
+      "alpha_bbox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/terrain_cool/platform.png",
+      "width": 32,
+      "height": 32,
+      "color_type": "RGBA8",
+      "sha256": "5bbfd2db72750de543f491a1bf3d08b7c31be1bc7714683d93bee2ec3c2e1df1",
+      "transparent_pixels": 768,
+      "opaque_pixels": 256,
+      "has_alpha": true,
+      "alpha_bbox": [
+        0,
+        0,
+        32,
+        8
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/terrain_cool/outside_tl.png",
+      "width": 32,
+      "height": 32,
+      "color_type": "RGBA8",
+      "sha256": "c06aad169a3cc7d7ab59d58ed030934877800b255fc6b5ce139638a69a3ca774",
+      "transparent_pixels": 0,
+      "opaque_pixels": 1024,
+      "has_alpha": true,
+      "alpha_bbox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/terrain_cool/outside_tr.png",
+      "width": 32,
+      "height": 32,
+      "color_type": "RGBA8",
+      "sha256": "f02f471c1dc230fb4b82ce681b61b43037f3815a4eb1d23fe17d8127d87bbdfc",
+      "transparent_pixels": 0,
+      "opaque_pixels": 1024,
+      "has_alpha": true,
+      "alpha_bbox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/terrain_cool/outside_bl.png",
+      "width": 32,
+      "height": 32,
+      "color_type": "RGBA8",
+      "sha256": "cb107f99eca310702f750c7b90383389c40a71f3247ac699d035d15fc420db8b",
+      "transparent_pixels": 0,
+      "opaque_pixels": 1024,
+      "has_alpha": true,
+      "alpha_bbox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/terrain_cool/outside_br.png",
+      "width": 32,
+      "height": 32,
+      "color_type": "RGBA8",
+      "sha256": "f31477106874560429b7d17ef9beb48d8b542bc1f729f7337aebd8ef153ff9cf",
+      "transparent_pixels": 0,
+      "opaque_pixels": 1024,
+      "has_alpha": true,
+      "alpha_bbox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/terrain_cool/inside_tl.png",
+      "width": 32,
+      "height": 32,
+      "color_type": "RGBA8",
+      "sha256": "0d2978a310da713d372aa0f87e9f96c9ed9dea986eca7d6ae41008b72a2ccbab",
+      "transparent_pixels": 16,
+      "opaque_pixels": 1008,
+      "has_alpha": true,
+      "alpha_bbox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/terrain_cool/inside_tr.png",
+      "width": 32,
+      "height": 32,
+      "color_type": "RGBA8",
+      "sha256": "c9e301629484567408f452d67eefda94d480942dd36e750ba8d30a7023fe4340",
+      "transparent_pixels": 16,
+      "opaque_pixels": 1008,
+      "has_alpha": true,
+      "alpha_bbox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/terrain_cool/inside_bl.png",
+      "width": 32,
+      "height": 32,
+      "color_type": "RGBA8",
+      "sha256": "62f4022e503c514c4f4faa4b0279a4a21dcc8a4040f93ac556f21cca51c64549",
+      "transparent_pixels": 16,
+      "opaque_pixels": 1008,
+      "has_alpha": true,
+      "alpha_bbox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/terrain_cool/inside_br.png",
+      "width": 32,
+      "height": 32,
+      "color_type": "RGBA8",
+      "sha256": "3f2cd11e7fc8d8a94ad5dd6c7659d4df60adb8315d3b0d81165370d2789afec0",
+      "transparent_pixels": 16,
+      "opaque_pixels": 1008,
+      "has_alpha": true,
+      "alpha_bbox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/terrain_cool/bottom.png",
+      "width": 32,
+      "height": 32,
+      "color_type": "RGBA8",
+      "sha256": "60064d0459d74fc4a1cd05f260743809ada5bd6567066a9dcea6381400523439",
+      "transparent_pixels": 0,
+      "opaque_pixels": 1024,
+      "has_alpha": true,
+      "alpha_bbox": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/terrain_cool/seam.png",
+      "width": 32,
+      "height": 32,
+      "color_type": "RGBA8",
+      "sha256": "42d142661543af3ef327d75c2c3408c07171127eac39fe43fe31ce874bf7db76",
+      "transparent_pixels": 944,
+      "opaque_pixels": 80,
+      "has_alpha": true,
+      "alpha_bbox": [
+        0,
+        14,
+        32,
+        18
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/bricks_cool/sheet.png",
+      "width": 128,
+      "height": 16,
+      "color_type": "RGBA8",
+      "sha256": "9f3646b94231aeca8055c00c3f8ddf94b497d967bfc311b71431851ac376d651",
+      "transparent_pixels": 1024,
+      "opaque_pixels": 1024,
+      "has_alpha": true,
+      "alpha_bbox": [
+        0,
+        0,
+        64,
+        16
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/bricks_cool/corpse_round.png",
+      "width": 32,
+      "height": 16,
+      "color_type": "RGBA8",
+      "sha256": "13d662e03d1afee0983a102b2d252fe734c35c352f6e45e43bb7d0948c775e8e",
+      "transparent_pixels": 0,
+      "opaque_pixels": 512,
+      "has_alpha": true,
+      "alpha_bbox": [
+        0,
+        0,
+        32,
+        16
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/bricks_cool/corpse_diamond.png",
+      "width": 32,
+      "height": 16,
+      "color_type": "RGBA8",
+      "sha256": "3abcfe955f354c2cf478712d6be6f1f190fee1c3adba57a75ee743d72c5e39a2",
+      "transparent_pixels": 0,
+      "opaque_pixels": 512,
+      "has_alpha": true,
+      "alpha_bbox": [
+        0,
+        0,
+        32,
+        16
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/exit_cool/sheet.png",
+      "width": 256,
+      "height": 96,
+      "color_type": "RGBA8",
+      "sha256": "e9ddfcb004c79a27caafc07c7adaca18989a0c201ef77f2357351361a62c4d07",
+      "transparent_pixels": 8576,
+      "opaque_pixels": 16000,
+      "has_alpha": true,
+      "alpha_bbox": [
+        4,
+        8,
+        252,
+        96
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/exit_cool/closed.png",
+      "width": 64,
+      "height": 96,
+      "color_type": "RGBA8",
+      "sha256": "9c48d0901d4d449809dc0087915fb2f55d9f2cf09567bc77faf3cd7435536834",
+      "transparent_pixels": 2144,
+      "opaque_pixels": 4000,
+      "has_alpha": true,
+      "alpha_bbox": [
+        4,
+        8,
+        60,
+        96
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/exit_cool/open_0.png",
+      "width": 64,
+      "height": 96,
+      "color_type": "RGBA8",
+      "sha256": "42d7977165904b91009b8b4d60e0a9af35273ec1f8c932103a23459fefaea52d",
+      "transparent_pixels": 2144,
+      "opaque_pixels": 4000,
+      "has_alpha": true,
+      "alpha_bbox": [
+        4,
+        8,
+        60,
+        96
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/exit_cool/open_1.png",
+      "width": 64,
+      "height": 96,
+      "color_type": "RGBA8",
+      "sha256": "4e12b19e3ee3eecc95f522f2c80c792c16d492324cc2e73e5f88f3d7e4a5797d",
+      "transparent_pixels": 2144,
+      "opaque_pixels": 4000,
+      "has_alpha": true,
+      "alpha_bbox": [
+        4,
+        8,
+        60,
+        96
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/exit_cool/open_2.png",
+      "width": 64,
+      "height": 96,
+      "color_type": "RGBA8",
+      "sha256": "bb0cfc97e6a364fe3e284f4cebccaba371b878469cc7773d95d9570d1a616275",
+      "transparent_pixels": 2144,
+      "opaque_pixels": 4000,
+      "has_alpha": true,
+      "alpha_bbox": [
+        4,
+        8,
+        60,
+        96
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/hud/sheet.png",
+      "width": 64,
+      "height": 48,
+      "color_type": "RGBA8",
+      "sha256": "db13297147a0fc2f3e9ba468497a3056ae391dd380394e525411f6658c8ad34a",
+      "transparent_pixels": 1152,
+      "opaque_pixels": 1920,
+      "has_alpha": true,
+      "alpha_bbox": [
+        1,
+        1,
+        63,
+        47
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/hud/parry.png",
+      "width": 16,
+      "height": 16,
+      "color_type": "RGBA8",
+      "sha256": "b56500b2e21590cfd2a0ec4cfd7dfc4d99889e2faa203e56ea1e284d579ed6a2",
+      "transparent_pixels": 64,
+      "opaque_pixels": 192,
+      "has_alpha": true,
+      "alpha_bbox": [
+        1,
+        1,
+        15,
+        15
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/hud/just.png",
+      "width": 16,
+      "height": 16,
+      "color_type": "RGBA8",
+      "sha256": "36e6994f25ad0d8f59942473ba0265c465db9eafa35ff877d11e558387e63f30",
+      "transparent_pixels": 64,
+      "opaque_pixels": 192,
+      "has_alpha": true,
+      "alpha_bbox": [
+        1,
+        1,
+        15,
+        15
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/hud/melee.png",
+      "width": 16,
+      "height": 16,
+      "color_type": "RGBA8",
+      "sha256": "cf9d5038e818e356b2c5e7be553a4e53e1a126148edb11d353a5749a6912934e",
+      "transparent_pixels": 64,
+      "opaque_pixels": 192,
+      "has_alpha": true,
+      "alpha_bbox": [
+        1,
+        1,
+        15,
+        15
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/hud/timestop.png",
+      "width": 16,
+      "height": 16,
+      "color_type": "RGBA8",
+      "sha256": "5b3ced186dfc81f5d7b0b772f870fb41eab00d545b05e339f048d89883bab628",
+      "transparent_pixels": 64,
+      "opaque_pixels": 192,
+      "has_alpha": true,
+      "alpha_bbox": [
+        1,
+        1,
+        15,
+        15
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/hud/wound.png",
+      "width": 16,
+      "height": 16,
+      "color_type": "RGBA8",
+      "sha256": "940cb8d636fd4421e445a2acdf960611c4f4eaebdb176136bf29eb4d31e9cc9d",
+      "transparent_pixels": 64,
+      "opaque_pixels": 192,
+      "has_alpha": true,
+      "alpha_bbox": [
+        1,
+        1,
+        15,
+        15
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/hud/heal.png",
+      "width": 16,
+      "height": 16,
+      "color_type": "RGBA8",
+      "sha256": "c4ca48591bb72cb7466869eb4563d037d5c0aefd52982c5b170e894464689a03",
+      "transparent_pixels": 64,
+      "opaque_pixels": 192,
+      "has_alpha": true,
+      "alpha_bbox": [
+        1,
+        1,
+        15,
+        15
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/hud/pause.png",
+      "width": 16,
+      "height": 16,
+      "color_type": "RGBA8",
+      "sha256": "ad572e52a481410b7f0e147aad57b2679cc3d0ec5826a60cb662b118840fc15f",
+      "transparent_pixels": 64,
+      "opaque_pixels": 192,
+      "has_alpha": true,
+      "alpha_bbox": [
+        1,
+        1,
+        15,
+        15
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/hud/restart.png",
+      "width": 16,
+      "height": 16,
+      "color_type": "RGBA8",
+      "sha256": "92982643cc79c8fc383f4c301a98ed6f94cfb46abaf263bdb301f946a8b25a5d",
+      "transparent_pixels": 64,
+      "opaque_pixels": 192,
+      "has_alpha": true,
+      "alpha_bbox": [
+        1,
+        1,
+        15,
+        15
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/hud/exit.png",
+      "width": 16,
+      "height": 16,
+      "color_type": "RGBA8",
+      "sha256": "1bdd86a1933fd67477eafa05bd62fbcad5426043286359dc7b1f306de5b2c79e",
+      "transparent_pixels": 64,
+      "opaque_pixels": 192,
+      "has_alpha": true,
+      "alpha_bbox": [
+        1,
+        1,
+        15,
+        15
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    },
+    {
+      "path": "assets/art/terrain_knight/hud/gravity.png",
+      "width": 16,
+      "height": 16,
+      "color_type": "RGBA8",
+      "sha256": "cd883ea7c3f4a27c37af0d903b6449894597e879f85e860f2b119c782c42d4d5",
+      "transparent_pixels": 64,
+      "opaque_pixels": 192,
+      "has_alpha": true,
+      "alpha_bbox": [
+        1,
+        1,
+        15,
+        15
+      ],
+      "provenance": "locally authored procedural pixel artwork"
+    }
+  ],
+  "warnings": [
+    "No game integration or arbitrary terrain adjacency claim.",
+    "Only stone_fill horizontal/vertical edge equality is verified.",
+    "Open exit pulse timings are prototype timings, not gameplay events.",
+    "No actor sprites, sounds or projectile sprites are included."
+  ],
+  "gameplay_contract": {
+    "corpse_brick": "original slimes only; clones vanish",
+    "ranged": "straight instantaneous direct hit; no projectile; just parry heals"
+  },
+  "counts": {
+    "groups": 7,
+    "frames": 52,
+    "png_files": 59
+  }
+}

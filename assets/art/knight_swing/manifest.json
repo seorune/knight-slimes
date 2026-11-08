@@ -1,0 +1,1173 @@
+{
+  "schema_version": 1,
+  "status": "pixel_animation",
+  "logical_pixel_scale": 1,
+  "sources": [
+    {
+      "path": "assets/art/pixel_knight/knight/frame_00.png",
+      "sha256": "132ae52ec05466a1fe6788d668e24b0f58d783994895e5598f1642a9d6bfc2fb",
+      "provenance": "source image with articulated arm and blade"
+    }
+  ],
+  "groups": {
+    "knight_swing": {
+      "frame_count": 8,
+      "cell_size": [
+        96,
+        96
+      ],
+      "sheet_size": [
+        384,
+        192
+      ],
+      "logical_pixel_scale": 1,
+      "source_path": "assets/art/pixel_knight/knight/frame_00.png",
+      "sheet": "assets/art/knight_swing/sheet.png",
+      "frames": [
+        {
+          "index": 0,
+          "name": "frame_00",
+          "path": "assets/art/knight_swing/frame_00.png",
+          "rect": [
+            0,
+            0,
+            96,
+            96
+          ],
+          "pose": "ready_raising",
+          "shoulder": [
+            36,
+            41
+          ],
+          "elbow": [
+            33,
+            36
+          ],
+          "wrist": [
+            43,
+            33
+          ],
+          "tip": [
+            59,
+            12
+          ],
+          "root_x": 42,
+          "baseline": 70,
+          "body_offset": [
+            16,
+            16
+          ],
+          "active": false,
+          "clipped": false
+        },
+        {
+          "index": 1,
+          "name": "frame_01",
+          "path": "assets/art/knight_swing/frame_01.png",
+          "rect": [
+            96,
+            0,
+            96,
+            96
+          ],
+          "pose": "overhead_ready",
+          "shoulder": [
+            36,
+            41
+          ],
+          "elbow": [
+            28,
+            33
+          ],
+          "wrist": [
+            37,
+            29
+          ],
+          "tip": [
+            26,
+            4
+          ],
+          "root_x": 42,
+          "baseline": 70,
+          "body_offset": [
+            16,
+            16
+          ],
+          "active": false,
+          "clipped": false
+        },
+        {
+          "index": 2,
+          "name": "frame_02",
+          "path": "assets/art/knight_swing/frame_02.png",
+          "rect": [
+            192,
+            0,
+            96,
+            96
+          ],
+          "pose": "early_downcut",
+          "shoulder": [
+            36,
+            41
+          ],
+          "elbow": [
+            43,
+            35
+          ],
+          "wrist": [
+            52,
+            32
+          ],
+          "tip": [
+            73,
+            15
+          ],
+          "root_x": 42,
+          "baseline": 70,
+          "body_offset": [
+            16,
+            16
+          ],
+          "active": true,
+          "clipped": false
+        },
+        {
+          "index": 3,
+          "name": "frame_03",
+          "path": "assets/art/knight_swing/frame_03.png",
+          "rect": [
+            288,
+            0,
+            96,
+            96
+          ],
+          "pose": "horizontal_strike",
+          "shoulder": [
+            36,
+            41
+          ],
+          "elbow": [
+            44,
+            41
+          ],
+          "wrist": [
+            54,
+            43
+          ],
+          "tip": [
+            81,
+            43
+          ],
+          "root_x": 42,
+          "baseline": 70,
+          "body_offset": [
+            16,
+            16
+          ],
+          "active": true,
+          "clipped": false
+        },
+        {
+          "index": 4,
+          "name": "frame_04",
+          "path": "assets/art/knight_swing/frame_04.png",
+          "rect": [
+            0,
+            96,
+            96,
+            96
+          ],
+          "pose": "low_followthrough",
+          "shoulder": [
+            36,
+            41
+          ],
+          "elbow": [
+            43,
+            46
+          ],
+          "wrist": [
+            51,
+            49
+          ],
+          "tip": [
+            74,
+            63
+          ],
+          "root_x": 42,
+          "baseline": 70,
+          "body_offset": [
+            16,
+            16
+          ],
+          "active": true,
+          "clipped": false
+        },
+        {
+          "index": 5,
+          "name": "frame_05",
+          "path": "assets/art/knight_swing/frame_05.png",
+          "rect": [
+            96,
+            96,
+            96,
+            96
+          ],
+          "pose": "lower_end",
+          "shoulder": [
+            36,
+            41
+          ],
+          "elbow": [
+            42,
+            49
+          ],
+          "wrist": [
+            48,
+            48
+          ],
+          "tip": [
+            63,
+            70
+          ],
+          "root_x": 42,
+          "baseline": 70,
+          "body_offset": [
+            16,
+            16
+          ],
+          "active": false,
+          "clipped": false
+        },
+        {
+          "index": 6,
+          "name": "frame_06",
+          "path": "assets/art/knight_swing/frame_06.png",
+          "rect": [
+            192,
+            96,
+            96,
+            96
+          ],
+          "pose": "retract",
+          "shoulder": [
+            36,
+            41
+          ],
+          "elbow": [
+            31,
+            45
+          ],
+          "wrist": [
+            35,
+            43
+          ],
+          "tip": [
+            54,
+            24
+          ],
+          "root_x": 42,
+          "baseline": 70,
+          "body_offset": [
+            16,
+            16
+          ],
+          "active": false,
+          "clipped": false
+        },
+        {
+          "index": 7,
+          "name": "frame_07",
+          "path": "assets/art/knight_swing/frame_07.png",
+          "rect": [
+            288,
+            96,
+            96,
+            96
+          ],
+          "pose": "return_ready",
+          "shoulder": [
+            36,
+            41
+          ],
+          "elbow": [
+            33,
+            39
+          ],
+          "wrist": [
+            43,
+            37
+          ],
+          "tip": [
+            60,
+            16
+          ],
+          "root_x": 42,
+          "baseline": 70,
+          "body_offset": [
+            16,
+            16
+          ],
+          "active": false,
+          "clipped": false
+        }
+      ],
+      "clips": {
+        "melee": {
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "frame_duration_seconds": 0.035,
+          "duration_seconds": 0.28,
+          "loop": false,
+          "active_start_seconds": 0.07,
+          "timing_provenance": "animation clip timing; hit timing is controlled by gameplay"
+        }
+      }
+    }
+  },
+  "files": [
+    {
+      "path": "assets/art/knight_swing/sheet.png",
+      "width": 384,
+      "height": 192,
+      "sha256": "3c440c052979988555a7f6d8231fe51b5efa250386f3dd3646adacc220698abc",
+      "alpha_bbox": [
+        30,
+        4,
+        370,
+        167
+      ],
+      "has_alpha": true,
+      "transparent_pixels": 67505,
+      "opaque_pixels": 6223
+    },
+    {
+      "path": "assets/art/knight_swing/frame_00.png",
+      "width": 96,
+      "height": 96,
+      "sha256": "88a81980dd0e19e138b336f7abad3b8f106ab8536072bb1c694136da00c016f4",
+      "alpha_bbox": [
+        30,
+        12,
+        61,
+        71
+      ],
+      "has_alpha": true,
+      "transparent_pixels": 8438,
+      "opaque_pixels": 778
+    },
+    {
+      "path": "assets/art/knight_swing/frame_01.png",
+      "width": 96,
+      "height": 96,
+      "sha256": "115caa9a6060a6b8ca0b7e0df421d27846c5d3ae5d5882978f08ef91b82852cd",
+      "alpha_bbox": [
+        25,
+        4,
+        61,
+        71
+      ],
+      "has_alpha": true,
+      "transparent_pixels": 8339,
+      "opaque_pixels": 877
+    },
+    {
+      "path": "assets/art/knight_swing/frame_02.png",
+      "width": 96,
+      "height": 96,
+      "sha256": "3473bbdd2d090cb12e4552368a7f91aa8a626ff18308a0cd209fbd3048e1c5e8",
+      "alpha_bbox": [
+        30,
+        15,
+        74,
+        71
+      ],
+      "has_alpha": true,
+      "transparent_pixels": 8413,
+      "opaque_pixels": 803
+    },
+    {
+      "path": "assets/art/knight_swing/frame_03.png",
+      "width": 96,
+      "height": 96,
+      "sha256": "a9dbfe35e20e56c6334a989863a6240f9f53c4a2d120da93eefae7b40caffb63",
+      "alpha_bbox": [
+        30,
+        26,
+        82,
+        71
+      ],
+      "has_alpha": true,
+      "transparent_pixels": 8432,
+      "opaque_pixels": 784
+    },
+    {
+      "path": "assets/art/knight_swing/frame_04.png",
+      "width": 96,
+      "height": 96,
+      "sha256": "2d43173ee448ffc8cbe6c87a60a35ae895444be12f1f533af03dbd866c166319",
+      "alpha_bbox": [
+        30,
+        26,
+        75,
+        71
+      ],
+      "has_alpha": true,
+      "transparent_pixels": 8485,
+      "opaque_pixels": 731
+    },
+    {
+      "path": "assets/art/knight_swing/frame_05.png",
+      "width": 96,
+      "height": 96,
+      "sha256": "0784e17b9388e3ffa2f3db8a8f021c2e3a30dc05bf1fac1a0b579e30bd875be8",
+      "alpha_bbox": [
+        30,
+        26,
+        64,
+        71
+      ],
+      "has_alpha": true,
+      "transparent_pixels": 8483,
+      "opaque_pixels": 733
+    },
+    {
+      "path": "assets/art/knight_swing/frame_06.png",
+      "width": 96,
+      "height": 96,
+      "sha256": "2164ae3212ce1243a38af41b81394de22647cb107b1e1cdbb9e770af3f5d411f",
+      "alpha_bbox": [
+        28,
+        24,
+        61,
+        71
+      ],
+      "has_alpha": true,
+      "transparent_pixels": 8459,
+      "opaque_pixels": 757
+    },
+    {
+      "path": "assets/art/knight_swing/frame_07.png",
+      "width": 96,
+      "height": 96,
+      "sha256": "d46b3dbfc52ec7662f7d384b34b52aabfbd16e4c28832e300c5bd265c9367d14",
+      "alpha_bbox": [
+        30,
+        16,
+        61,
+        71
+      ],
+      "has_alpha": true,
+      "transparent_pixels": 8456,
+      "opaque_pixels": 760
+    },
+    {
+      "path": "assets/art/knight_swing/provenance/body_without_sword.png",
+      "width": 96,
+      "height": 96,
+      "sha256": "67b43770b1abfd9dc151c85e56f2e1d0c3d2e487e37059f8158c2e48984d0b8b",
+      "alpha_bbox": [
+        30,
+        26,
+        61,
+        71
+      ],
+      "has_alpha": true,
+      "transparent_pixels": 8543,
+      "opaque_pixels": 673
+    },
+    {
+      "path": "assets/art/knight_swing/proof/poses_zoom_4x.png",
+      "width": 1536,
+      "height": 768,
+      "sha256": "93c31daab5a63c74d5850812a6989450f40a8e5bdcd85b86079562131852a7c8",
+      "alpha_bbox": [
+        0,
+        0,
+        1536,
+        768
+      ],
+      "has_alpha": true,
+      "transparent_pixels": 0,
+      "opaque_pixels": 1179648
+    },
+    {
+      "path": "assets/art/knight_swing/proof/overhead_zoom_8x.png",
+      "width": 768,
+      "height": 768,
+      "sha256": "dcfca3e863cb0056d35e91aeec308cc13d6cc56615d74af2a3b2494715f452cf",
+      "alpha_bbox": [
+        200,
+        32,
+        488,
+        568
+      ],
+      "has_alpha": true,
+      "transparent_pixels": 533696,
+      "opaque_pixels": 56128
+    }
+  ],
+  "warnings": [
+    "Eight-frame sword swing animation.",
+    "Source handedness ambiguous; exposed screen-left arm assigned sword; original screen-right shield retained.",
+    "Planted torso; no hip/foot anticipation."
+  ],
+  "edit": {
+    "removed_source_pixels": [
+      [
+        52,
+        12
+      ],
+      [
+        51,
+        13
+      ],
+      [
+        52,
+        13
+      ],
+      [
+        50,
+        14
+      ],
+      [
+        51,
+        14
+      ],
+      [
+        52,
+        14
+      ],
+      [
+        49,
+        15
+      ],
+      [
+        50,
+        15
+      ],
+      [
+        51,
+        15
+      ],
+      [
+        52,
+        15
+      ],
+      [
+        49,
+        16
+      ],
+      [
+        50,
+        16
+      ],
+      [
+        51,
+        16
+      ],
+      [
+        52,
+        16
+      ],
+      [
+        48,
+        17
+      ],
+      [
+        49,
+        17
+      ],
+      [
+        50,
+        17
+      ],
+      [
+        48,
+        18
+      ],
+      [
+        49,
+        18
+      ],
+      [
+        50,
+        18
+      ],
+      [
+        51,
+        18
+      ],
+      [
+        47,
+        19
+      ],
+      [
+        48,
+        19
+      ],
+      [
+        49,
+        19
+      ],
+      [
+        50,
+        19
+      ],
+      [
+        47,
+        20
+      ],
+      [
+        48,
+        20
+      ],
+      [
+        49,
+        20
+      ],
+      [
+        46,
+        21
+      ],
+      [
+        47,
+        21
+      ],
+      [
+        48,
+        21
+      ],
+      [
+        49,
+        21
+      ],
+      [
+        45,
+        22
+      ],
+      [
+        46,
+        22
+      ],
+      [
+        47,
+        22
+      ],
+      [
+        48,
+        22
+      ],
+      [
+        45,
+        23
+      ],
+      [
+        46,
+        23
+      ],
+      [
+        47,
+        23
+      ],
+      [
+        17,
+        24
+      ],
+      [
+        18,
+        24
+      ],
+      [
+        19,
+        24
+      ],
+      [
+        20,
+        24
+      ],
+      [
+        21,
+        24
+      ],
+      [
+        22,
+        24
+      ],
+      [
+        44,
+        24
+      ],
+      [
+        45,
+        24
+      ],
+      [
+        46,
+        24
+      ],
+      [
+        47,
+        24
+      ],
+      [
+        17,
+        25
+      ],
+      [
+        18,
+        25
+      ],
+      [
+        19,
+        25
+      ],
+      [
+        20,
+        25
+      ],
+      [
+        21,
+        25
+      ],
+      [
+        22,
+        25
+      ],
+      [
+        43,
+        25
+      ],
+      [
+        44,
+        25
+      ],
+      [
+        45,
+        25
+      ],
+      [
+        46,
+        25
+      ],
+      [
+        15,
+        26
+      ],
+      [
+        16,
+        26
+      ],
+      [
+        17,
+        26
+      ],
+      [
+        18,
+        26
+      ],
+      [
+        19,
+        26
+      ],
+      [
+        20,
+        26
+      ],
+      [
+        21,
+        26
+      ],
+      [
+        22,
+        26
+      ],
+      [
+        42,
+        26
+      ],
+      [
+        43,
+        26
+      ],
+      [
+        44,
+        26
+      ],
+      [
+        45,
+        26
+      ],
+      [
+        13,
+        27
+      ],
+      [
+        14,
+        27
+      ],
+      [
+        15,
+        27
+      ],
+      [
+        16,
+        27
+      ],
+      [
+        17,
+        27
+      ],
+      [
+        18,
+        27
+      ],
+      [
+        19,
+        27
+      ],
+      [
+        20,
+        27
+      ],
+      [
+        21,
+        27
+      ],
+      [
+        22,
+        27
+      ],
+      [
+        41,
+        27
+      ],
+      [
+        42,
+        27
+      ],
+      [
+        43,
+        27
+      ],
+      [
+        44,
+        27
+      ],
+      [
+        13,
+        28
+      ],
+      [
+        14,
+        28
+      ],
+      [
+        15,
+        28
+      ],
+      [
+        16,
+        28
+      ],
+      [
+        17,
+        28
+      ],
+      [
+        18,
+        28
+      ],
+      [
+        19,
+        28
+      ],
+      [
+        20,
+        28
+      ],
+      [
+        21,
+        28
+      ],
+      [
+        22,
+        28
+      ],
+      [
+        12,
+        29
+      ],
+      [
+        13,
+        29
+      ],
+      [
+        14,
+        29
+      ],
+      [
+        15,
+        29
+      ],
+      [
+        16,
+        29
+      ],
+      [
+        17,
+        29
+      ],
+      [
+        18,
+        29
+      ],
+      [
+        19,
+        29
+      ],
+      [
+        20,
+        29
+      ],
+      [
+        21,
+        29
+      ],
+      [
+        22,
+        29
+      ],
+      [
+        12,
+        30
+      ],
+      [
+        13,
+        30
+      ],
+      [
+        14,
+        30
+      ],
+      [
+        15,
+        30
+      ],
+      [
+        16,
+        30
+      ],
+      [
+        17,
+        30
+      ],
+      [
+        12,
+        31
+      ],
+      [
+        13,
+        31
+      ],
+      [
+        14,
+        31
+      ],
+      [
+        15,
+        31
+      ],
+      [
+        16,
+        31
+      ],
+      [
+        17,
+        31
+      ],
+      [
+        12,
+        32
+      ],
+      [
+        13,
+        32
+      ],
+      [
+        14,
+        32
+      ],
+      [
+        15,
+        32
+      ],
+      [
+        16,
+        32
+      ],
+      [
+        12,
+        33
+      ],
+      [
+        13,
+        33
+      ],
+      [
+        14,
+        33
+      ],
+      [
+        15,
+        33
+      ],
+      [
+        16,
+        33
+      ],
+      [
+        11,
+        34
+      ],
+      [
+        12,
+        34
+      ],
+      [
+        13,
+        34
+      ],
+      [
+        14,
+        34
+      ],
+      [
+        15,
+        34
+      ],
+      [
+        11,
+        35
+      ],
+      [
+        12,
+        35
+      ],
+      [
+        13,
+        35
+      ],
+      [
+        14,
+        35
+      ],
+      [
+        15,
+        35
+      ],
+      [
+        16,
+        35
+      ],
+      [
+        11,
+        36
+      ],
+      [
+        12,
+        36
+      ],
+      [
+        13,
+        36
+      ],
+      [
+        14,
+        36
+      ],
+      [
+        15,
+        36
+      ],
+      [
+        16,
+        36
+      ],
+      [
+        11,
+        37
+      ],
+      [
+        12,
+        37
+      ],
+      [
+        13,
+        37
+      ],
+      [
+        14,
+        37
+      ],
+      [
+        15,
+        37
+      ],
+      [
+        12,
+        38
+      ],
+      [
+        13,
+        38
+      ],
+      [
+        14,
+        38
+      ],
+      [
+        15,
+        38
+      ],
+      [
+        19,
+        38
+      ]
+    ],
+    "source_translation": [
+      16,
+      16
+    ],
+    "method": "body byte-copy except arm/blade masks; local new plated limb, gauntlet, physical straight sword",
+    "no_effects": true,
+    "body_scale": 1,
+    "foreground_shield_occlusion": {
+      "frames": [
+        4,
+        5
+      ],
+      "interior_rect": [
+        52,
+        46,
+        8,
+        10
+      ],
+      "method": "existing authored limb/hilt/blade pixels only; source shield layer and outer rim unchanged"
+    }
+  },
+  "counts": {
+    "runtime_frames": 8,
+    "runtime_sheets": 1,
+    "png_files": 12
+  }
+}

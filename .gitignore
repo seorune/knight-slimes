@@ -1,0 +1,49 @@
+# Build outputs and local toolchains
+.gradle/
+**/build/
+/.tools/
+/.gradle-user-home/
+/.backup*/
+/dist/
+assets/assets.txt
+
+# Java and Python caches
+*.class
+*.war
+*.ear
+__pycache__/
+*.py[cod]
+.pytest_cache/
+hs_err_pid*
+.attach_pid*
+
+# Local credentials and machine configuration
+.env
+.env.*
+!.env.example
+.git-credentials
+local.properties
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Editor and operating-system state
+.idea/
+.vscode/
+.classpath
+.project
+.settings/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+**/resource-config.json
