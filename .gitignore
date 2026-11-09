@@ -47,3 +47,25 @@ Thumbs.db
 *.swp
 *~
 **/resource-config.json
+
+# Local reference materials and asset-authoring files
+/docs/
+/Asset-Preview.html
+/lwjgl3/icons/
+/lwjgl3/nativeimage.gradle
+/tools/*
+!/tools/model_test.py
+!/tools/render_smoke.py
+!/tools/test_launchers.py
+!/tools/test_release_resources.py
+/assets/*.png
+/assets/art/**/*.png
+!/assets/art/**/sheet.png
+!/assets/art/pixel_knight/background/warm_lower.png
+!/assets/art/pixel_knight/background/cold_upper.png
+/assets/art/source/
+/assets/art-direction/
+/assets/art/**/proof/
+/assets/art/**/provenance/
+/assets/art/pixel_knight/tiles_cold/
+/assets/art/pixel_knight/tiles_warm/

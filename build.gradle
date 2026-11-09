@@ -28,7 +28,8 @@ allprojects {
 ext.runtimeAssets = {
   fileTree(rootProject.file('assets')) {
     exclude 'assets.txt', 'art/source/**', 'art-direction/**', '**/proof/**',
-      'art/knight_swing/provenance/**', 'block.png', 'flag.png', 'libgdx.png', 'player.png'
+      'art/knight_swing/provenance/**', 'art/pixel_knight/tiles_cold/**',
+      'art/pixel_knight/tiles_warm/**', 'block.png', 'flag.png', 'libgdx.png', 'player.png'
     // PixelAssets loads atlas sheets and these two backgrounds, never individual preview crops.
     exclude { entry ->
       def path = entry.path

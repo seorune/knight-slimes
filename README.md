@@ -35,9 +35,9 @@ Java 8 호환 소스, 로컬 JDK 17, Gradle Wrapper 8.14.3, LibGDX 1.13.1을 사
 
 ## 세 스테이지
 
-- **[1 — Boundary Foundry](docs/STAGE1_MAP.md)**: 가로 진행, 상하 순환과 중력 반전. L로 표적 위치를 기억한 뒤 정지 해제 후 살아 있는 분신을 전달해 출구를 엽니다. 분신과 벽돌을 발판으로 사용합니다.
-- **[2 — Lateral Ascent](docs/STAGE2_MAP.md)**: 세로 탑, 좌우 순환. 동쪽 표적에 정지 해제 후 살아 있는 분신을 전달해 출구를 열고 정상으로 오릅니다. 1·2스테이지 표적은 시간 정지 중에만 보입니다.
-- **[3 — Paradox Warden](docs/STAGE3_BOSS.md)**: 사방 순환 보스방. L 표적은 해제 후에도 보입니다. 해제 뒤 새 J로 살아 있는 분신을 표적에 밀어 노출시키고, 새 저스트 패리로 봉인을 하나씩 깨뜨립니다. 세 봉인을 모두 깨면 승리합니다.
+- **1 — Boundary Foundry**: 가로 진행, 상하 순환과 중력 반전. 분신을 표적에 전달해 출구를 엽니다.
+- **2 — Lateral Ascent**: 세로 탑, 좌우 순환. 동쪽 표적을 해결하고 정상으로 오릅니다.
+- **3 — Paradox Warden**: 사방 순환 보스방. L로 표적을 확인하고 정지 해제 뒤 새 J로 살아 있는 분신을 밀어 노출시킵니다. 저스트 패리로 세 봉인을 깨면 승리합니다.
 
 ## 검사
 
@@ -45,26 +45,20 @@ Java 8 호환 소스, 로컬 JDK 17, Gradle Wrapper 8.14.3, LibGDX 1.13.1을 사
 
 ```bat
 python tools\model_test.py
-python tools\adapter_contract_test.py
-python tools\asset_runtime_test.py
-gradlew.bat core:check lwjgl3:classes
+gradlew.bat core:check lwjgl3:classes lwjgl3:jar
+python tools\test_release_resources.py
+python tools\test_launchers.py
 python tools\render_smoke.py --scene bossmarkthawed
 ```
 
 `core:check`는 규칙·보스 경로·표적·연속 캠페인 검사를 실행합니다. 그래픽 smoke는 음소거된 제한 프레임 장면을 캡처합니다. 장면 fixture는 실제 레벨 완주나 수동 난이도 평가를 대신하지 않습니다.
 
-## 코드와 자료
+## 소스
 
-- [개발 레포트](docs/REPORT.md): 과제 요구사항·구현·검증·제출 현황
-- [노션 레포트](https://app.notion.com/p/KNIGHT-SLIMES-4125efcaaaea8160b377e546c9dbf821)
-- [에셋 출처와 사용 범위](docs/ASSET_SOURCES.md)
-- [발표 초안 PPTX](docs/presentation/KNIGHT_SLIMES_발표초안.pptx) · [PDF](docs/presentation/KNIGHT_SLIMES_발표초안.pdf) · [발표 대본](docs/presentation/발표대본.md)
-
-- [StageModel.java](core/src/main/java/io/jbnu/test/StageModel.java): 120Hz 결정적 물리·전투·표적·진행 규칙
-- [StageOneLevel.java](core/src/main/java/io/jbnu/test/StageOneLevel.java), [StageTwoLevel.java](core/src/main/java/io/jbnu/test/StageTwoLevel.java), [StageThreeLevel.java](core/src/main/java/io/jbnu/test/StageThreeLevel.java): 지도
-- [StageRenderer.java](core/src/main/java/io/jbnu/test/StageRenderer.java): 입력·화면·카메라·메뉴
-- [PixelAssets.java](core/src/main/java/io/jbnu/test/PixelAssets.java), [GameAudio.java](core/src/main/java/io/jbnu/test/GameAudio.java): 이미지·효과음
-- [규칙](docs/STAGE1_RULES.md), [런타임 에셋](docs/RUNTIME_ASSETS.md), [에셋 목록](docs/ASSET_BRIEF.md), [미리보기](Asset-Preview.html)
-- 테스트: `core/src/test/java/io/jbnu/test/` / 실행 도구: `tools/`
+- `core/src/main/`: 게임 모델·레벨·렌더러·이미지·효과음
+- `core/src/test/`: 게임 규칙·표적·보스·연속 캠페인 검사
+- `lwjgl3/src/`: 데스크톱 실행기
+- `assets/`: 실행 시트·배경·애니메이션 설정·효과음
+- [에셋 출처 및 외부 구성요소](CREDITS.md)
 
 진행 저장·체크포인트·키 재설정은 지원하지 않습니다.

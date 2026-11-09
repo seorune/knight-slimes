@@ -6,6 +6,8 @@ import re
 import os
 import subprocess
 import sys
+import struct
+import zlib
 parser = argparse.ArgumentParser()
 parser.add_argument('--scene', choices=['route', 'just', 'parry', 'wounded', 'inverted', 'title', 'ranged', 'attack', 'guard', 'enemywindup', 'enemyattack', 'stage2start', 'stage2middle', 'stage2top', 'stage2wrap', 'transition', 'bossstart', 'bosswindup', 'bossattack', 'bossexposed', 'bossclear', 'bosswrapx', 'bosswrapy', 'transition3', 'bossarmed', 'bosssealedjust', 'bosssealbreak', 'bossdefeat', 'targetreveal1', 'targetreveal2', 'targetreveal3', 'targethidden2', 'doorlocked1', 'dooropen1', 'doorlocked2', 'dooropen2', 'bossdelivery', 'bossmarked', 'bosstargetpush', 'bossmarkthawed', 'bossarrival'], default='route')
 parser.add_argument('--frames', type=int, default=None, help='Override bounded capture frame count')
@@ -18,7 +20,10 @@ candidates = ([Path(java_home) / 'bin/java.exe'] if java_home else []) + list((r
 java = next((p for p in candidates if p.exists()), None)
 if not java:
     sys.exit('Portable JDK unavailable')
-cache = root / '.tools/gradle-home/caches/modules-2/files-2.1'
+cache_home = Path(os.environ['GRADLE_USER_HOME']) if os.environ.get('GRADLE_USER_HOME') else next(
+    (p for p in (root / '.tools/gradle-home', root / '.gradle-user-home', Path.home() / '.gradle') if p.is_dir()),
+    Path.home() / '.gradle')
+cache = cache_home / 'caches/modules-2/files-2.1'
 jars = [p for p in cache.glob('**/*.jar') if 'natives-' not in p.name or 'natives-windows.jar' in p.name or 'natives-desktop.jar' in p.name]
 paths = [root / 'core/build/classes/java/main', root / 'lwjgl3/build/classes/java/main', root / 'lwjgl3/build/resources/main', root / 'assets'] + jars
 name = 'stage1-smoke.png' if args.scene == 'route' else 'stage1-' + args.scene + '.png'
@@ -152,6 +157,37 @@ if not re.search(r'sounds=' + str(sound_count) + r'\b', result.stdout):
     sys.exit('FAIL: audio resource count does not match the actual sound pack')
 if not screenshot.exists() or screenshot.stat().st_size < 1000:
     sys.exit('FAIL: screenshot not produced')
-from build_pixel_assets import decode_png
-image = decode_png(screenshot.read_bytes())
-print('PASS render smoke; PNG:', screenshot, 'bytes:', screenshot.stat().st_size, 'dimensions:', image[:2])
+raw = screenshot.read_bytes()
+if raw[:8] != b'\x89PNG\r\n\x1a\n':
+    sys.exit('FAIL: invalid screenshot PNG signature')
+offset = 8
+compressed = bytearray()
+dimensions = None
+while offset + 12 <= len(raw):
+    length = struct.unpack_from('>I', raw, offset)[0]
+    end = offset + 12 + length
+    if end > len(raw):
+        sys.exit('FAIL: truncated screenshot PNG chunk')
+    kind = raw[offset + 4:offset + 8]
+    data = raw[offset + 8:end - 4]
+    crc = struct.unpack_from('>I', raw, end - 4)[0]
+    if zlib.crc32(kind + data) & 0xffffffff != crc:
+        sys.exit('FAIL: screenshot PNG CRC mismatch')
+    if kind == b'IHDR':
+        width, height, depth, color, compression, filtering, interlace = struct.unpack('>IIBBBBB', data)
+        if depth != 8 or color not in (2, 6) or compression or filtering or interlace or not width or not height:
+            sys.exit('FAIL: unsupported screenshot PNG format')
+        dimensions = (width, height)
+        channels = 4 if color == 6 else 3
+    elif kind == b'IDAT':
+        compressed.extend(data)
+    offset = end
+    if kind == b'IEND':
+        break
+if dimensions is None or kind != b'IEND' or offset != len(raw):
+    sys.exit('FAIL: incomplete screenshot PNG')
+pixels = zlib.decompress(compressed)
+stride = 1 + dimensions[0] * channels
+if len(pixels) != dimensions[1] * stride or any(pixels[row * stride] > 4 for row in range(dimensions[1])):
+    sys.exit('FAIL: invalid screenshot PNG scanlines')
+print('PASS render smoke; PNG:', screenshot, 'bytes:', len(raw), 'dimensions:', dimensions)

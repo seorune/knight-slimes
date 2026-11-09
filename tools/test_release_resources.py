@@ -16,7 +16,8 @@ BACKGROUNDS = {
 
 def development_only(path):
     return (
-        path.startswith(("art/source/", "art-direction/", "art/knight_swing/provenance/"))
+        path.startswith(("art/source/", "art-direction/", "art/knight_swing/provenance/",
+                         "art/pixel_knight/tiles_cold/", "art/pixel_knight/tiles_warm/"))
         or "/proof/" in path
         or path in {"block.png", "flag.png", "libgdx.png", "player.png"}
         or (path.startswith("art/") and path.endswith(".png")

@@ -1,273 +1,62 @@
 {
-  "schema_version": 1,
-  "status": "processed_boss_sprites",
-  "provenance": {
-    "generator": "image",
-    "source_path": "assets/art/paradox_warden/source.png",
-    "source_sha256": "710616b8356a65f11a36084031f4bba8cd531a8897c4f14bd3e9be18bd1bc171",
-    "source_dimensions": [
-      1024,
-      576
-    ],
-    "operations": [
-      "explicit unequal source rectangles",
-      "green matte flood key and spill cleanup",
-      "uniform 0.27 nearest-neighbor scale",
-      "fixed root translation",
-      "binary alpha and 8-step palette",
-      "shared standing foot layer",
-      "closed gold chest, energy cores, cracks, core fragments and broken clock crown with ticks/hands"
-    ],
-    "note": "Clockwork warden sprites use a separate source image from the slime sprites."
-  },
   "groups": {
     "paradox_warden": {
       "sheet": "assets/art/paradox_warden/sheet.png",
-      "sheet_sha256": "8c096c8cf30ac159aa3575fb411039924b30399400ac59b4a66da63b54220a41",
       "frame_count": 6,
-      "cell_size": [
-        96,
-        96
-      ],
-      "sheet_size": [
-        288,
-        192
-      ],
-      "world_draw_size": [
-        192,
-        192
-      ],
-      "anchor": [
-        48,
-        90
-      ],
-      "world_anchor_offset": [
-        96,
-        180
-      ],
-      "gameplay_box_changed": false,
       "frames": [
         {
           "index": 0,
-          "name": "sealed",
           "rect": [
             0,
             0,
             96,
             96
-          ],
-          "anchor": [
-            48,
-            90
-          ],
-          "body_offset": [
-            0,
-            0
-          ],
-          "baseline": 90,
-          "source_rect": [
-            0,
-            0,
-            341,
-            288
-          ],
-          "source_root": [
-            174,
-            267
-          ],
-          "alpha_bbox": [
-            11,
-            16,
-            85,
-            91
-          ],
-          "opaque_pixels": 2583,
-          "rgba_sha256": "e1a6cdc737a0681a62e13336461172bf913dcabb48c0546be44564679456cddb"
+          ]
         },
         {
           "index": 1,
-          "name": "exposed",
           "rect": [
             96,
             0,
             96,
             96
-          ],
-          "anchor": [
-            48,
-            90
-          ],
-          "body_offset": [
-            0,
-            0
-          ],
-          "baseline": 90,
-          "source_rect": [
-            341,
-            0,
-            342,
-            288
-          ],
-          "source_root": [
-            169,
-            267
-          ],
-          "alpha_bbox": [
-            12,
-            16,
-            82,
-            91
-          ],
-          "opaque_pixels": 2297,
-          "rgba_sha256": "7df5a6f5bf525b93063668a9a9dde9e65f41b6f54d1c330366a326b6fa43e084"
+          ]
         },
         {
           "index": 2,
-          "name": "charge",
           "rect": [
             192,
             0,
             96,
             96
-          ],
-          "anchor": [
-            48,
-            90
-          ],
-          "body_offset": [
-            0,
-            0
-          ],
-          "baseline": 90,
-          "source_rect": [
-            683,
-            0,
-            341,
-            288
-          ],
-          "source_root": [
-            168,
-            267
-          ],
-          "alpha_bbox": [
-            5,
-            16,
-            87,
-            91
-          ],
-          "opaque_pixels": 2339,
-          "rgba_sha256": "57d2806825e5c14cceeb5702c21256331164a34cbef2d1bdb296221dbcb05a3f"
+          ]
         },
         {
           "index": 3,
-          "name": "attack",
           "rect": [
             0,
             96,
             96,
             96
-          ],
-          "anchor": [
-            48,
-            90
-          ],
-          "body_offset": [
-            0,
-            0
-          ],
-          "baseline": 90,
-          "source_rect": [
-            0,
-            288,
-            341,
-            288
-          ],
-          "source_root": [
-            174,
-            258
-          ],
-          "alpha_bbox": [
-            12,
-            16,
-            82,
-            91
-          ],
-          "opaque_pixels": 2063,
-          "rgba_sha256": "4be071280fb7b5e0f14efdcab44a39729850b7f5c9093fbd9de1a36e1740e4a8"
+          ]
         },
         {
           "index": 4,
-          "name": "break",
           "rect": [
             96,
             96,
             96,
             96
-          ],
-          "anchor": [
-            48,
-            90
-          ],
-          "body_offset": [
-            0,
-            0
-          ],
-          "baseline": 90,
-          "source_rect": [
-            341,
-            288,
-            342,
-            288
-          ],
-          "source_root": [
-            168,
-            258
-          ],
-          "alpha_bbox": [
-            4,
-            16,
-            93,
-            91
-          ],
-          "opaque_pixels": 2256,
-          "rgba_sha256": "ed5a2bfe677ede7f77f0a6eff85ef5c3dba1915e533c71b58f0a9ceab09d20fc"
+          ]
         },
         {
           "index": 5,
-          "name": "defeated",
           "rect": [
             192,
             96,
             96,
             96
-          ],
-          "anchor": [
-            48,
-            90
-          ],
-          "body_offset": [
-            0,
-            0
-          ],
-          "baseline": 90,
-          "source_rect": [
-            683,
-            288,
-            341,
-            288
-          ],
-          "source_root": [
-            155,
-            263
-          ],
-          "alpha_bbox": [
-            11,
-            36,
-            88,
-            91
-          ],
-          "opaque_pixels": 1606,
-          "rgba_sha256": "a7d9cf5996b0340908a62c15fbcb92b3a6de0cf12cc59d34e25e8551403de6c1"
+          ]
         }
       ],
       "clips": {
@@ -275,7 +64,6 @@
           "frames": [
             0
           ],
-          "frame_duration": 0.1,
           "frame_duration_seconds": 0.1,
           "loop": false
         },
@@ -283,7 +71,6 @@
           "frames": [
             1
           ],
-          "frame_duration": 0.1,
           "frame_duration_seconds": 0.1,
           "loop": false
         },
@@ -291,7 +78,6 @@
           "frames": [
             2
           ],
-          "frame_duration": 0.1,
           "frame_duration_seconds": 0.1,
           "loop": false
         },
@@ -299,7 +85,6 @@
           "frames": [
             3
           ],
-          "frame_duration": 0.1,
           "frame_duration_seconds": 0.1,
           "loop": false
         },
@@ -307,7 +92,6 @@
           "frames": [
             4
           ],
-          "frame_duration": 0.1,
           "frame_duration_seconds": 0.1,
           "loop": false
         },
@@ -315,7 +99,6 @@
           "frames": [
             5
           ],
-          "frame_duration": 0.1,
           "frame_duration_seconds": 0.1,
           "loop": false
         }

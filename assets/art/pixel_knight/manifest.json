@@ -1,552 +1,152 @@
 {
-  "schema_version": 1,
-  "status": "pixel_assets",
-  "logical_pixel_scale": 1,
-  "background_seamless_verified": false,
-  "sources": [
-    {
-      "path": "assets/art/source/knight_sheet.png",
-      "sha256": "d830e0bdc7ff2d243f4a3f062824da3bc5a2178a795f1f69b8d6475637d7a097",
-      "width": 1024,
-      "height": 1024,
-      "provenance": "source image"
-    },
-    {
-      "path": "assets/art/source/melee_slime_sheet.png",
-      "sha256": "f47f640f76a75586571533a57977aaa41e1dbd3478567a217687acb83cf05ea5",
-      "width": 1024,
-      "height": 1024,
-      "provenance": "source image"
-    },
-    {
-      "path": "assets/art/source/ranged_slime_sheet.png",
-      "sha256": "60a47d35cb9e00014119e0a7feac04fe61ea8b8445f0da86891c27e64b9d999d",
-      "width": 1024,
-      "height": 1024,
-      "provenance": "source image"
-    },
-    {
-      "path": "assets/art/source/fx_sheet.png",
-      "sha256": "228696e8d1a7c8036ce17a0a3e7e0d6578e9c234ccb208986bbbcaf011ddb868",
-      "width": 1024,
-      "height": 1024,
-      "provenance": "source image"
-    },
-    {
-      "path": "assets/art/source/tiles_sheet.png",
-      "sha256": "a3e78fef89e73666d994361bbae0bb052b37baf061b98d4c0221e438ea195fb7",
-      "width": 1024,
-      "height": 1024,
-      "provenance": "source image"
-    },
-    {
-      "path": "assets/art/source/dual_castle_background.png",
-      "sha256": "70a5ce7e1e6f88eab7f2403d6d4f67b37703f101c56f31f8e508481b5f527a0b",
-      "width": 1024,
-      "height": 576,
-      "provenance": "source image"
-    },
-    {
-      "path": "assets/art/source/fx_combat_sheet.png",
-      "sha256": "27c6daa34e4dd3c3729ffb66d7773e41ddc4eea323004ff7cbacb9a7bb21d7b8",
-      "width": 1024,
-      "height": 1024,
-      "provenance": "source image"
-    }
-  ],
   "groups": {
     "knight": {
-      "frame_count": 16,
-      "cell_size": [
-        64,
-        64
-      ],
-      "sheet_size": [
-        256,
-        256
-      ],
-      "logical_pixel_scale": 1,
       "sheet": "assets/art/pixel_knight/knight/sheet.png",
+      "frame_count": 16,
       "frames": [
         {
           "index": 0,
-          "name": "frame_00",
-          "path": "assets/art/pixel_knight/knight/frame_00.png",
           "rect": [
             0,
             0,
             64,
             64
-          ],
-          "source_bbox": [
-            63,
-            53,
-            231,
-            234
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            11,
-            10
-          ],
-          "alpha_bbox": [
-            11,
-            10,
-            53,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 1,
-          "name": "frame_01",
-          "path": "assets/art/pixel_knight/knight/frame_01.png",
           "rect": [
             64,
             0,
             64,
             64
-          ],
-          "source_bbox": [
-            63,
-            53,
-            222,
-            234
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            12,
-            10
-          ],
-          "alpha_bbox": [
-            12,
-            10,
-            52,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 2,
-          "name": "frame_02",
-          "path": "assets/art/pixel_knight/knight/frame_02.png",
           "rect": [
             128,
             0,
             64,
             64
-          ],
-          "source_bbox": [
-            51,
-            53,
-            222,
-            233
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            10,
-            10
-          ],
-          "alpha_bbox": [
-            10,
-            10,
-            53,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 3,
-          "name": "frame_03",
-          "path": "assets/art/pixel_knight/knight/frame_03.png",
           "rect": [
             192,
             0,
             64,
             64
-          ],
-          "source_bbox": [
-            50,
-            53,
-            224,
-            233
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            10,
-            10
-          ],
-          "alpha_bbox": [
-            10,
-            10,
-            54,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 4,
-          "name": "frame_04",
-          "path": "assets/art/pixel_knight/knight/frame_04.png",
           "rect": [
             0,
             64,
             64,
             64
-          ],
-          "source_bbox": [
-            60,
-            50,
-            231,
-            231
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            10,
-            10
-          ],
-          "alpha_bbox": [
-            10,
-            10,
-            53,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 5,
-          "name": "frame_05",
-          "path": "assets/art/pixel_knight/knight/frame_05.png",
           "rect": [
             64,
             64,
             64,
             64
-          ],
-          "source_bbox": [
-            58,
-            50,
-            198,
-            230
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            14,
-            10
-          ],
-          "alpha_bbox": [
-            14,
-            10,
-            49,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 6,
-          "name": "frame_06",
-          "path": "assets/art/pixel_knight/knight/frame_06.png",
           "rect": [
             128,
             64,
             64,
             64
-          ],
-          "source_bbox": [
-            59,
-            50,
-            196,
-            231
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            15,
-            10
-          ],
-          "alpha_bbox": [
-            15,
-            10,
-            49,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 7,
-          "name": "frame_07",
-          "path": "assets/art/pixel_knight/knight/frame_07.png",
           "rect": [
             192,
             64,
             64,
             64
-          ],
-          "source_bbox": [
-            52,
-            50,
-            194,
-            231
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            14,
-            10
-          ],
-          "alpha_bbox": [
-            14,
-            10,
-            50,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 8,
-          "name": "frame_08",
-          "path": "assets/art/pixel_knight/knight/frame_08.png",
           "rect": [
             0,
             128,
             64,
             64
-          ],
-          "source_bbox": [
-            60,
-            49,
-            230,
-            228
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            11,
-            10
-          ],
-          "alpha_bbox": [
-            11,
-            10,
-            53,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 9,
-          "name": "frame_09",
-          "path": "assets/art/pixel_knight/knight/frame_09.png",
           "rect": [
             64,
             128,
             64,
             64
-          ],
-          "source_bbox": [
-            58,
-            48,
-            231,
-            227
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            10,
-            10
-          ],
-          "alpha_bbox": [
-            10,
-            10,
-            53,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 10,
-          "name": "frame_10",
-          "path": "assets/art/pixel_knight/knight/frame_10.png",
           "rect": [
             128,
             128,
             64,
             64
-          ],
-          "source_bbox": [
-            30,
-            40,
-            220,
-            229
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            8,
-            8
-          ],
-          "alpha_bbox": [
-            8,
-            8,
-            56,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 11,
-          "name": "frame_11",
-          "path": "assets/art/pixel_knight/knight/frame_11.png",
           "rect": [
             192,
             128,
             64,
             64
-          ],
-          "source_bbox": [
-            53,
-            49,
-            224,
-            229
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            10,
-            10
-          ],
-          "alpha_bbox": [
-            10,
-            10,
-            53,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 12,
-          "name": "frame_12",
-          "path": "assets/art/pixel_knight/knight/frame_12.png",
           "rect": [
             0,
             192,
             64,
             64
-          ],
-          "source_bbox": [
-            56,
-            44,
-            220,
-            216
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            11,
-            12
-          ],
-          "alpha_bbox": [
-            11,
-            12,
-            52,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 13,
-          "name": "frame_13",
-          "path": "assets/art/pixel_knight/knight/frame_13.png",
           "rect": [
             64,
             192,
             64,
             64
-          ],
-          "source_bbox": [
-            56,
-            32,
-            232,
-            212
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            10,
-            10
-          ],
-          "alpha_bbox": [
-            10,
-            11,
-            54,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 14,
-          "name": "frame_14",
-          "path": "assets/art/pixel_knight/knight/frame_14.png",
           "rect": [
             128,
             192,
             64,
             64
-          ],
-          "source_bbox": [
-            58,
-            47,
-            191,
-            204
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            15,
-            16
-          ],
-          "alpha_bbox": [
-            15,
-            16,
-            48,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 15,
-          "name": "frame_15",
-          "path": "assets/art/pixel_knight/knight/frame_15.png",
           "rect": [
             192,
             192,
             64,
             64
-          ],
-          "source_bbox": [
-            21,
-            123,
-            220,
-            187
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            7,
-            39
-          ],
-          "alpha_bbox": [
-            7,
-            39,
-            57,
-            55
-          ],
-          "clipped": false
+          ]
         }
       ],
       "clips": {
@@ -556,9 +156,7 @@
             1
           ],
           "frame_duration_seconds": 0.14,
-          "duration_seconds": 0.28,
-          "loop": true,
-          "timing_provenance": "animation clip timing"
+          "loop": true
         },
         "run": {
           "frames": [
@@ -568,27 +166,21 @@
             5
           ],
           "frame_duration_seconds": 0.1,
-          "duration_seconds": 0.4,
-          "loop": true,
-          "timing_provenance": "animation clip timing"
+          "loop": true
         },
         "jump": {
           "frames": [
             6
           ],
           "frame_duration_seconds": 0.14,
-          "duration_seconds": 0.14,
-          "loop": false,
-          "timing_provenance": "animation clip timing"
+          "loop": false
         },
         "fall": {
           "frames": [
             7
           ],
           "frame_duration_seconds": 0.14,
-          "duration_seconds": 0.14,
-          "loop": false,
-          "timing_provenance": "animation clip timing"
+          "loop": false
         },
         "melee": {
           "frames": [
@@ -597,9 +189,7 @@
             10
           ],
           "frame_duration_seconds": 0.1,
-          "duration_seconds": 0.3,
-          "loop": false,
-          "timing_provenance": "animation clip timing"
+          "loop": false
         },
         "parry": {
           "frames": [
@@ -607,18 +197,14 @@
             12
           ],
           "frame_duration_seconds": 0.14,
-          "duration_seconds": 0.28,
-          "loop": false,
-          "timing_provenance": "animation clip timing"
+          "loop": false
         },
         "hit": {
           "frames": [
             13
           ],
           "frame_duration_seconds": 0.14,
-          "duration_seconds": 0.14,
-          "loop": false,
-          "timing_provenance": "animation clip timing"
+          "loop": false
         },
         "death": {
           "frames": [
@@ -626,505 +212,157 @@
             15
           ],
           "frame_duration_seconds": 0.14,
-          "duration_seconds": 0.28,
-          "loop": false,
-          "timing_provenance": "animation clip timing"
+          "loop": false
         }
-      },
-      "source_path": "assets/art/source/knight_sheet.png"
+      }
     },
     "melee_original": {
-      "frame_count": 16,
-      "cell_size": [
-        64,
-        64
-      ],
-      "sheet_size": [
-        256,
-        256
-      ],
-      "logical_pixel_scale": 1,
       "sheet": "assets/art/pixel_knight/melee_original/sheet.png",
+      "frame_count": 16,
       "frames": [
         {
           "index": 0,
-          "name": "frame_00",
-          "path": "assets/art/pixel_knight/melee_original/frame_00.png",
           "rect": [
             0,
             0,
             64,
             64
-          ],
-          "source_bbox": [
-            58,
-            46,
-            200,
-            211
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            14,
-            14
-          ],
-          "alpha_bbox": [
-            14,
-            14,
-            50,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 1,
-          "name": "frame_01",
-          "path": "assets/art/pixel_knight/melee_original/frame_01.png",
           "rect": [
             64,
             0,
             64,
             64
-          ],
-          "source_bbox": [
-            46,
-            47,
-            206,
-            212
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            12,
-            14
-          ],
-          "alpha_bbox": [
-            12,
-            14,
-            52,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 2,
-          "name": "frame_02",
-          "path": "assets/art/pixel_knight/melee_original/frame_02.png",
           "rect": [
             128,
             0,
             64,
             64
-          ],
-          "source_bbox": [
-            46,
-            46,
-            195,
-            211
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            13,
-            14
-          ],
-          "alpha_bbox": [
-            13,
-            14,
-            50,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 3,
-          "name": "frame_03",
-          "path": "assets/art/pixel_knight/melee_original/frame_03.png",
           "rect": [
             192,
             0,
             64,
             64
-          ],
-          "source_bbox": [
-            45,
-            46,
-            197,
-            211
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            13,
-            14
-          ],
-          "alpha_bbox": [
-            13,
-            14,
-            51,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 4,
-          "name": "frame_04",
-          "path": "assets/art/pixel_knight/melee_original/frame_04.png",
           "rect": [
             0,
             64,
             64,
             64
-          ],
-          "source_bbox": [
-            55,
-            50,
-            205,
-            210
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            13,
-            15
-          ],
-          "alpha_bbox": [
-            13,
-            15,
-            51,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 5,
-          "name": "frame_05",
-          "path": "assets/art/pixel_knight/melee_original/frame_05.png",
           "rect": [
             64,
             64,
             64,
             64
-          ],
-          "source_bbox": [
-            52,
-            51,
-            200,
-            211
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            13,
-            15
-          ],
-          "alpha_bbox": [
-            13,
-            15,
-            50,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 6,
-          "name": "frame_06",
-          "path": "assets/art/pixel_knight/melee_original/frame_06.png",
           "rect": [
             128,
             64,
             64,
             64
-          ],
-          "source_bbox": [
-            40,
-            51,
-            210,
-            208
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            11,
-            16
-          ],
-          "alpha_bbox": [
-            11,
-            16,
-            53,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 7,
-          "name": "frame_07",
-          "path": "assets/art/pixel_knight/melee_original/frame_07.png",
           "rect": [
             192,
             64,
             64,
             64
-          ],
-          "source_bbox": [
-            36,
-            52,
-            213,
-            210
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            10,
-            15
-          ],
-          "alpha_bbox": [
-            10,
-            15,
-            54,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 8,
-          "name": "frame_08",
-          "path": "assets/art/pixel_knight/melee_original/frame_08.png",
           "rect": [
             0,
             128,
             64,
             64
-          ],
-          "source_bbox": [
-            55,
-            47,
-            202,
-            207
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            13,
-            15
-          ],
-          "alpha_bbox": [
-            13,
-            15,
-            50,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 9,
-          "name": "frame_09",
-          "path": "assets/art/pixel_knight/melee_original/frame_09.png",
           "rect": [
             64,
             128,
             64,
             64
-          ],
-          "source_bbox": [
-            52,
-            30,
-            201,
-            207
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            13,
-            11
-          ],
-          "alpha_bbox": [
-            13,
-            11,
-            50,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 10,
-          "name": "frame_10",
-          "path": "assets/art/pixel_knight/melee_original/frame_10.png",
           "rect": [
             128,
             128,
             64,
             64
-          ],
-          "source_bbox": [
-            35,
-            47,
-            216,
-            207
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            9,
-            15
-          ],
-          "alpha_bbox": [
-            9,
-            15,
-            54,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 11,
-          "name": "frame_11",
-          "path": "assets/art/pixel_knight/melee_original/frame_11.png",
           "rect": [
             192,
             128,
             64,
             64
-          ],
-          "source_bbox": [
-            47,
-            47,
-            199,
-            207
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            13,
-            15
-          ],
-          "alpha_bbox": [
-            13,
-            15,
-            51,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 12,
-          "name": "frame_12",
-          "path": "assets/art/pixel_knight/melee_original/frame_12.png",
           "rect": [
             0,
             192,
             64,
             64
-          ],
-          "source_bbox": [
-            52,
-            55,
-            205,
-            200
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            13,
-            19
-          ],
-          "alpha_bbox": [
-            13,
-            19,
-            51,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 13,
-          "name": "frame_13",
-          "path": "assets/art/pixel_knight/melee_original/frame_13.png",
           "rect": [
             64,
             192,
             64,
             64
-          ],
-          "source_bbox": [
-            48,
-            55,
-            207,
-            200
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            12,
-            19
-          ],
-          "alpha_bbox": [
-            12,
-            19,
-            52,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 14,
-          "name": "frame_14",
-          "path": "assets/art/pixel_knight/melee_original/frame_14.png",
           "rect": [
             128,
             192,
             64,
             64
-          ],
-          "source_bbox": [
-            43,
-            55,
-            208,
-            200
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            11,
-            19
-          ],
-          "alpha_bbox": [
-            11,
-            19,
-            52,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 15,
-          "name": "frame_15",
-          "path": "assets/art/pixel_knight/melee_original/frame_15.png",
           "rect": [
             192,
             192,
             64,
             64
-          ],
-          "source_bbox": [
-            36,
-            55,
-            212,
-            200
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            10,
-            19
-          ],
-          "alpha_bbox": [
-            10,
-            19,
-            54,
-            55
-          ],
-          "clipped": false
+          ]
         }
       ],
       "clips": {
@@ -1134,9 +372,7 @@
             1
           ],
           "frame_duration_seconds": 0.14,
-          "duration_seconds": 0.28,
-          "loop": true,
-          "timing_provenance": "animation clip timing"
+          "loop": true
         },
         "move": {
           "frames": [
@@ -1144,9 +380,7 @@
             3
           ],
           "frame_duration_seconds": 0.1,
-          "duration_seconds": 0.2,
-          "loop": true,
-          "timing_provenance": "animation clip timing"
+          "loop": true
         },
         "windup": {
           "frames": [
@@ -1154,9 +388,7 @@
             5
           ],
           "frame_duration_seconds": 0.14,
-          "duration_seconds": 0.28,
-          "loop": false,
-          "timing_provenance": "animation clip timing"
+          "loop": false
         },
         "attack": {
           "frames": [
@@ -1164,9 +396,7 @@
             7
           ],
           "frame_duration_seconds": 0.1,
-          "duration_seconds": 0.2,
-          "loop": false,
-          "timing_provenance": "animation clip timing"
+          "loop": false
         },
         "upper": {
           "frames": [
@@ -1174,9 +404,7 @@
             9
           ],
           "frame_duration_seconds": 0.14,
-          "duration_seconds": 0.28,
-          "loop": false,
-          "timing_provenance": "animation clip timing"
+          "loop": false
         },
         "stun": {
           "frames": [
@@ -1184,9 +412,7 @@
             11
           ],
           "frame_duration_seconds": 0.14,
-          "duration_seconds": 0.28,
-          "loop": false,
-          "timing_provenance": "animation clip timing"
+          "loop": false
         },
         "death": {
           "frames": [
@@ -1194,9 +420,7 @@
             13
           ],
           "frame_duration_seconds": 0.14,
-          "duration_seconds": 0.28,
-          "loop": false,
-          "timing_provenance": "animation clip timing"
+          "loop": false
         },
         "brick": {
           "frames": [
@@ -1204,385 +428,121 @@
             15
           ],
           "frame_duration_seconds": 0.14,
-          "duration_seconds": 0.28,
-          "loop": true,
-          "timing_provenance": "animation clip timing"
+          "loop": true
         }
-      },
-      "source_path": "assets/art/source/melee_slime_sheet.png"
+      }
     },
     "melee_clone": {
-      "frame_count": 12,
-      "cell_size": [
-        64,
-        64
-      ],
-      "sheet_size": [
-        256,
-        192
-      ],
-      "logical_pixel_scale": 1,
       "sheet": "assets/art/pixel_knight/melee_clone/sheet.png",
+      "frame_count": 12,
       "frames": [
         {
           "index": 0,
-          "name": "frame_00",
-          "path": "assets/art/pixel_knight/melee_clone/frame_00.png",
           "rect": [
             0,
             0,
             64,
             64
-          ],
-          "source_bbox": [
-            58,
-            46,
-            200,
-            211
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            14,
-            14
-          ],
-          "alpha_bbox": [
-            14,
-            14,
-            50,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 1,
-          "name": "frame_01",
-          "path": "assets/art/pixel_knight/melee_clone/frame_01.png",
           "rect": [
             64,
             0,
             64,
             64
-          ],
-          "source_bbox": [
-            46,
-            47,
-            206,
-            212
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            12,
-            14
-          ],
-          "alpha_bbox": [
-            12,
-            14,
-            52,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 2,
-          "name": "frame_02",
-          "path": "assets/art/pixel_knight/melee_clone/frame_02.png",
           "rect": [
             128,
             0,
             64,
             64
-          ],
-          "source_bbox": [
-            46,
-            46,
-            195,
-            211
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            13,
-            14
-          ],
-          "alpha_bbox": [
-            13,
-            14,
-            50,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 3,
-          "name": "frame_03",
-          "path": "assets/art/pixel_knight/melee_clone/frame_03.png",
           "rect": [
             192,
             0,
             64,
             64
-          ],
-          "source_bbox": [
-            45,
-            46,
-            197,
-            211
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            13,
-            14
-          ],
-          "alpha_bbox": [
-            13,
-            14,
-            51,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 4,
-          "name": "frame_04",
-          "path": "assets/art/pixel_knight/melee_clone/frame_04.png",
           "rect": [
             0,
             64,
             64,
             64
-          ],
-          "source_bbox": [
-            55,
-            50,
-            205,
-            210
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            13,
-            15
-          ],
-          "alpha_bbox": [
-            13,
-            15,
-            51,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 5,
-          "name": "frame_05",
-          "path": "assets/art/pixel_knight/melee_clone/frame_05.png",
           "rect": [
             64,
             64,
             64,
             64
-          ],
-          "source_bbox": [
-            52,
-            51,
-            200,
-            211
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            13,
-            15
-          ],
-          "alpha_bbox": [
-            13,
-            15,
-            50,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 6,
-          "name": "frame_06",
-          "path": "assets/art/pixel_knight/melee_clone/frame_06.png",
           "rect": [
             128,
             64,
             64,
             64
-          ],
-          "source_bbox": [
-            40,
-            51,
-            210,
-            208
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            11,
-            16
-          ],
-          "alpha_bbox": [
-            11,
-            16,
-            53,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 7,
-          "name": "frame_07",
-          "path": "assets/art/pixel_knight/melee_clone/frame_07.png",
           "rect": [
             192,
             64,
             64,
             64
-          ],
-          "source_bbox": [
-            36,
-            52,
-            213,
-            210
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            10,
-            15
-          ],
-          "alpha_bbox": [
-            10,
-            15,
-            54,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 8,
-          "name": "frame_08",
-          "path": "assets/art/pixel_knight/melee_clone/frame_08.png",
           "rect": [
             0,
             128,
             64,
             64
-          ],
-          "source_bbox": [
-            55,
-            47,
-            202,
-            207
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            13,
-            15
-          ],
-          "alpha_bbox": [
-            13,
-            15,
-            50,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 9,
-          "name": "frame_09",
-          "path": "assets/art/pixel_knight/melee_clone/frame_09.png",
           "rect": [
             64,
             128,
             64,
             64
-          ],
-          "source_bbox": [
-            52,
-            30,
-            201,
-            207
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            13,
-            11
-          ],
-          "alpha_bbox": [
-            13,
-            11,
-            50,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 10,
-          "name": "frame_10",
-          "path": "assets/art/pixel_knight/melee_clone/frame_10.png",
           "rect": [
             128,
             128,
             64,
             64
-          ],
-          "source_bbox": [
-            35,
-            47,
-            216,
-            207
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            9,
-            15
-          ],
-          "alpha_bbox": [
-            9,
-            15,
-            54,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 11,
-          "name": "frame_11",
-          "path": "assets/art/pixel_knight/melee_clone/frame_11.png",
           "rect": [
             192,
             128,
             64,
             64
-          ],
-          "source_bbox": [
-            47,
-            47,
-            199,
-            207
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            13,
-            15
-          ],
-          "alpha_bbox": [
-            13,
-            15,
-            51,
-            55
-          ],
-          "clipped": false
+          ]
         }
       ],
       "clips": {
@@ -1592,9 +552,7 @@
             1
           ],
           "frame_duration_seconds": 0.14,
-          "duration_seconds": 0.28,
-          "loop": true,
-          "timing_provenance": "animation clip timing"
+          "loop": true
         },
         "move": {
           "frames": [
@@ -1602,9 +560,7 @@
             3
           ],
           "frame_duration_seconds": 0.1,
-          "duration_seconds": 0.2,
-          "loop": true,
-          "timing_provenance": "animation clip timing"
+          "loop": true
         },
         "windup": {
           "frames": [
@@ -1612,9 +568,7 @@
             5
           ],
           "frame_duration_seconds": 0.14,
-          "duration_seconds": 0.28,
-          "loop": false,
-          "timing_provenance": "animation clip timing"
+          "loop": false
         },
         "attack": {
           "frames": [
@@ -1622,9 +576,7 @@
             7
           ],
           "frame_duration_seconds": 0.1,
-          "duration_seconds": 0.2,
-          "loop": false,
-          "timing_provenance": "animation clip timing"
+          "loop": false
         },
         "upper": {
           "frames": [
@@ -1632,9 +584,7 @@
             9
           ],
           "frame_duration_seconds": 0.14,
-          "duration_seconds": 0.28,
-          "loop": false,
-          "timing_provenance": "animation clip timing"
+          "loop": false
         },
         "stun": {
           "frames": [
@@ -1642,506 +592,157 @@
             11
           ],
           "frame_duration_seconds": 0.14,
-          "duration_seconds": 0.28,
-          "loop": false,
-          "timing_provenance": "animation clip timing"
+          "loop": false
         }
-      },
-      "source_path": "assets/art/source/melee_slime_sheet.png",
-      "death_behavior": "vanish; use clone FX, no corpse/brick frames"
+      }
     },
     "ranged_original": {
-      "frame_count": 16,
-      "cell_size": [
-        64,
-        64
-      ],
-      "sheet_size": [
-        256,
-        256
-      ],
-      "logical_pixel_scale": 1,
       "sheet": "assets/art/pixel_knight/ranged_original/sheet.png",
+      "frame_count": 16,
       "frames": [
         {
           "index": 0,
-          "name": "frame_00",
-          "path": "assets/art/pixel_knight/ranged_original/frame_00.png",
           "rect": [
             0,
             0,
             64,
             64
-          ],
-          "source_bbox": [
-            54,
-            52,
-            203,
-            220
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.25,
-          "offset": [
-            13,
-            13
-          ],
-          "alpha_bbox": [
-            13,
-            13,
-            50,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 1,
-          "name": "frame_01",
-          "path": "assets/art/pixel_knight/ranged_original/frame_01.png",
           "rect": [
             64,
             0,
             64,
             64
-          ],
-          "source_bbox": [
-            52,
-            53,
-            200,
-            220
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.25,
-          "offset": [
-            13,
-            13
-          ],
-          "alpha_bbox": [
-            13,
-            13,
-            50,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 2,
-          "name": "frame_02",
-          "path": "assets/art/pixel_knight/ranged_original/frame_02.png",
           "rect": [
             128,
             0,
             64,
             64
-          ],
-          "source_bbox": [
-            51,
-            53,
-            200,
-            220
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.25,
-          "offset": [
-            13,
-            13
-          ],
-          "alpha_bbox": [
-            13,
-            13,
-            50,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 3,
-          "name": "frame_03",
-          "path": "assets/art/pixel_knight/ranged_original/frame_03.png",
           "rect": [
             192,
             0,
             64,
             64
-          ],
-          "source_bbox": [
-            50,
-            53,
-            199,
-            220
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.25,
-          "offset": [
-            13,
-            13
-          ],
-          "alpha_bbox": [
-            13,
-            13,
-            50,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 4,
-          "name": "frame_04",
-          "path": "assets/art/pixel_knight/ranged_original/frame_04.png",
           "rect": [
             0,
             64,
             64,
             64
-          ],
-          "source_bbox": [
-            54,
-            47,
-            203,
-            215
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.25,
-          "offset": [
-            13,
-            13
-          ],
-          "alpha_bbox": [
-            13,
-            13,
-            50,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 5,
-          "name": "frame_05",
-          "path": "assets/art/pixel_knight/ranged_original/frame_05.png",
           "rect": [
             64,
             64,
             64,
             64
-          ],
-          "source_bbox": [
-            23,
-            48,
-            227,
-            215
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.25,
-          "offset": [
-            6,
-            13
-          ],
-          "alpha_bbox": [
-            6,
-            13,
-            57,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 6,
-          "name": "frame_06",
-          "path": "assets/art/pixel_knight/ranged_original/frame_06.png",
           "rect": [
             128,
             64,
             64,
             64
-          ],
-          "source_bbox": [
-            51,
-            47,
-            200,
-            215
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.25,
-          "offset": [
-            13,
-            13
-          ],
-          "alpha_bbox": [
-            13,
-            13,
-            50,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 7,
-          "name": "frame_07",
-          "path": "assets/art/pixel_knight/ranged_original/frame_07.png",
           "rect": [
             192,
             64,
             64,
             64
-          ],
-          "source_bbox": [
-            50,
-            47,
-            200,
-            215
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.25,
-          "offset": [
-            13,
-            13
-          ],
-          "alpha_bbox": [
-            13,
-            13,
-            51,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 8,
-          "name": "frame_08",
-          "path": "assets/art/pixel_knight/ranged_original/frame_08.png",
           "rect": [
             0,
             128,
             64,
             64
-          ],
-          "source_bbox": [
-            53,
-            45,
-            203,
-            213
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.25,
-          "offset": [
-            13,
-            13
-          ],
-          "alpha_bbox": [
-            13,
-            13,
-            51,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 9,
-          "name": "frame_09",
-          "path": "assets/art/pixel_knight/ranged_original/frame_09.png",
           "rect": [
             64,
             128,
             64,
             64
-          ],
-          "source_bbox": [
-            55,
-            24,
-            195,
-            215
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.25,
-          "offset": [
-            14,
-            7
-          ],
-          "alpha_bbox": [
-            14,
-            7,
-            49,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 10,
-          "name": "frame_10",
-          "path": "assets/art/pixel_knight/ranged_original/frame_10.png",
           "rect": [
             128,
             128,
             64,
             64
-          ],
-          "source_bbox": [
-            50,
-            45,
-            200,
-            213
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.25,
-          "offset": [
-            13,
-            13
-          ],
-          "alpha_bbox": [
-            13,
-            13,
-            51,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 11,
-          "name": "frame_11",
-          "path": "assets/art/pixel_knight/ranged_original/frame_11.png",
           "rect": [
             192,
             128,
             64,
             64
-          ],
-          "source_bbox": [
-            50,
-            45,
-            200,
-            213
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.25,
-          "offset": [
-            13,
-            13
-          ],
-          "alpha_bbox": [
-            13,
-            13,
-            51,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 12,
-          "name": "frame_12",
-          "path": "assets/art/pixel_knight/ranged_original/frame_12.png",
           "rect": [
             0,
             192,
             64,
             64
-          ],
-          "source_bbox": [
-            51,
-            48,
-            214,
-            210
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.25,
-          "offset": [
-            11,
-            15
-          ],
-          "alpha_bbox": [
-            11,
-            15,
-            52,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 13,
-          "name": "frame_13",
-          "path": "assets/art/pixel_knight/ranged_original/frame_13.png",
           "rect": [
             64,
             192,
             64,
             64
-          ],
-          "source_bbox": [
-            52,
-            44,
-            201,
-            212
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.25,
-          "offset": [
-            13,
-            13
-          ],
-          "alpha_bbox": [
-            13,
-            13,
-            50,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 14,
-          "name": "frame_14",
-          "path": "assets/art/pixel_knight/ranged_original/frame_14.png",
           "rect": [
             128,
             192,
             64,
             64
-          ],
-          "source_bbox": [
-            37,
-            48,
-            215,
-            210
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.25,
-          "offset": [
-            10,
-            15
-          ],
-          "alpha_bbox": [
-            10,
-            15,
-            54,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 15,
-          "name": "frame_15",
-          "path": "assets/art/pixel_knight/ranged_original/frame_15.png",
           "rect": [
             192,
             192,
             64,
             64
-          ],
-          "source_bbox": [
-            32,
-            49,
-            212,
-            210
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.25,
-          "offset": [
-            9,
-            15
-          ],
-          "alpha_bbox": [
-            9,
-            15,
-            54,
-            55
-          ],
-          "clipped": false
+          ]
         }
       ],
       "clips": {
@@ -2151,9 +752,7 @@
             1
           ],
           "frame_duration_seconds": 0.14,
-          "duration_seconds": 0.28,
-          "loop": true,
-          "timing_provenance": "animation clip timing"
+          "loop": true
         },
         "move": {
           "frames": [
@@ -2161,9 +760,7 @@
             3
           ],
           "frame_duration_seconds": 0.1,
-          "duration_seconds": 0.2,
-          "loop": true,
-          "timing_provenance": "animation clip timing"
+          "loop": true
         },
         "windup": {
           "frames": [
@@ -2171,9 +768,7 @@
             5
           ],
           "frame_duration_seconds": 0.14,
-          "duration_seconds": 0.28,
-          "loop": false,
-          "timing_provenance": "animation clip timing"
+          "loop": false
         },
         "attack": {
           "frames": [
@@ -2181,9 +776,7 @@
             7
           ],
           "frame_duration_seconds": 0.1,
-          "duration_seconds": 0.2,
-          "loop": false,
-          "timing_provenance": "animation clip timing"
+          "loop": false
         },
         "upper": {
           "frames": [
@@ -2191,9 +784,7 @@
             9
           ],
           "frame_duration_seconds": 0.14,
-          "duration_seconds": 0.28,
-          "loop": false,
-          "timing_provenance": "animation clip timing"
+          "loop": false
         },
         "stun": {
           "frames": [
@@ -2201,9 +792,7 @@
             11
           ],
           "frame_duration_seconds": 0.14,
-          "duration_seconds": 0.28,
-          "loop": false,
-          "timing_provenance": "animation clip timing"
+          "loop": false
         },
         "death": {
           "frames": [
@@ -2211,9 +800,7 @@
             14
           ],
           "frame_duration_seconds": 0.14,
-          "duration_seconds": 0.28,
-          "loop": false,
-          "timing_provenance": "animation clip timing"
+          "loop": false
         },
         "brick": {
           "frames": [
@@ -2221,385 +808,121 @@
             15
           ],
           "frame_duration_seconds": 0.14,
-          "duration_seconds": 0.28,
-          "loop": true,
-          "timing_provenance": "animation clip timing"
+          "loop": true
         }
-      },
-      "source_path": "assets/art/source/ranged_slime_sheet.png"
+      }
     },
     "ranged_clone": {
-      "frame_count": 12,
-      "cell_size": [
-        64,
-        64
-      ],
-      "sheet_size": [
-        256,
-        192
-      ],
-      "logical_pixel_scale": 1,
       "sheet": "assets/art/pixel_knight/ranged_clone/sheet.png",
+      "frame_count": 12,
       "frames": [
         {
           "index": 0,
-          "name": "frame_00",
-          "path": "assets/art/pixel_knight/ranged_clone/frame_00.png",
           "rect": [
             0,
             0,
             64,
             64
-          ],
-          "source_bbox": [
-            54,
-            52,
-            203,
-            220
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.25,
-          "offset": [
-            13,
-            13
-          ],
-          "alpha_bbox": [
-            13,
-            13,
-            50,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 1,
-          "name": "frame_01",
-          "path": "assets/art/pixel_knight/ranged_clone/frame_01.png",
           "rect": [
             64,
             0,
             64,
             64
-          ],
-          "source_bbox": [
-            52,
-            53,
-            200,
-            220
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.25,
-          "offset": [
-            13,
-            13
-          ],
-          "alpha_bbox": [
-            13,
-            13,
-            50,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 2,
-          "name": "frame_02",
-          "path": "assets/art/pixel_knight/ranged_clone/frame_02.png",
           "rect": [
             128,
             0,
             64,
             64
-          ],
-          "source_bbox": [
-            51,
-            53,
-            200,
-            220
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.25,
-          "offset": [
-            13,
-            13
-          ],
-          "alpha_bbox": [
-            13,
-            13,
-            50,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 3,
-          "name": "frame_03",
-          "path": "assets/art/pixel_knight/ranged_clone/frame_03.png",
           "rect": [
             192,
             0,
             64,
             64
-          ],
-          "source_bbox": [
-            50,
-            53,
-            199,
-            220
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.25,
-          "offset": [
-            13,
-            13
-          ],
-          "alpha_bbox": [
-            13,
-            13,
-            50,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 4,
-          "name": "frame_04",
-          "path": "assets/art/pixel_knight/ranged_clone/frame_04.png",
           "rect": [
             0,
             64,
             64,
             64
-          ],
-          "source_bbox": [
-            54,
-            47,
-            203,
-            215
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.25,
-          "offset": [
-            13,
-            13
-          ],
-          "alpha_bbox": [
-            13,
-            13,
-            50,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 5,
-          "name": "frame_05",
-          "path": "assets/art/pixel_knight/ranged_clone/frame_05.png",
           "rect": [
             64,
             64,
             64,
             64
-          ],
-          "source_bbox": [
-            23,
-            48,
-            227,
-            215
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.25,
-          "offset": [
-            6,
-            13
-          ],
-          "alpha_bbox": [
-            6,
-            13,
-            57,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 6,
-          "name": "frame_06",
-          "path": "assets/art/pixel_knight/ranged_clone/frame_06.png",
           "rect": [
             128,
             64,
             64,
             64
-          ],
-          "source_bbox": [
-            51,
-            47,
-            200,
-            215
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.25,
-          "offset": [
-            13,
-            13
-          ],
-          "alpha_bbox": [
-            13,
-            13,
-            50,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 7,
-          "name": "frame_07",
-          "path": "assets/art/pixel_knight/ranged_clone/frame_07.png",
           "rect": [
             192,
             64,
             64,
             64
-          ],
-          "source_bbox": [
-            50,
-            47,
-            200,
-            215
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.25,
-          "offset": [
-            13,
-            13
-          ],
-          "alpha_bbox": [
-            13,
-            13,
-            51,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 8,
-          "name": "frame_08",
-          "path": "assets/art/pixel_knight/ranged_clone/frame_08.png",
           "rect": [
             0,
             128,
             64,
             64
-          ],
-          "source_bbox": [
-            53,
-            45,
-            203,
-            213
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.25,
-          "offset": [
-            13,
-            13
-          ],
-          "alpha_bbox": [
-            13,
-            13,
-            51,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 9,
-          "name": "frame_09",
-          "path": "assets/art/pixel_knight/ranged_clone/frame_09.png",
           "rect": [
             64,
             128,
             64,
             64
-          ],
-          "source_bbox": [
-            55,
-            24,
-            195,
-            215
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.25,
-          "offset": [
-            14,
-            7
-          ],
-          "alpha_bbox": [
-            14,
-            7,
-            49,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 10,
-          "name": "frame_10",
-          "path": "assets/art/pixel_knight/ranged_clone/frame_10.png",
           "rect": [
             128,
             128,
             64,
             64
-          ],
-          "source_bbox": [
-            50,
-            45,
-            200,
-            213
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.25,
-          "offset": [
-            13,
-            13
-          ],
-          "alpha_bbox": [
-            13,
-            13,
-            51,
-            55
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 11,
-          "name": "frame_11",
-          "path": "assets/art/pixel_knight/ranged_clone/frame_11.png",
           "rect": [
             192,
             128,
             64,
             64
-          ],
-          "source_bbox": [
-            50,
-            45,
-            200,
-            213
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.25,
-          "offset": [
-            13,
-            13
-          ],
-          "alpha_bbox": [
-            13,
-            13,
-            51,
-            55
-          ],
-          "clipped": false
+          ]
         }
       ],
       "clips": {
@@ -2609,9 +932,7 @@
             1
           ],
           "frame_duration_seconds": 0.14,
-          "duration_seconds": 0.28,
-          "loop": true,
-          "timing_provenance": "animation clip timing"
+          "loop": true
         },
         "move": {
           "frames": [
@@ -2619,9 +940,7 @@
             3
           ],
           "frame_duration_seconds": 0.1,
-          "duration_seconds": 0.2,
-          "loop": true,
-          "timing_provenance": "animation clip timing"
+          "loop": true
         },
         "windup": {
           "frames": [
@@ -2629,9 +948,7 @@
             5
           ],
           "frame_duration_seconds": 0.14,
-          "duration_seconds": 0.28,
-          "loop": false,
-          "timing_provenance": "animation clip timing"
+          "loop": false
         },
         "attack": {
           "frames": [
@@ -2639,9 +956,7 @@
             7
           ],
           "frame_duration_seconds": 0.1,
-          "duration_seconds": 0.2,
-          "loop": false,
-          "timing_provenance": "animation clip timing"
+          "loop": false
         },
         "upper": {
           "frames": [
@@ -2649,9 +964,7 @@
             9
           ],
           "frame_duration_seconds": 0.14,
-          "duration_seconds": 0.28,
-          "loop": false,
-          "timing_provenance": "animation clip timing"
+          "loop": false
         },
         "stun": {
           "frames": [
@@ -2659,506 +972,157 @@
             11
           ],
           "frame_duration_seconds": 0.14,
-          "duration_seconds": 0.28,
-          "loop": false,
-          "timing_provenance": "animation clip timing"
+          "loop": false
         }
-      },
-      "source_path": "assets/art/source/ranged_slime_sheet.png",
-      "death_behavior": "vanish; use clone FX, no corpse/brick frames"
+      }
     },
     "fx": {
-      "frame_count": 16,
-      "cell_size": [
-        64,
-        64
-      ],
-      "sheet_size": [
-        256,
-        256
-      ],
-      "logical_pixel_scale": 1,
       "sheet": "assets/art/pixel_knight/fx/sheet.png",
+      "frame_count": 16,
       "frames": [
         {
           "index": 0,
-          "name": "frame_00",
-          "path": "assets/art/pixel_knight/fx/frame_00.png",
           "rect": [
             0,
             0,
             64,
             64
-          ],
-          "source_bbox": [
-            65,
-            92,
-            201,
-            186
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            15,
-            20
-          ],
-          "alpha_bbox": [
-            15,
-            20,
-            49,
-            44
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 1,
-          "name": "frame_01",
-          "path": "assets/art/pixel_knight/fx/frame_01.png",
           "rect": [
             64,
             0,
             64,
             64
-          ],
-          "source_bbox": [
-            51,
-            59,
-            218,
-            211
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            11,
-            13
-          ],
-          "alpha_bbox": [
-            11,
-            13,
-            53,
-            51
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 2,
-          "name": "frame_02",
-          "path": "assets/art/pixel_knight/fx/frame_02.png",
           "rect": [
             128,
             0,
             64,
             64
-          ],
-          "source_bbox": [
-            89,
-            89,
-            167,
-            166
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            22,
-            22
-          ],
-          "alpha_bbox": [
-            22,
-            22,
-            42,
-            41
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 3,
-          "name": "frame_03",
-          "path": "assets/art/pixel_knight/fx/frame_03.png",
           "rect": [
             192,
             0,
             64,
             64
-          ],
-          "source_bbox": [
-            39,
-            40,
-            217,
-            216
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            10,
-            10
-          ],
-          "alpha_bbox": [
-            10,
-            10,
-            54,
-            54
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 4,
-          "name": "frame_04",
-          "path": "assets/art/pixel_knight/fx/frame_04.png",
           "rect": [
             0,
             64,
             64,
             64
-          ],
-          "source_bbox": [
-            77,
-            87,
-            176,
-            180
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            19,
-            20
-          ],
-          "alpha_bbox": [
-            19,
-            20,
-            44,
-            43
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 5,
-          "name": "frame_05",
-          "path": "assets/art/pixel_knight/fx/frame_05.png",
           "rect": [
             64,
             64,
             64,
             64
-          ],
-          "source_bbox": [
-            37,
-            46,
-            212,
-            216
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            10,
-            11
-          ],
-          "alpha_bbox": [
-            10,
-            11,
-            52,
-            53
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 6,
-          "name": "frame_06",
-          "path": "assets/art/pixel_knight/fx/frame_06.png",
           "rect": [
             128,
             64,
             64,
             64
-          ],
-          "source_bbox": [
-            53,
-            52,
-            203,
-            210
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            13,
-            12
-          ],
-          "alpha_bbox": [
-            13,
-            12,
-            51,
-            52
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 7,
-          "name": "frame_07",
-          "path": "assets/art/pixel_knight/fx/frame_07.png",
           "rect": [
             192,
             64,
             64,
             64
-          ],
-          "source_bbox": [
-            44,
-            47,
-            211,
-            214
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            11,
-            11
-          ],
-          "alpha_bbox": [
-            11,
-            11,
-            53,
-            53
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 8,
-          "name": "frame_08",
-          "path": "assets/art/pixel_knight/fx/frame_08.png",
           "rect": [
             0,
             128,
             64,
             64
-          ],
-          "source_bbox": [
-            25,
-            123,
-            231,
-            134
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            6,
-            30
-          ],
-          "alpha_bbox": [
-            6,
-            30,
-            58,
-            33
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 9,
-          "name": "frame_09",
-          "path": "assets/art/pixel_knight/fx/frame_09.png",
           "rect": [
             64,
             128,
             64,
             64
-          ],
-          "source_bbox": [
-            20,
-            123,
-            235,
-            135
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            5,
-            30
-          ],
-          "alpha_bbox": [
-            5,
-            30,
-            59,
-            33
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 10,
-          "name": "frame_10",
-          "path": "assets/art/pixel_knight/fx/frame_10.png",
           "rect": [
             128,
             128,
             64,
             64
-          ],
-          "source_bbox": [
-            18,
-            108,
-            244,
-            144
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            4,
-            27
-          ],
-          "alpha_bbox": [
-            4,
-            27,
-            60,
-            36
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 11,
-          "name": "frame_11",
-          "path": "assets/art/pixel_knight/fx/frame_11.png",
           "rect": [
             192,
             128,
             64,
             64
-          ],
-          "source_bbox": [
-            22,
-            96,
-            244,
-            160
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            4,
-            24
-          ],
-          "alpha_bbox": [
-            4,
-            24,
-            60,
-            40
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 12,
-          "name": "frame_12",
-          "path": "assets/art/pixel_knight/fx/frame_12.png",
           "rect": [
             0,
             192,
             64,
             64
-          ],
-          "source_bbox": [
-            86,
-            93,
-            165,
-            169
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            22,
-            22
-          ],
-          "alpha_bbox": [
-            22,
-            22,
-            42,
-            41
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 13,
-          "name": "frame_13",
-          "path": "assets/art/pixel_knight/fx/frame_13.png",
           "rect": [
             64,
             192,
             64,
             64
-          ],
-          "source_bbox": [
-            44,
-            51,
-            205,
-            206
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            12,
-            12
-          ],
-          "alpha_bbox": [
-            12,
-            12,
-            52,
-            51
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 14,
-          "name": "frame_14",
-          "path": "assets/art/pixel_knight/fx/frame_14.png",
           "rect": [
             128,
             192,
             64,
             64
-          ],
-          "source_bbox": [
-            54,
-            61,
-            202,
-            201
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            13,
-            14
-          ],
-          "alpha_bbox": [
-            13,
-            14,
-            50,
-            49
-          ],
-          "clipped": false
+          ]
         },
         {
           "index": 15,
-          "name": "frame_15",
-          "path": "assets/art/pixel_knight/fx/frame_15.png",
           "rect": [
             192,
             192,
             64,
             64
-          ],
-          "source_bbox": [
-            76,
-            39,
-            177,
-            214
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            19,
-            10
-          ],
-          "alpha_bbox": [
-            19,
-            10,
-            44,
-            54
-          ],
-          "clipped": false
+          ]
         }
       ],
       "clips": {
@@ -3168,9 +1132,7 @@
             1
           ],
           "frame_duration_seconds": 0.14,
-          "duration_seconds": 0.28,
-          "loop": false,
-          "timing_provenance": "animation clip timing"
+          "loop": false
         },
         "parry": {
           "frames": [
@@ -3178,9 +1140,7 @@
             3
           ],
           "frame_duration_seconds": 0.14,
-          "duration_seconds": 0.28,
-          "loop": false,
-          "timing_provenance": "animation clip timing"
+          "loop": false
         },
         "just_parry": {
           "frames": [
@@ -3188,9 +1148,7 @@
             5
           ],
           "frame_duration_seconds": 0.14,
-          "duration_seconds": 0.28,
-          "loop": false,
-          "timing_provenance": "animation clip timing"
+          "loop": false
         },
         "time_stop": {
           "frames": [
@@ -3198,9 +1156,7 @@
             7
           ],
           "frame_duration_seconds": 0.14,
-          "duration_seconds": 0.28,
-          "loop": false,
-          "timing_provenance": "animation clip timing"
+          "loop": false
         },
         "ranged_warning": {
           "frames": [
@@ -3208,9 +1164,7 @@
             9
           ],
           "frame_duration_seconds": 0.14,
-          "duration_seconds": 0.28,
-          "loop": false,
-          "timing_provenance": "animation clip timing"
+          "loop": false
         },
         "ranged_hit": {
           "frames": [
@@ -3218,9 +1172,7 @@
             11
           ],
           "frame_duration_seconds": 0.14,
-          "duration_seconds": 0.28,
-          "loop": false,
-          "timing_provenance": "animation clip timing"
+          "loop": false
         },
         "clone": {
           "frames": [
@@ -3228,9 +1180,7 @@
             13
           ],
           "frame_duration_seconds": 0.14,
-          "duration_seconds": 0.28,
-          "loop": false,
-          "timing_provenance": "animation clip timing"
+          "loop": false
         },
         "revive": {
           "frames": [
@@ -3238,150 +1188,49 @@
             15
           ],
           "frame_duration_seconds": 0.14,
-          "duration_seconds": 0.28,
-          "loop": false,
-          "timing_provenance": "animation clip timing"
+          "loop": false
         }
-      },
-      "source_path": "assets/art/source/fx_combat_sheet.png",
-      "ranged_hit_behavior": "instant full line hit; not a moving projectile"
+      }
     },
     "fx_utilities": {
-      "frame_count": 4,
-      "cell_size": [
-        64,
-        64
-      ],
-      "sheet_size": [
-        256,
-        64
-      ],
-      "logical_pixel_scale": 1,
       "sheet": "assets/art/pixel_knight/fx_utilities/sheet.png",
+      "frame_count": 4,
       "frames": [
         {
           "index": 0,
-          "name": "frame_00",
-          "path": "assets/art/pixel_knight/fx_utilities/frame_00.png",
           "rect": [
             0,
             0,
             64,
             64
-          ],
-          "source_bbox": [
-            41,
-            39,
-            220,
-            217
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            9,
-            10
-          ],
-          "alpha_bbox": [
-            9,
-            10,
-            54,
-            54
-          ],
-          "clipped": false,
-          "source_frame_index": 8
+          ]
         },
         {
           "index": 1,
-          "name": "frame_01",
-          "path": "assets/art/pixel_knight/fx_utilities/frame_01.png",
           "rect": [
             64,
             0,
             64,
             64
-          ],
-          "source_bbox": [
-            40,
-            39,
-            218,
-            217
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            10,
-            10
-          ],
-          "alpha_bbox": [
-            10,
-            10,
-            54,
-            54
-          ],
-          "clipped": false,
-          "source_frame_index": 9
+          ]
         },
         {
           "index": 2,
-          "name": "frame_02",
-          "path": "assets/art/pixel_knight/fx_utilities/frame_02.png",
           "rect": [
             128,
             0,
             64,
             64
-          ],
-          "source_bbox": [
-            69,
-            46,
-            185,
-            209
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            17,
-            11
-          ],
-          "alpha_bbox": [
-            17,
-            11,
-            46,
-            52
-          ],
-          "clipped": false,
-          "source_frame_index": 14
+          ]
         },
         {
           "index": 3,
-          "name": "frame_03",
-          "path": "assets/art/pixel_knight/fx_utilities/frame_03.png",
           "rect": [
             192,
             0,
             64,
             64
-          ],
-          "source_bbox": [
-            65,
-            46,
-            185,
-            209
-          ],
-          "source_gutter_pixels": 12,
-          "scale": 0.25,
-          "offset": [
-            17,
-            11
-          ],
-          "alpha_bbox": [
-            17,
-            11,
-            47,
-            52
-          ],
-          "clipped": false,
-          "source_frame_index": 15
+          ]
         }
       ],
       "clips": {
@@ -3391,9 +1240,7 @@
             1
           ],
           "frame_duration_seconds": 0.14,
-          "duration_seconds": 0.28,
-          "loop": false,
-          "timing_provenance": "animation clip timing"
+          "loop": false
         },
         "exit": {
           "frames": [
@@ -3401,3688 +1248,9 @@
             3
           ],
           "frame_duration_seconds": 0.14,
-          "duration_seconds": 0.28,
-          "loop": false,
-          "timing_provenance": "animation clip timing"
+          "loop": false
         }
-      },
-      "source_path": "assets/art/source/fx_sheet.png"
-    },
-    "tiles_warm": {
-      "frame_count": 16,
-      "cell_size": [
-        32,
-        32
-      ],
-      "sheet_size": [
-        128,
-        128
-      ],
-      "logical_pixel_scale": 1,
-      "sheet": "assets/art/pixel_knight/tiles_warm/sheet.png",
-      "frames": [
-        {
-          "index": 0,
-          "name": "ground_top",
-          "path": "assets/art/pixel_knight/tiles_warm/ground_top.png",
-          "rect": [
-            0,
-            0,
-            32,
-            32
-          ],
-          "source_bbox": [
-            40,
-            107,
-            234,
-            178
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.125,
-          "offset": [
-            4,
-            11
-          ],
-          "alpha_bbox": [
-            4,
-            11,
-            28,
-            20
-          ],
-          "clipped": false
-        },
-        {
-          "index": 1,
-          "name": "ground_fill",
-          "path": "assets/art/pixel_knight/tiles_warm/ground_fill.png",
-          "rect": [
-            32,
-            0,
-            32,
-            32
-          ],
-          "source_bbox": [
-            31,
-            112,
-            225,
-            182
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.125,
-          "offset": [
-            4,
-            11
-          ],
-          "alpha_bbox": [
-            4,
-            11,
-            28,
-            20
-          ],
-          "clipped": false
-        },
-        {
-          "index": 2,
-          "name": "wall",
-          "path": "assets/art/pixel_knight/tiles_warm/wall.png",
-          "rect": [
-            64,
-            0,
-            32,
-            32
-          ],
-          "source_bbox": [
-            41,
-            40,
-            204,
-            236
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.125,
-          "offset": [
-            6,
-            4
-          ],
-          "alpha_bbox": [
-            6,
-            4,
-            26,
-            28
-          ],
-          "clipped": false
-        },
-        {
-          "index": 3,
-          "name": "platform",
-          "path": "assets/art/pixel_knight/tiles_warm/platform.png",
-          "rect": [
-            96,
-            0,
-            32,
-            32
-          ],
-          "source_bbox": [
-            20,
-            119,
-            218,
-            168
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.125,
-          "offset": [
-            3,
-            13
-          ],
-          "alpha_bbox": [
-            3,
-            13,
-            28,
-            19
-          ],
-          "clipped": false
-        },
-        {
-          "index": 4,
-          "name": "pillar_base",
-          "path": "assets/art/pixel_knight/tiles_warm/pillar_base.png",
-          "rect": [
-            0,
-            32,
-            32,
-            32
-          ],
-          "source_bbox": [
-            90,
-            21,
-            188,
-            210
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.125,
-          "offset": [
-            10,
-            4
-          ],
-          "alpha_bbox": [
-            10,
-            4,
-            22,
-            28
-          ],
-          "clipped": false
-        },
-        {
-          "index": 5,
-          "name": "pillar_mid",
-          "path": "assets/art/pixel_knight/tiles_warm/pillar_mid.png",
-          "rect": [
-            32,
-            32,
-            32,
-            32
-          ],
-          "source_bbox": [
-            82,
-            24,
-            176,
-            210
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.125,
-          "offset": [
-            10,
-            4
-          ],
-          "alpha_bbox": [
-            10,
-            4,
-            22,
-            27
-          ],
-          "clipped": false
-        },
-        {
-          "index": 6,
-          "name": "arch_left",
-          "path": "assets/art/pixel_knight/tiles_warm/arch_left.png",
-          "rect": [
-            64,
-            32,
-            32,
-            32
-          ],
-          "source_bbox": [
-            37,
-            41,
-            210,
-            203
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.125,
-          "offset": [
-            5,
-            6
-          ],
-          "alpha_bbox": [
-            5,
-            6,
-            27,
-            26
-          ],
-          "clipped": false
-        },
-        {
-          "index": 7,
-          "name": "arch_right",
-          "path": "assets/art/pixel_knight/tiles_warm/arch_right.png",
-          "rect": [
-            96,
-            32,
-            32,
-            32
-          ],
-          "source_bbox": [
-            31,
-            46,
-            201,
-            206
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.125,
-          "offset": [
-            5,
-            6
-          ],
-          "alpha_bbox": [
-            5,
-            6,
-            26,
-            26
-          ],
-          "clipped": false
-        },
-        {
-          "index": 8,
-          "name": "brick_corpse_round",
-          "path": "assets/art/pixel_knight/tiles_warm/brick_corpse_round.png",
-          "rect": [
-            0,
-            64,
-            32,
-            32
-          ],
-          "source_bbox": [
-            40,
-            54,
-            233,
-            208
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.125,
-          "offset": [
-            4,
-            6
-          ],
-          "alpha_bbox": [
-            4,
-            6,
-            28,
-            25
-          ],
-          "clipped": false
-        },
-        {
-          "index": 9,
-          "name": "brick_corpse_diamond",
-          "path": "assets/art/pixel_knight/tiles_warm/brick_corpse_diamond.png",
-          "rect": [
-            32,
-            64,
-            32,
-            32
-          ],
-          "source_bbox": [
-            33,
-            58,
-            224,
-            211
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.125,
-          "offset": [
-            4,
-            6
-          ],
-          "alpha_bbox": [
-            4,
-            6,
-            28,
-            25
-          ],
-          "clipped": false
-        },
-        {
-          "index": 10,
-          "name": "door_closed",
-          "path": "assets/art/pixel_knight/tiles_warm/door_closed.png",
-          "rect": [
-            64,
-            64,
-            32,
-            32
-          ],
-          "source_bbox": [
-            49,
-            43,
-            198,
-            220
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.125,
-          "offset": [
-            6,
-            5
-          ],
-          "alpha_bbox": [
-            6,
-            5,
-            25,
-            27
-          ],
-          "clipped": false
-        },
-        {
-          "index": 11,
-          "name": "door_open",
-          "path": "assets/art/pixel_knight/tiles_warm/door_open.png",
-          "rect": [
-            96,
-            64,
-            32,
-            32
-          ],
-          "source_bbox": [
-            40,
-            43,
-            210,
-            226
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.125,
-          "offset": [
-            5,
-            4
-          ],
-          "alpha_bbox": [
-            5,
-            4,
-            26,
-            27
-          ],
-          "clipped": false
-        },
-        {
-          "index": 12,
-          "name": "seam_marker",
-          "path": "assets/art/pixel_knight/tiles_warm/seam_marker.png",
-          "rect": [
-            0,
-            96,
-            32,
-            32
-          ],
-          "source_bbox": [
-            40,
-            98,
-            234,
-            126
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.125,
-          "offset": [
-            4,
-            14
-          ],
-          "alpha_bbox": [
-            4,
-            14,
-            28,
-            18
-          ],
-          "clipped": false
-        },
-        {
-          "index": 13,
-          "name": "checkpoint",
-          "path": "assets/art/pixel_knight/tiles_warm/checkpoint.png",
-          "rect": [
-            32,
-            96,
-            32,
-            32
-          ],
-          "source_bbox": [
-            87,
-            55,
-            164,
-            200
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.125,
-          "offset": [
-            11,
-            7
-          ],
-          "alpha_bbox": [
-            11,
-            7,
-            21,
-            25
-          ],
-          "clipped": false
-        },
-        {
-          "index": 14,
-          "name": "button_down",
-          "path": "assets/art/pixel_knight/tiles_warm/button_down.png",
-          "rect": [
-            64,
-            96,
-            32,
-            32
-          ],
-          "source_bbox": [
-            48,
-            60,
-            197,
-            200
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.125,
-          "offset": [
-            6,
-            7
-          ],
-          "alpha_bbox": [
-            6,
-            7,
-            25,
-            25
-          ],
-          "clipped": false
-        },
-        {
-          "index": 15,
-          "name": "button_up",
-          "path": "assets/art/pixel_knight/tiles_warm/button_up.png",
-          "rect": [
-            96,
-            96,
-            32,
-            32
-          ],
-          "source_bbox": [
-            46,
-            60,
-            192,
-            200
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.125,
-          "offset": [
-            7,
-            7
-          ],
-          "alpha_bbox": [
-            7,
-            7,
-            25,
-            25
-          ],
-          "clipped": false
-        }
-      ],
-      "clips": {},
-      "source_path": "assets/art/source/tiles_sheet.png",
-      "usage": "props_only_not_seamless_terrain",
-      "doors_are_separate_props": true
-    },
-    "tiles_cold": {
-      "frame_count": 16,
-      "cell_size": [
-        32,
-        32
-      ],
-      "sheet_size": [
-        128,
-        128
-      ],
-      "logical_pixel_scale": 1,
-      "sheet": "assets/art/pixel_knight/tiles_cold/sheet.png",
-      "frames": [
-        {
-          "index": 0,
-          "name": "ground_top",
-          "path": "assets/art/pixel_knight/tiles_cold/ground_top.png",
-          "rect": [
-            0,
-            0,
-            32,
-            32
-          ],
-          "source_bbox": [
-            40,
-            107,
-            234,
-            178
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.125,
-          "offset": [
-            4,
-            11
-          ],
-          "alpha_bbox": [
-            4,
-            11,
-            28,
-            20
-          ],
-          "clipped": false
-        },
-        {
-          "index": 1,
-          "name": "ground_fill",
-          "path": "assets/art/pixel_knight/tiles_cold/ground_fill.png",
-          "rect": [
-            32,
-            0,
-            32,
-            32
-          ],
-          "source_bbox": [
-            31,
-            112,
-            225,
-            182
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.125,
-          "offset": [
-            4,
-            11
-          ],
-          "alpha_bbox": [
-            4,
-            11,
-            28,
-            20
-          ],
-          "clipped": false
-        },
-        {
-          "index": 2,
-          "name": "wall",
-          "path": "assets/art/pixel_knight/tiles_cold/wall.png",
-          "rect": [
-            64,
-            0,
-            32,
-            32
-          ],
-          "source_bbox": [
-            41,
-            40,
-            204,
-            236
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.125,
-          "offset": [
-            6,
-            4
-          ],
-          "alpha_bbox": [
-            6,
-            4,
-            26,
-            28
-          ],
-          "clipped": false
-        },
-        {
-          "index": 3,
-          "name": "platform",
-          "path": "assets/art/pixel_knight/tiles_cold/platform.png",
-          "rect": [
-            96,
-            0,
-            32,
-            32
-          ],
-          "source_bbox": [
-            20,
-            119,
-            218,
-            168
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.125,
-          "offset": [
-            3,
-            13
-          ],
-          "alpha_bbox": [
-            3,
-            13,
-            28,
-            19
-          ],
-          "clipped": false
-        },
-        {
-          "index": 4,
-          "name": "pillar_base",
-          "path": "assets/art/pixel_knight/tiles_cold/pillar_base.png",
-          "rect": [
-            0,
-            32,
-            32,
-            32
-          ],
-          "source_bbox": [
-            90,
-            21,
-            188,
-            210
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.125,
-          "offset": [
-            10,
-            4
-          ],
-          "alpha_bbox": [
-            10,
-            4,
-            22,
-            28
-          ],
-          "clipped": false
-        },
-        {
-          "index": 5,
-          "name": "pillar_mid",
-          "path": "assets/art/pixel_knight/tiles_cold/pillar_mid.png",
-          "rect": [
-            32,
-            32,
-            32,
-            32
-          ],
-          "source_bbox": [
-            82,
-            24,
-            176,
-            210
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.125,
-          "offset": [
-            10,
-            4
-          ],
-          "alpha_bbox": [
-            10,
-            4,
-            22,
-            27
-          ],
-          "clipped": false
-        },
-        {
-          "index": 6,
-          "name": "arch_left",
-          "path": "assets/art/pixel_knight/tiles_cold/arch_left.png",
-          "rect": [
-            64,
-            32,
-            32,
-            32
-          ],
-          "source_bbox": [
-            37,
-            41,
-            210,
-            203
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.125,
-          "offset": [
-            5,
-            6
-          ],
-          "alpha_bbox": [
-            5,
-            6,
-            27,
-            26
-          ],
-          "clipped": false
-        },
-        {
-          "index": 7,
-          "name": "arch_right",
-          "path": "assets/art/pixel_knight/tiles_cold/arch_right.png",
-          "rect": [
-            96,
-            32,
-            32,
-            32
-          ],
-          "source_bbox": [
-            31,
-            46,
-            201,
-            206
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.125,
-          "offset": [
-            5,
-            6
-          ],
-          "alpha_bbox": [
-            5,
-            6,
-            26,
-            26
-          ],
-          "clipped": false
-        },
-        {
-          "index": 8,
-          "name": "brick_corpse_round",
-          "path": "assets/art/pixel_knight/tiles_cold/brick_corpse_round.png",
-          "rect": [
-            0,
-            64,
-            32,
-            32
-          ],
-          "source_bbox": [
-            40,
-            54,
-            233,
-            208
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.125,
-          "offset": [
-            4,
-            6
-          ],
-          "alpha_bbox": [
-            4,
-            6,
-            28,
-            25
-          ],
-          "clipped": false
-        },
-        {
-          "index": 9,
-          "name": "brick_corpse_diamond",
-          "path": "assets/art/pixel_knight/tiles_cold/brick_corpse_diamond.png",
-          "rect": [
-            32,
-            64,
-            32,
-            32
-          ],
-          "source_bbox": [
-            33,
-            58,
-            224,
-            211
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.125,
-          "offset": [
-            4,
-            6
-          ],
-          "alpha_bbox": [
-            4,
-            6,
-            28,
-            25
-          ],
-          "clipped": false
-        },
-        {
-          "index": 10,
-          "name": "door_closed",
-          "path": "assets/art/pixel_knight/tiles_cold/door_closed.png",
-          "rect": [
-            64,
-            64,
-            32,
-            32
-          ],
-          "source_bbox": [
-            49,
-            43,
-            198,
-            220
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.125,
-          "offset": [
-            6,
-            5
-          ],
-          "alpha_bbox": [
-            6,
-            5,
-            25,
-            27
-          ],
-          "clipped": false
-        },
-        {
-          "index": 11,
-          "name": "door_open",
-          "path": "assets/art/pixel_knight/tiles_cold/door_open.png",
-          "rect": [
-            96,
-            64,
-            32,
-            32
-          ],
-          "source_bbox": [
-            40,
-            43,
-            210,
-            226
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.125,
-          "offset": [
-            5,
-            4
-          ],
-          "alpha_bbox": [
-            5,
-            4,
-            26,
-            27
-          ],
-          "clipped": false
-        },
-        {
-          "index": 12,
-          "name": "seam_marker",
-          "path": "assets/art/pixel_knight/tiles_cold/seam_marker.png",
-          "rect": [
-            0,
-            96,
-            32,
-            32
-          ],
-          "source_bbox": [
-            40,
-            98,
-            234,
-            126
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.125,
-          "offset": [
-            4,
-            14
-          ],
-          "alpha_bbox": [
-            4,
-            14,
-            28,
-            18
-          ],
-          "clipped": false
-        },
-        {
-          "index": 13,
-          "name": "checkpoint",
-          "path": "assets/art/pixel_knight/tiles_cold/checkpoint.png",
-          "rect": [
-            32,
-            96,
-            32,
-            32
-          ],
-          "source_bbox": [
-            87,
-            55,
-            164,
-            200
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.125,
-          "offset": [
-            11,
-            7
-          ],
-          "alpha_bbox": [
-            11,
-            7,
-            21,
-            25
-          ],
-          "clipped": false
-        },
-        {
-          "index": 14,
-          "name": "button_down",
-          "path": "assets/art/pixel_knight/tiles_cold/button_down.png",
-          "rect": [
-            64,
-            96,
-            32,
-            32
-          ],
-          "source_bbox": [
-            48,
-            60,
-            197,
-            200
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.125,
-          "offset": [
-            6,
-            7
-          ],
-          "alpha_bbox": [
-            6,
-            7,
-            25,
-            25
-          ],
-          "clipped": false
-        },
-        {
-          "index": 15,
-          "name": "button_up",
-          "path": "assets/art/pixel_knight/tiles_cold/button_up.png",
-          "rect": [
-            96,
-            96,
-            32,
-            32
-          ],
-          "source_bbox": [
-            46,
-            60,
-            192,
-            200
-          ],
-          "source_gutter_pixels": 0,
-          "scale": 0.125,
-          "offset": [
-            7,
-            7
-          ],
-          "alpha_bbox": [
-            7,
-            7,
-            25,
-            25
-          ],
-          "clipped": false
-        }
-      ],
-      "clips": {},
-      "source_path": "assets/art/source/tiles_sheet.png",
-      "usage": "props_only_not_seamless_terrain",
-      "doors_are_separate_props": true
+      }
     }
-  },
-  "files": [
-    {
-      "path": "assets/art/pixel_knight/knight/sheet.png",
-      "width": 256,
-      "height": 256,
-      "color_type": "RGBA8",
-      "sha256": "8306cd99e0c3ce9219d60badc75d186bb6f7451e26e71cf01148a651671816d1",
-      "transparent_pixels": 53012,
-      "opaque_pixels": 12524,
-      "has_alpha": true,
-      "alpha_bbox": [
-        10,
-        10,
-        249,
-        247
-      ],
-      "source_path": "assets/art/source/knight_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/knight/frame_00.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "132ae52ec05466a1fe6788d668e24b0f58d783994895e5598f1642a9d6bfc2fb",
-      "transparent_pixels": 3268,
-      "opaque_pixels": 828,
-      "has_alpha": true,
-      "alpha_bbox": [
-        11,
-        10,
-        53,
-        55
-      ],
-      "source_path": "assets/art/source/knight_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/knight/frame_01.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "710e73cb18c5751d30ad573bca9b6a781a15f0d88d3e7354e42411af13109153",
-      "transparent_pixels": 3287,
-      "opaque_pixels": 809,
-      "has_alpha": true,
-      "alpha_bbox": [
-        12,
-        10,
-        52,
-        55
-      ],
-      "source_path": "assets/art/source/knight_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/knight/frame_02.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "e419700463599db0f4b9caa8995b5a193a062ac2e42e6b55b079fd99cbb1d4b4",
-      "transparent_pixels": 3328,
-      "opaque_pixels": 768,
-      "has_alpha": true,
-      "alpha_bbox": [
-        10,
-        10,
-        53,
-        55
-      ],
-      "source_path": "assets/art/source/knight_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/knight/frame_03.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "8de3543d258b99b60694592cb5eddd1f1a10d47123b457fda857470357f5f112",
-      "transparent_pixels": 3262,
-      "opaque_pixels": 834,
-      "has_alpha": true,
-      "alpha_bbox": [
-        10,
-        10,
-        54,
-        55
-      ],
-      "source_path": "assets/art/source/knight_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/knight/frame_04.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "c75c20916f4f1fefb2dbe96afa0cb64eee6bac34108d42450386e7337e85f6df",
-      "transparent_pixels": 3339,
-      "opaque_pixels": 757,
-      "has_alpha": true,
-      "alpha_bbox": [
-        10,
-        10,
-        53,
-        55
-      ],
-      "source_path": "assets/art/source/knight_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/knight/frame_05.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "66816936efe00edd0b97bf9f4ab1053374af99a725117024fbfc23eba50fe51b",
-      "transparent_pixels": 3305,
-      "opaque_pixels": 791,
-      "has_alpha": true,
-      "alpha_bbox": [
-        14,
-        10,
-        49,
-        55
-      ],
-      "source_path": "assets/art/source/knight_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/knight/frame_06.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "b58c7687680d1f27f2c658282080040c1047a45a702e2dde8dca237a805cf097",
-      "transparent_pixels": 3369,
-      "opaque_pixels": 727,
-      "has_alpha": true,
-      "alpha_bbox": [
-        15,
-        10,
-        49,
-        55
-      ],
-      "source_path": "assets/art/source/knight_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/knight/frame_07.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "f866b67d856a5646132b985b651be5bc8830c693835c1ddbc26cdc19ae7d38de",
-      "transparent_pixels": 3350,
-      "opaque_pixels": 746,
-      "has_alpha": true,
-      "alpha_bbox": [
-        14,
-        10,
-        50,
-        55
-      ],
-      "source_path": "assets/art/source/knight_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/knight/frame_08.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "65fb1f94e285d7ca3284921bafb6f0de4a4fde1a852ad2681a0031c0376508e3",
-      "transparent_pixels": 3267,
-      "opaque_pixels": 829,
-      "has_alpha": true,
-      "alpha_bbox": [
-        11,
-        10,
-        53,
-        55
-      ],
-      "source_path": "assets/art/source/knight_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/knight/frame_09.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "cfb81e4dbce945c772faf7d0b504aa06d101890ae13bafb5ecdb6a4089d145bf",
-      "transparent_pixels": 3345,
-      "opaque_pixels": 751,
-      "has_alpha": true,
-      "alpha_bbox": [
-        10,
-        10,
-        53,
-        55
-      ],
-      "source_path": "assets/art/source/knight_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/knight/frame_10.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "600c10a6903c4e590a5f2673665a2b90bed63015444dd972e6798a39d1810c6b",
-      "transparent_pixels": 3313,
-      "opaque_pixels": 783,
-      "has_alpha": true,
-      "alpha_bbox": [
-        8,
-        8,
-        56,
-        55
-      ],
-      "source_path": "assets/art/source/knight_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/knight/frame_11.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "60ea308a150105e201de106e7b17eb3f052311312bea18d612015377f889223b",
-      "transparent_pixels": 3253,
-      "opaque_pixels": 843,
-      "has_alpha": true,
-      "alpha_bbox": [
-        10,
-        10,
-        53,
-        55
-      ],
-      "source_path": "assets/art/source/knight_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/knight/frame_12.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "cfb3e7d54601848b209130f28753067cc5233815980276660e820423bc4de4cf",
-      "transparent_pixels": 3157,
-      "opaque_pixels": 939,
-      "has_alpha": true,
-      "alpha_bbox": [
-        11,
-        12,
-        52,
-        55
-      ],
-      "source_path": "assets/art/source/knight_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/knight/frame_13.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "8bcc981b0aa7485f36e3b5b26241ea1c775140f914478a396913cf60e3fcbaa4",
-      "transparent_pixels": 3310,
-      "opaque_pixels": 786,
-      "has_alpha": true,
-      "alpha_bbox": [
-        10,
-        11,
-        54,
-        55
-      ],
-      "source_path": "assets/art/source/knight_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/knight/frame_14.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "eb6c9e6adc1853e21900a24d8b413724fea013c5d29640816e7522e67e4e7e1d",
-      "transparent_pixels": 3299,
-      "opaque_pixels": 797,
-      "has_alpha": true,
-      "alpha_bbox": [
-        15,
-        16,
-        48,
-        55
-      ],
-      "source_path": "assets/art/source/knight_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/knight/frame_15.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "67f7a7c67bb2bb0a21d4263d99b11bdad8a3ba2b318d6c7a57ab25306892edde",
-      "transparent_pixels": 3560,
-      "opaque_pixels": 536,
-      "has_alpha": true,
-      "alpha_bbox": [
-        7,
-        39,
-        57,
-        55
-      ],
-      "source_path": "assets/art/source/knight_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/melee_original/sheet.png",
-      "width": 256,
-      "height": 256,
-      "color_type": "RGBA8",
-      "sha256": "e1c029bba46ca9d2c621e49b93ad846463db369b7f4a188bd54782b8c783a766",
-      "transparent_pixels": 47829,
-      "opaque_pixels": 17707,
-      "has_alpha": true,
-      "alpha_bbox": [
-        13,
-        14,
-        246,
-        247
-      ],
-      "source_path": "assets/art/source/melee_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/melee_original/frame_00.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "634405db9725bb096ebe61cb1195736bad232b79d652053b9ee584bc0de9080a",
-      "transparent_pixels": 3112,
-      "opaque_pixels": 984,
-      "has_alpha": true,
-      "alpha_bbox": [
-        14,
-        14,
-        50,
-        55
-      ],
-      "source_path": "assets/art/source/melee_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/melee_original/frame_01.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "8b739aa4b276a0939793eea3300a54a8e279e9968bb78382ef3be82ed083a92e",
-      "transparent_pixels": 3068,
-      "opaque_pixels": 1028,
-      "has_alpha": true,
-      "alpha_bbox": [
-        12,
-        14,
-        52,
-        55
-      ],
-      "source_path": "assets/art/source/melee_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/melee_original/frame_02.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "c062fab7f2b0aa44a95eccc3de65dafa194c8bd12094fea49917534a6178c212",
-      "transparent_pixels": 3106,
-      "opaque_pixels": 990,
-      "has_alpha": true,
-      "alpha_bbox": [
-        13,
-        14,
-        50,
-        55
-      ],
-      "source_path": "assets/art/source/melee_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/melee_original/frame_03.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "c7024f0725d1d75d8f1b33b9f6254b64e26209d12256c52ba28229503144db8e",
-      "transparent_pixels": 3090,
-      "opaque_pixels": 1006,
-      "has_alpha": true,
-      "alpha_bbox": [
-        13,
-        14,
-        51,
-        55
-      ],
-      "source_path": "assets/art/source/melee_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/melee_original/frame_04.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "a3f28be6087281a1e5de5651f2448c8d855bf1a66a9f943f2584278f26269a92",
-      "transparent_pixels": 3116,
-      "opaque_pixels": 980,
-      "has_alpha": true,
-      "alpha_bbox": [
-        13,
-        15,
-        51,
-        55
-      ],
-      "source_path": "assets/art/source/melee_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/melee_original/frame_05.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "42d8b38cb78753f6c20dfc0186ff7ae7be60a822ca31af6cd1393a85b5af9c9c",
-      "transparent_pixels": 3150,
-      "opaque_pixels": 946,
-      "has_alpha": true,
-      "alpha_bbox": [
-        13,
-        15,
-        50,
-        55
-      ],
-      "source_path": "assets/art/source/melee_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/melee_original/frame_06.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "24815d504be0545b3693e5f81c84ad4c0916a466ea491c12da56c8a98c573ff3",
-      "transparent_pixels": 3186,
-      "opaque_pixels": 910,
-      "has_alpha": true,
-      "alpha_bbox": [
-        11,
-        16,
-        53,
-        55
-      ],
-      "source_path": "assets/art/source/melee_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/melee_original/frame_07.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "6914b4ce408507d9771b0b981e5699320ba4949a9895082d6e468234fa760644",
-      "transparent_pixels": 3010,
-      "opaque_pixels": 1086,
-      "has_alpha": true,
-      "alpha_bbox": [
-        10,
-        15,
-        54,
-        55
-      ],
-      "source_path": "assets/art/source/melee_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/melee_original/frame_08.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "85c915eae2b9fff2a3c186ca76e971c647a131ec30bfa04bf0cadf59b876867a",
-      "transparent_pixels": 3136,
-      "opaque_pixels": 960,
-      "has_alpha": true,
-      "alpha_bbox": [
-        13,
-        15,
-        50,
-        55
-      ],
-      "source_path": "assets/art/source/melee_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/melee_original/frame_09.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "a63f17be25ec3b917be4af6f0537019bd4026be7bec89391f5d156b552c02e22",
-      "transparent_pixels": 3138,
-      "opaque_pixels": 958,
-      "has_alpha": true,
-      "alpha_bbox": [
-        13,
-        11,
-        50,
-        55
-      ],
-      "source_path": "assets/art/source/melee_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/melee_original/frame_10.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "b5c7b7a28da22f90daba1c0fb4cc67d1b3efdfbd20201b4ab1ed128ddc06bcb8",
-      "transparent_pixels": 3050,
-      "opaque_pixels": 1046,
-      "has_alpha": true,
-      "alpha_bbox": [
-        9,
-        15,
-        54,
-        55
-      ],
-      "source_path": "assets/art/source/melee_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/melee_original/frame_11.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "69002b5d41f69f89c77d27fc2dca02e3e2c536bff93007f95eb0af506ac817f4",
-      "transparent_pixels": 3095,
-      "opaque_pixels": 1001,
-      "has_alpha": true,
-      "alpha_bbox": [
-        13,
-        15,
-        51,
-        55
-      ],
-      "source_path": "assets/art/source/melee_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/melee_original/frame_12.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "e33b5b87cb82f24989c385c3f5005a71f3947904b15139c7866a11af076d6f04",
-      "transparent_pixels": 2745,
-      "opaque_pixels": 1351,
-      "has_alpha": true,
-      "alpha_bbox": [
-        13,
-        19,
-        51,
-        55
-      ],
-      "source_path": "assets/art/source/melee_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/melee_original/frame_13.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "0259b5403d45551da4055afea6def3990147069cc30bc3ed60f06b270656582c",
-      "transparent_pixels": 2672,
-      "opaque_pixels": 1424,
-      "has_alpha": true,
-      "alpha_bbox": [
-        12,
-        19,
-        52,
-        55
-      ],
-      "source_path": "assets/art/source/melee_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/melee_original/frame_14.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "3e7ce5db288c84ebb201706ff627485221f579a84b5ac7048b4895422cb39a66",
-      "transparent_pixels": 2632,
-      "opaque_pixels": 1464,
-      "has_alpha": true,
-      "alpha_bbox": [
-        11,
-        19,
-        52,
-        55
-      ],
-      "source_path": "assets/art/source/melee_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/melee_original/frame_15.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "d72dd1506667b50259156dbf0edc66072e0b10e876b14c516e31a2e49d01abe5",
-      "transparent_pixels": 2523,
-      "opaque_pixels": 1573,
-      "has_alpha": true,
-      "alpha_bbox": [
-        10,
-        19,
-        54,
-        55
-      ],
-      "source_path": "assets/art/source/melee_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/melee_clone/sheet.png",
-      "width": 256,
-      "height": 192,
-      "color_type": "RGBA8",
-      "sha256": "2163076c6bcd64fd56700345b97bfbf6f356f1927a86b68b304fa008aa425819",
-      "transparent_pixels": 37257,
-      "opaque_pixels": 11895,
-      "has_alpha": true,
-      "alpha_bbox": [
-        13,
-        14,
-        246,
-        183
-      ],
-      "source_path": "assets/art/source/melee_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "same extracted silhouette and alpha; warm hue to purple HSV transform"
-    },
-    {
-      "path": "assets/art/pixel_knight/melee_clone/frame_00.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "124f536a35fe7510d0f75b7a7724ec951b42c2b56612288620041772c48d2ff4",
-      "transparent_pixels": 3112,
-      "opaque_pixels": 984,
-      "has_alpha": true,
-      "alpha_bbox": [
-        14,
-        14,
-        50,
-        55
-      ],
-      "source_path": "assets/art/source/melee_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "same extracted silhouette and alpha; warm hue to purple HSV transform"
-    },
-    {
-      "path": "assets/art/pixel_knight/melee_clone/frame_01.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "582d944aa6d0b4720784c273455e845d305f044883df07d660fa28d601b252c6",
-      "transparent_pixels": 3068,
-      "opaque_pixels": 1028,
-      "has_alpha": true,
-      "alpha_bbox": [
-        12,
-        14,
-        52,
-        55
-      ],
-      "source_path": "assets/art/source/melee_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "same extracted silhouette and alpha; warm hue to purple HSV transform"
-    },
-    {
-      "path": "assets/art/pixel_knight/melee_clone/frame_02.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "0058aa79f7ab8ac550f99af9f65070365f35c398dbfb5fa39fe3e7b366121dda",
-      "transparent_pixels": 3106,
-      "opaque_pixels": 990,
-      "has_alpha": true,
-      "alpha_bbox": [
-        13,
-        14,
-        50,
-        55
-      ],
-      "source_path": "assets/art/source/melee_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "same extracted silhouette and alpha; warm hue to purple HSV transform"
-    },
-    {
-      "path": "assets/art/pixel_knight/melee_clone/frame_03.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "a5eed769650560a82aa352834eed6938a9eb6cda7a5330dcef8122d6c2910aa9",
-      "transparent_pixels": 3090,
-      "opaque_pixels": 1006,
-      "has_alpha": true,
-      "alpha_bbox": [
-        13,
-        14,
-        51,
-        55
-      ],
-      "source_path": "assets/art/source/melee_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "same extracted silhouette and alpha; warm hue to purple HSV transform"
-    },
-    {
-      "path": "assets/art/pixel_knight/melee_clone/frame_04.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "6f7c1d7aa2196cebe62a005ba2e70ac64c24bca1a8e4e15cf67204b68d62505c",
-      "transparent_pixels": 3116,
-      "opaque_pixels": 980,
-      "has_alpha": true,
-      "alpha_bbox": [
-        13,
-        15,
-        51,
-        55
-      ],
-      "source_path": "assets/art/source/melee_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "same extracted silhouette and alpha; warm hue to purple HSV transform"
-    },
-    {
-      "path": "assets/art/pixel_knight/melee_clone/frame_05.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "41a2eb2375d58d52dc323a72efe3cf6b7ce971dc490adf316c43c8272d85574f",
-      "transparent_pixels": 3150,
-      "opaque_pixels": 946,
-      "has_alpha": true,
-      "alpha_bbox": [
-        13,
-        15,
-        50,
-        55
-      ],
-      "source_path": "assets/art/source/melee_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "same extracted silhouette and alpha; warm hue to purple HSV transform"
-    },
-    {
-      "path": "assets/art/pixel_knight/melee_clone/frame_06.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "fb036ef2db16bbc0c124d838f87e96859b5358df447c777c4641d48cb8552f0a",
-      "transparent_pixels": 3186,
-      "opaque_pixels": 910,
-      "has_alpha": true,
-      "alpha_bbox": [
-        11,
-        16,
-        53,
-        55
-      ],
-      "source_path": "assets/art/source/melee_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "same extracted silhouette and alpha; warm hue to purple HSV transform"
-    },
-    {
-      "path": "assets/art/pixel_knight/melee_clone/frame_07.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "17f990c50f1e8e412d5e0bbfd2016c4e4a9ec83f366c5dc029385ce877f88ef8",
-      "transparent_pixels": 3010,
-      "opaque_pixels": 1086,
-      "has_alpha": true,
-      "alpha_bbox": [
-        10,
-        15,
-        54,
-        55
-      ],
-      "source_path": "assets/art/source/melee_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "same extracted silhouette and alpha; warm hue to purple HSV transform"
-    },
-    {
-      "path": "assets/art/pixel_knight/melee_clone/frame_08.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "b92fc1bdba92d0b763b61173aa2f839aa1c75056761f11da912488eb1be1f8ac",
-      "transparent_pixels": 3136,
-      "opaque_pixels": 960,
-      "has_alpha": true,
-      "alpha_bbox": [
-        13,
-        15,
-        50,
-        55
-      ],
-      "source_path": "assets/art/source/melee_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "same extracted silhouette and alpha; warm hue to purple HSV transform"
-    },
-    {
-      "path": "assets/art/pixel_knight/melee_clone/frame_09.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "d02dbde3a86ebc07b6d3c12a83f90b59db767f8c45625a5b281bfbc5cbd593ab",
-      "transparent_pixels": 3138,
-      "opaque_pixels": 958,
-      "has_alpha": true,
-      "alpha_bbox": [
-        13,
-        11,
-        50,
-        55
-      ],
-      "source_path": "assets/art/source/melee_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "same extracted silhouette and alpha; warm hue to purple HSV transform"
-    },
-    {
-      "path": "assets/art/pixel_knight/melee_clone/frame_10.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "7b099b94c3c759d1b197f89d0b7a0ad9b9057a4f2fb7cc5d1f55ffd145e1e32c",
-      "transparent_pixels": 3050,
-      "opaque_pixels": 1046,
-      "has_alpha": true,
-      "alpha_bbox": [
-        9,
-        15,
-        54,
-        55
-      ],
-      "source_path": "assets/art/source/melee_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "same extracted silhouette and alpha; warm hue to purple HSV transform"
-    },
-    {
-      "path": "assets/art/pixel_knight/melee_clone/frame_11.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "aaa8a9475081c715b7cdd59c6fac2bbaf237d2be3a9f98fdf19e272689b55f08",
-      "transparent_pixels": 3095,
-      "opaque_pixels": 1001,
-      "has_alpha": true,
-      "alpha_bbox": [
-        13,
-        15,
-        51,
-        55
-      ],
-      "source_path": "assets/art/source/melee_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "same extracted silhouette and alpha; warm hue to purple HSV transform"
-    },
-    {
-      "path": "assets/art/pixel_knight/bricks/melee_0.png",
-      "width": 32,
-      "height": 16,
-      "color_type": "RGBA8",
-      "sha256": "4ddd86d110d9321f3c5ce1db297c9c5232da91d0bd24081b6573a107db5ae727",
-      "transparent_pixels": 4,
-      "opaque_pixels": 508,
-      "has_alpha": true,
-      "alpha_bbox": [
-        0,
-        0,
-        32,
-        16
-      ],
-      "source_path": "assets/art/source/melee_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "derived: source brick bounding box aspect-compressed to 32x16 flat logical canvas; not hand-painted"
-    },
-    {
-      "path": "assets/art/pixel_knight/bricks/melee_1.png",
-      "width": 32,
-      "height": 16,
-      "color_type": "RGBA8",
-      "sha256": "34513cae54a80c8c4416f285edc6e728fe90306b2002ddf094fc9522f07b20ff",
-      "transparent_pixels": 4,
-      "opaque_pixels": 508,
-      "has_alpha": true,
-      "alpha_bbox": [
-        0,
-        0,
-        32,
-        16
-      ],
-      "source_path": "assets/art/source/melee_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "derived: source brick bounding box aspect-compressed to 32x16 flat logical canvas; not hand-painted"
-    },
-    {
-      "path": "assets/art/pixel_knight/ranged_original/sheet.png",
-      "width": 256,
-      "height": 256,
-      "color_type": "RGBA8",
-      "sha256": "1f19515a26ccd95a3b4fa7f1d18e1413507d140ac5921ab5a285035d1844a77e",
-      "transparent_pixels": 45167,
-      "opaque_pixels": 20369,
-      "has_alpha": true,
-      "alpha_bbox": [
-        11,
-        13,
-        246,
-        247
-      ],
-      "source_path": "assets/art/source/ranged_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/ranged_original/frame_00.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "15927a9d30b1c5fc55cb6306f7c5d6ec08d660dfb80a36bc7f083abdbb5b1cdb",
-      "transparent_pixels": 2940,
-      "opaque_pixels": 1156,
-      "has_alpha": true,
-      "alpha_bbox": [
-        13,
-        13,
-        50,
-        55
-      ],
-      "source_path": "assets/art/source/ranged_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/ranged_original/frame_01.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "13a16e706c1c8f96ae130c195c430d6d6781d2a3a2166a6882de9cb187ef35c0",
-      "transparent_pixels": 2933,
-      "opaque_pixels": 1163,
-      "has_alpha": true,
-      "alpha_bbox": [
-        13,
-        13,
-        50,
-        55
-      ],
-      "source_path": "assets/art/source/ranged_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/ranged_original/frame_02.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "3951c12896eab1b4a74c8dcb78f405475c79d4314ccebcede5a0cea836c61188",
-      "transparent_pixels": 2925,
-      "opaque_pixels": 1171,
-      "has_alpha": true,
-      "alpha_bbox": [
-        13,
-        13,
-        50,
-        55
-      ],
-      "source_path": "assets/art/source/ranged_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/ranged_original/frame_03.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "de93fac6dae9135d9669f9f8be3fea0acf230184e26edb4a82e389699562fa32",
-      "transparent_pixels": 2927,
-      "opaque_pixels": 1169,
-      "has_alpha": true,
-      "alpha_bbox": [
-        13,
-        13,
-        50,
-        55
-      ],
-      "source_path": "assets/art/source/ranged_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/ranged_original/frame_04.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "fcf719dc9f7246d3da5eb456978021948f9d1a81d10fb64173ae59c05c7c1c5a",
-      "transparent_pixels": 2934,
-      "opaque_pixels": 1162,
-      "has_alpha": true,
-      "alpha_bbox": [
-        13,
-        13,
-        50,
-        55
-      ],
-      "source_path": "assets/art/source/ranged_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/ranged_original/frame_05.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "349b7e6cd453725da58e743e1ad6ab55eff942a553c191196b2648f8ebadf662",
-      "transparent_pixels": 2685,
-      "opaque_pixels": 1411,
-      "has_alpha": true,
-      "alpha_bbox": [
-        6,
-        13,
-        57,
-        55
-      ],
-      "source_path": "assets/art/source/ranged_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/ranged_original/frame_06.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "64480f27e2122eec55465b4c2780e47b41282fbdf6e8e108b31753c274f0de7a",
-      "transparent_pixels": 2921,
-      "opaque_pixels": 1175,
-      "has_alpha": true,
-      "alpha_bbox": [
-        13,
-        13,
-        50,
-        55
-      ],
-      "source_path": "assets/art/source/ranged_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/ranged_original/frame_07.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "f6639b6797777e968b275ca2ea23435a43d7d234f0d6bbf7954ab5c073754d23",
-      "transparent_pixels": 2913,
-      "opaque_pixels": 1183,
-      "has_alpha": true,
-      "alpha_bbox": [
-        13,
-        13,
-        51,
-        55
-      ],
-      "source_path": "assets/art/source/ranged_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/ranged_original/frame_08.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "54d7330ced0749fda686a5beca4b61525b0adf7df284f442b6bac95c7c01fa64",
-      "transparent_pixels": 2905,
-      "opaque_pixels": 1191,
-      "has_alpha": true,
-      "alpha_bbox": [
-        13,
-        13,
-        51,
-        55
-      ],
-      "source_path": "assets/art/source/ranged_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/ranged_original/frame_09.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "542d8b16e431077f83a57412259a827b37435d9437a4a27dfd85cabf2cb7dd85",
-      "transparent_pixels": 3073,
-      "opaque_pixels": 1023,
-      "has_alpha": true,
-      "alpha_bbox": [
-        14,
-        7,
-        49,
-        55
-      ],
-      "source_path": "assets/art/source/ranged_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/ranged_original/frame_10.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "f15228f9d06b7263478934e159dd4323864f739111f4d34e3d043d4d6a5885e4",
-      "transparent_pixels": 2910,
-      "opaque_pixels": 1186,
-      "has_alpha": true,
-      "alpha_bbox": [
-        13,
-        13,
-        51,
-        55
-      ],
-      "source_path": "assets/art/source/ranged_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/ranged_original/frame_11.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "73f03a806bf5139d92c8bcd5242783402169209838b3ab529339246dd5510592",
-      "transparent_pixels": 2912,
-      "opaque_pixels": 1184,
-      "has_alpha": true,
-      "alpha_bbox": [
-        13,
-        13,
-        51,
-        55
-      ],
-      "source_path": "assets/art/source/ranged_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/ranged_original/frame_12.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "5005936503314a6bc9f14c178d9df57f9ca744eae507152154d3e369394e1633",
-      "transparent_pixels": 2519,
-      "opaque_pixels": 1577,
-      "has_alpha": true,
-      "alpha_bbox": [
-        11,
-        15,
-        52,
-        55
-      ],
-      "source_path": "assets/art/source/ranged_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/ranged_original/frame_13.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "1c451d366a4db9cd30bfee67e3b7f6b9959cb0b33e7b5e52dff422f64eddf3eb",
-      "transparent_pixels": 2917,
-      "opaque_pixels": 1179,
-      "has_alpha": true,
-      "alpha_bbox": [
-        13,
-        13,
-        50,
-        55
-      ],
-      "source_path": "assets/art/source/ranged_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/ranged_original/frame_14.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "bd60105dfc39a430751f6cb5ed8d41eac0742a4e55e399bb0e008d3b3e174acd",
-      "transparent_pixels": 2393,
-      "opaque_pixels": 1703,
-      "has_alpha": true,
-      "alpha_bbox": [
-        10,
-        15,
-        54,
-        55
-      ],
-      "source_path": "assets/art/source/ranged_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/ranged_original/frame_15.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "bc1af10f7b65e0b5171f7306f7b235ec8e6916551cc685d5e6fa59fd7587c5d1",
-      "transparent_pixels": 2360,
-      "opaque_pixels": 1736,
-      "has_alpha": true,
-      "alpha_bbox": [
-        9,
-        15,
-        54,
-        55
-      ],
-      "source_path": "assets/art/source/ranged_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "green flood key, uniform sheet scale, nearest reduction, baseline alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/ranged_clone/sheet.png",
-      "width": 256,
-      "height": 192,
-      "color_type": "RGBA8",
-      "sha256": "269ded01deb2037634193d2388b5084778ba040ae4d27b410e8c305245760410",
-      "transparent_pixels": 34978,
-      "opaque_pixels": 14174,
-      "has_alpha": true,
-      "alpha_bbox": [
-        13,
-        13,
-        243,
-        183
-      ],
-      "source_path": "assets/art/source/ranged_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "same extracted silhouette and alpha; warm hue to purple HSV transform"
-    },
-    {
-      "path": "assets/art/pixel_knight/ranged_clone/frame_00.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "ae4399353e959ef3634bd478e14235bd26854bf89c6664b968dc6aeeaf838740",
-      "transparent_pixels": 2940,
-      "opaque_pixels": 1156,
-      "has_alpha": true,
-      "alpha_bbox": [
-        13,
-        13,
-        50,
-        55
-      ],
-      "source_path": "assets/art/source/ranged_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "same extracted silhouette and alpha; warm hue to purple HSV transform"
-    },
-    {
-      "path": "assets/art/pixel_knight/ranged_clone/frame_01.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "08c4c6aefa9f11f27246e3196257ec9f3cb7706228b1c73432862494cf641812",
-      "transparent_pixels": 2933,
-      "opaque_pixels": 1163,
-      "has_alpha": true,
-      "alpha_bbox": [
-        13,
-        13,
-        50,
-        55
-      ],
-      "source_path": "assets/art/source/ranged_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "same extracted silhouette and alpha; warm hue to purple HSV transform"
-    },
-    {
-      "path": "assets/art/pixel_knight/ranged_clone/frame_02.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "f8e3c5882ac82e60c6cadd230f4a3476b2f6cea770829d1520233b6f580be46b",
-      "transparent_pixels": 2925,
-      "opaque_pixels": 1171,
-      "has_alpha": true,
-      "alpha_bbox": [
-        13,
-        13,
-        50,
-        55
-      ],
-      "source_path": "assets/art/source/ranged_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "same extracted silhouette and alpha; warm hue to purple HSV transform"
-    },
-    {
-      "path": "assets/art/pixel_knight/ranged_clone/frame_03.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "17e43bb566d781285073c66abc87d51314852d67c589950c6d72d0a250d17d56",
-      "transparent_pixels": 2927,
-      "opaque_pixels": 1169,
-      "has_alpha": true,
-      "alpha_bbox": [
-        13,
-        13,
-        50,
-        55
-      ],
-      "source_path": "assets/art/source/ranged_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "same extracted silhouette and alpha; warm hue to purple HSV transform"
-    },
-    {
-      "path": "assets/art/pixel_knight/ranged_clone/frame_04.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "3d6336ce4966eeff7b80c44c32dce1d522d3f0682c231712cee932b7566361bf",
-      "transparent_pixels": 2934,
-      "opaque_pixels": 1162,
-      "has_alpha": true,
-      "alpha_bbox": [
-        13,
-        13,
-        50,
-        55
-      ],
-      "source_path": "assets/art/source/ranged_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "same extracted silhouette and alpha; warm hue to purple HSV transform"
-    },
-    {
-      "path": "assets/art/pixel_knight/ranged_clone/frame_05.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "b05602b071c7c903f2a48729b8b90d238bb80be0e10533dd8c89650b75491fbb",
-      "transparent_pixels": 2685,
-      "opaque_pixels": 1411,
-      "has_alpha": true,
-      "alpha_bbox": [
-        6,
-        13,
-        57,
-        55
-      ],
-      "source_path": "assets/art/source/ranged_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "same extracted silhouette and alpha; warm hue to purple HSV transform"
-    },
-    {
-      "path": "assets/art/pixel_knight/ranged_clone/frame_06.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "b6aa483a2739632bdb011c5de7ee38a73f95843f24c21aaa8b83e95eb2458642",
-      "transparent_pixels": 2921,
-      "opaque_pixels": 1175,
-      "has_alpha": true,
-      "alpha_bbox": [
-        13,
-        13,
-        50,
-        55
-      ],
-      "source_path": "assets/art/source/ranged_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "same extracted silhouette and alpha; warm hue to purple HSV transform"
-    },
-    {
-      "path": "assets/art/pixel_knight/ranged_clone/frame_07.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "c6e268f506fcfd2eaa724a99ccca9f813d4f336d7bfb59911de4177be91d95fc",
-      "transparent_pixels": 2913,
-      "opaque_pixels": 1183,
-      "has_alpha": true,
-      "alpha_bbox": [
-        13,
-        13,
-        51,
-        55
-      ],
-      "source_path": "assets/art/source/ranged_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "same extracted silhouette and alpha; warm hue to purple HSV transform"
-    },
-    {
-      "path": "assets/art/pixel_knight/ranged_clone/frame_08.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "4c3eec814d982f4ccb35adc648abc3b1af113825c571c08b6d108f98e888c00b",
-      "transparent_pixels": 2905,
-      "opaque_pixels": 1191,
-      "has_alpha": true,
-      "alpha_bbox": [
-        13,
-        13,
-        51,
-        55
-      ],
-      "source_path": "assets/art/source/ranged_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "same extracted silhouette and alpha; warm hue to purple HSV transform"
-    },
-    {
-      "path": "assets/art/pixel_knight/ranged_clone/frame_09.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "1ad557d653ef31921327ed168b596b2c2a172deb6b6e537198bf4727e82f3633",
-      "transparent_pixels": 3073,
-      "opaque_pixels": 1023,
-      "has_alpha": true,
-      "alpha_bbox": [
-        14,
-        7,
-        49,
-        55
-      ],
-      "source_path": "assets/art/source/ranged_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "same extracted silhouette and alpha; warm hue to purple HSV transform"
-    },
-    {
-      "path": "assets/art/pixel_knight/ranged_clone/frame_10.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "d5d6befd8e1c90dd1b2312911d3fe7ba9c7b27ea305456d7f3296abf48534412",
-      "transparent_pixels": 2910,
-      "opaque_pixels": 1186,
-      "has_alpha": true,
-      "alpha_bbox": [
-        13,
-        13,
-        51,
-        55
-      ],
-      "source_path": "assets/art/source/ranged_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "same extracted silhouette and alpha; warm hue to purple HSV transform"
-    },
-    {
-      "path": "assets/art/pixel_knight/ranged_clone/frame_11.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "6dd74fab394884407c4dec6e11467e3fd80bbf097668e8ca85978b1f450e3675",
-      "transparent_pixels": 2912,
-      "opaque_pixels": 1184,
-      "has_alpha": true,
-      "alpha_bbox": [
-        13,
-        13,
-        51,
-        55
-      ],
-      "source_path": "assets/art/source/ranged_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "same extracted silhouette and alpha; warm hue to purple HSV transform"
-    },
-    {
-      "path": "assets/art/pixel_knight/bricks/ranged_0.png",
-      "width": 32,
-      "height": 16,
-      "color_type": "RGBA8",
-      "sha256": "cf89570c0cfd5b03e34305f7b0434d84737e828a81a701038843bbbaeaae17c0",
-      "transparent_pixels": 17,
-      "opaque_pixels": 495,
-      "has_alpha": true,
-      "alpha_bbox": [
-        0,
-        0,
-        32,
-        16
-      ],
-      "source_path": "assets/art/source/ranged_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "derived: source brick bounding box aspect-compressed to 32x16 flat logical canvas; not hand-painted"
-    },
-    {
-      "path": "assets/art/pixel_knight/bricks/ranged_1.png",
-      "width": 32,
-      "height": 16,
-      "color_type": "RGBA8",
-      "sha256": "28ab1600f6d77db879ddc47c88ab83a45aca672ae544c2e6130e8e23a7ae4c1e",
-      "transparent_pixels": 17,
-      "opaque_pixels": 495,
-      "has_alpha": true,
-      "alpha_bbox": [
-        0,
-        0,
-        32,
-        16
-      ],
-      "source_path": "assets/art/source/ranged_slime_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "derived: source brick bounding box aspect-compressed to 32x16 flat logical canvas; not hand-painted"
-    },
-    {
-      "path": "assets/art/pixel_knight/fx/sheet.png",
-      "width": 256,
-      "height": 256,
-      "color_type": "RGBA8",
-      "sha256": "7193285453cfebc3abd3c54c56c016e08d705d1ef2cab1a61813c58cf10b95f0",
-      "transparent_pixels": 60402,
-      "opaque_pixels": 5134,
-      "has_alpha": true,
-      "alpha_bbox": [
-        6,
-        10,
-        252,
-        246
-      ],
-      "source_path": "assets/art/source/fx_combat_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "12px source gutters cleared; connected green key preserving cyan; uniform sheet nearest scale; center alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/fx/frame_00.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "deafdcc62a00cdee3b3e59b54b2537718fa892e6eb3729b28d7f9be7d0075b31",
-      "transparent_pixels": 3979,
-      "opaque_pixels": 117,
-      "has_alpha": true,
-      "alpha_bbox": [
-        15,
-        20,
-        49,
-        44
-      ],
-      "source_path": "assets/art/source/fx_combat_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "12px source gutters cleared; connected green key preserving cyan; uniform sheet nearest scale; center alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/fx/frame_01.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "859aef47ed54045b416bae3cbc9e63ba3303394f4582f166eaab9219705d94d9",
-      "transparent_pixels": 3816,
-      "opaque_pixels": 280,
-      "has_alpha": true,
-      "alpha_bbox": [
-        11,
-        13,
-        53,
-        51
-      ],
-      "source_path": "assets/art/source/fx_combat_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "12px source gutters cleared; connected green key preserving cyan; uniform sheet nearest scale; center alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/fx/frame_02.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "8f586f386fcb39072e16267c9b1862a598d13774842ffdd6870a990952745507",
-      "transparent_pixels": 4009,
-      "opaque_pixels": 87,
-      "has_alpha": true,
-      "alpha_bbox": [
-        22,
-        22,
-        42,
-        41
-      ],
-      "source_path": "assets/art/source/fx_combat_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "12px source gutters cleared; connected green key preserving cyan; uniform sheet nearest scale; center alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/fx/frame_03.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "cf8eacbef029989d4649334661be7327fdbe385bd82db14e5e5f01e5190b6ab0",
-      "transparent_pixels": 3677,
-      "opaque_pixels": 419,
-      "has_alpha": true,
-      "alpha_bbox": [
-        10,
-        10,
-        54,
-        54
-      ],
-      "source_path": "assets/art/source/fx_combat_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "12px source gutters cleared; connected green key preserving cyan; uniform sheet nearest scale; center alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/fx/frame_04.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "d839b42992a481958d38dce2e9be8b714858a0524251a971821ca6f50a2154b3",
-      "transparent_pixels": 3956,
-      "opaque_pixels": 140,
-      "has_alpha": true,
-      "alpha_bbox": [
-        19,
-        20,
-        44,
-        43
-      ],
-      "source_path": "assets/art/source/fx_combat_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "12px source gutters cleared; connected green key preserving cyan; uniform sheet nearest scale; center alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/fx/frame_05.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "15be7f7ccfb16864f0d6739475549fe4f6fd47b4f6c4baa5a7e894990eb0ede2",
-      "transparent_pixels": 3653,
-      "opaque_pixels": 443,
-      "has_alpha": true,
-      "alpha_bbox": [
-        10,
-        11,
-        52,
-        53
-      ],
-      "source_path": "assets/art/source/fx_combat_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "12px source gutters cleared; connected green key preserving cyan; uniform sheet nearest scale; center alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/fx/frame_06.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "83e42981d7b69704ac62ab3235bb9c341c0b0fbb78d92f2ef6b7a72a7e3108ec",
-      "transparent_pixels": 3604,
-      "opaque_pixels": 492,
-      "has_alpha": true,
-      "alpha_bbox": [
-        13,
-        12,
-        51,
-        52
-      ],
-      "source_path": "assets/art/source/fx_combat_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "12px source gutters cleared; connected green key preserving cyan; uniform sheet nearest scale; center alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/fx/frame_07.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "4376ebdc0a66ca43ca533d7986d408de39505bb1922889623cb1beed9b434568",
-      "transparent_pixels": 3532,
-      "opaque_pixels": 564,
-      "has_alpha": true,
-      "alpha_bbox": [
-        11,
-        11,
-        53,
-        53
-      ],
-      "source_path": "assets/art/source/fx_combat_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "12px source gutters cleared; connected green key preserving cyan; uniform sheet nearest scale; center alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/fx/frame_08.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "a12e85a338d9193064af51587de0678a49632477a72edca1c2a5e541f7520f94",
-      "transparent_pixels": 3970,
-      "opaque_pixels": 126,
-      "has_alpha": true,
-      "alpha_bbox": [
-        6,
-        30,
-        58,
-        33
-      ],
-      "source_path": "assets/art/source/fx_combat_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "12px source gutters cleared; connected green key preserving cyan; uniform sheet nearest scale; center alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/fx/frame_09.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "e09409ee139873eb3e9ca39fe5678a0132f81a05e3955da12280151d723774eb",
-      "transparent_pixels": 3934,
-      "opaque_pixels": 162,
-      "has_alpha": true,
-      "alpha_bbox": [
-        5,
-        30,
-        59,
-        33
-      ],
-      "source_path": "assets/art/source/fx_combat_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "12px source gutters cleared; connected green key preserving cyan; uniform sheet nearest scale; center alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/fx/frame_10.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "0c39c22ade2c5a7ce896e638d1ecf411c58e99e8f29d835eda8bcb8da41a0ee7",
-      "transparent_pixels": 3884,
-      "opaque_pixels": 212,
-      "has_alpha": true,
-      "alpha_bbox": [
-        4,
-        27,
-        60,
-        36
-      ],
-      "source_path": "assets/art/source/fx_combat_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "12px source gutters cleared; connected green key preserving cyan; uniform sheet nearest scale; center alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/fx/frame_11.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "05fe5796ebbe87e4de0daf250150a26bf2272054caca4f657b617d3679c81e00",
-      "transparent_pixels": 3907,
-      "opaque_pixels": 189,
-      "has_alpha": true,
-      "alpha_bbox": [
-        4,
-        24,
-        60,
-        40
-      ],
-      "source_path": "assets/art/source/fx_combat_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "12px source gutters cleared; connected green key preserving cyan; uniform sheet nearest scale; center alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/fx/frame_12.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "eb3d3a4cfc7c4f5883a0b14d2a8eaf0d364f11d2189bb5a2342495616b9a47e0",
-      "transparent_pixels": 3894,
-      "opaque_pixels": 202,
-      "has_alpha": true,
-      "alpha_bbox": [
-        22,
-        22,
-        42,
-        41
-      ],
-      "source_path": "assets/art/source/fx_combat_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "12px source gutters cleared; connected green key preserving cyan; uniform sheet nearest scale; center alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/fx/frame_13.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "011425b1b952e11c4c0cd199c2d780075f7eea8f031b092a7537da0e2b1d145c",
-      "transparent_pixels": 3227,
-      "opaque_pixels": 869,
-      "has_alpha": true,
-      "alpha_bbox": [
-        12,
-        12,
-        52,
-        51
-      ],
-      "source_path": "assets/art/source/fx_combat_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "12px source gutters cleared; connected green key preserving cyan; uniform sheet nearest scale; center alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/fx/frame_14.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "eb3c5d36548c7acb4cc3b52ec7a802c9e2eff97a4f06e5ba96f643b1643dbd03",
-      "transparent_pixels": 3640,
-      "opaque_pixels": 456,
-      "has_alpha": true,
-      "alpha_bbox": [
-        13,
-        14,
-        50,
-        49
-      ],
-      "source_path": "assets/art/source/fx_combat_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "12px source gutters cleared; connected green key preserving cyan; uniform sheet nearest scale; center alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/fx/frame_15.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "aa9b465e3e27da27bbdd45e09753b4aaaf0112b69227df508b583efba7f14eed",
-      "transparent_pixels": 3720,
-      "opaque_pixels": 376,
-      "has_alpha": true,
-      "alpha_bbox": [
-        19,
-        10,
-        44,
-        54
-      ],
-      "source_path": "assets/art/source/fx_combat_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "12px source gutters cleared; connected green key preserving cyan; uniform sheet nearest scale; center alignment"
-    },
-    {
-      "path": "assets/art/pixel_knight/fx_utilities/sheet.png",
-      "width": 256,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "6258501e1c97b325247b26869f90000caeda93a0d6454f7f280a249a2b7bfbf1",
-      "transparent_pixels": 12537,
-      "opaque_pixels": 3847,
-      "has_alpha": true,
-      "alpha_bbox": [
-        9,
-        10,
-        239,
-        54
-      ],
-      "source_path": "assets/art/source/fx_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "selected original FX frames 8,9,14,15 only; connected green key; centered nearest reduction"
-    },
-    {
-      "path": "assets/art/pixel_knight/fx_utilities/frame_00.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "bfaec252713def8fb2d5957af34f7a798f7283cba24611653a5fd9ea01862c22",
-      "transparent_pixels": 3279,
-      "opaque_pixels": 817,
-      "has_alpha": true,
-      "alpha_bbox": [
-        9,
-        10,
-        54,
-        54
-      ],
-      "source_path": "assets/art/source/fx_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "selected original FX frames 8,9,14,15 only; connected green key; centered nearest reduction"
-    },
-    {
-      "path": "assets/art/pixel_knight/fx_utilities/frame_01.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "94d9c84deccc0b5bad47b3903fd6c9e157ec3e387365776eee6a39d7b5d68a27",
-      "transparent_pixels": 3272,
-      "opaque_pixels": 824,
-      "has_alpha": true,
-      "alpha_bbox": [
-        10,
-        10,
-        54,
-        54
-      ],
-      "source_path": "assets/art/source/fx_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "selected original FX frames 8,9,14,15 only; connected green key; centered nearest reduction"
-    },
-    {
-      "path": "assets/art/pixel_knight/fx_utilities/frame_02.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "247277d5d1faf27203e37aa1430dfb2ca0578f90baa74fde7794b2bb5692176a",
-      "transparent_pixels": 2965,
-      "opaque_pixels": 1131,
-      "has_alpha": true,
-      "alpha_bbox": [
-        17,
-        11,
-        46,
-        52
-      ],
-      "source_path": "assets/art/source/fx_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "selected original FX frames 8,9,14,15 only; connected green key; centered nearest reduction"
-    },
-    {
-      "path": "assets/art/pixel_knight/fx_utilities/frame_03.png",
-      "width": 64,
-      "height": 64,
-      "color_type": "RGBA8",
-      "sha256": "df6eb48701fcc8491b6fa7c7b08052673aa611822ae76f6bfab5c408ccd22457",
-      "transparent_pixels": 3021,
-      "opaque_pixels": 1075,
-      "has_alpha": true,
-      "alpha_bbox": [
-        17,
-        11,
-        47,
-        52
-      ],
-      "source_path": "assets/art/source/fx_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "selected original FX frames 8,9,14,15 only; connected green key; centered nearest reduction"
-    },
-    {
-      "path": "assets/art/pixel_knight/tiles_warm/sheet.png",
-      "width": 128,
-      "height": 128,
-      "color_type": "RGBA8",
-      "sha256": "4992f436cc4979c05842eb2998dd8de4f28fc323fa8624a2426eeb7064468499",
-      "transparent_pixels": 12133,
-      "opaque_pixels": 4251,
-      "has_alpha": true,
-      "alpha_bbox": [
-        4,
-        4,
-        124,
-        121
-      ],
-      "source_path": "assets/art/source/tiles_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "derived 32px isometric props; common nearest scale; original warm colors"
-    },
-    {
-      "path": "assets/art/pixel_knight/tiles_warm/ground_top.png",
-      "width": 32,
-      "height": 32,
-      "color_type": "RGBA8",
-      "sha256": "8fb6958cff66d63b98eba74ece582da09b360a5610c6aa02fad6ddcfe6408b8c",
-      "transparent_pixels": 837,
-      "opaque_pixels": 187,
-      "has_alpha": true,
-      "alpha_bbox": [
-        4,
-        11,
-        28,
-        20
-      ],
-      "source_path": "assets/art/source/tiles_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "derived 32px isometric props; common nearest scale; original warm colors"
-    },
-    {
-      "path": "assets/art/pixel_knight/tiles_warm/ground_fill.png",
-      "width": 32,
-      "height": 32,
-      "color_type": "RGBA8",
-      "sha256": "632b56e1e92ec5d6231f357c40e3b3216c295033fa322f86df4af799fd3f95d1",
-      "transparent_pixels": 828,
-      "opaque_pixels": 196,
-      "has_alpha": true,
-      "alpha_bbox": [
-        4,
-        11,
-        28,
-        20
-      ],
-      "source_path": "assets/art/source/tiles_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "derived 32px isometric props; common nearest scale; original warm colors"
-    },
-    {
-      "path": "assets/art/pixel_knight/tiles_warm/wall.png",
-      "width": 32,
-      "height": 32,
-      "color_type": "RGBA8",
-      "sha256": "4139b62a6b7f05f931173843b5e8cfc15e7ceaeeb3bf5007d870498d31547bbc",
-      "transparent_pixels": 579,
-      "opaque_pixels": 445,
-      "has_alpha": true,
-      "alpha_bbox": [
-        6,
-        4,
-        26,
-        28
-      ],
-      "source_path": "assets/art/source/tiles_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "derived 32px isometric props; common nearest scale; original warm colors"
-    },
-    {
-      "path": "assets/art/pixel_knight/tiles_warm/platform.png",
-      "width": 32,
-      "height": 32,
-      "color_type": "RGBA8",
-      "sha256": "6b1a65b00a4b644600536797d86ba301ecf26a911bbde5e916fdc755ff8de0d7",
-      "transparent_pixels": 880,
-      "opaque_pixels": 144,
-      "has_alpha": true,
-      "alpha_bbox": [
-        3,
-        13,
-        28,
-        19
-      ],
-      "source_path": "assets/art/source/tiles_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "derived 32px isometric props; common nearest scale; original warm colors"
-    },
-    {
-      "path": "assets/art/pixel_knight/tiles_warm/pillar_base.png",
-      "width": 32,
-      "height": 32,
-      "color_type": "RGBA8",
-      "sha256": "71c94ccbe556f9f0cb01e6d54cc5efe77234e26c0461d61d601a7295fb8f16e2",
-      "transparent_pixels": 823,
-      "opaque_pixels": 201,
-      "has_alpha": true,
-      "alpha_bbox": [
-        10,
-        4,
-        22,
-        28
-      ],
-      "source_path": "assets/art/source/tiles_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "derived 32px isometric props; common nearest scale; original warm colors"
-    },
-    {
-      "path": "assets/art/pixel_knight/tiles_warm/pillar_mid.png",
-      "width": 32,
-      "height": 32,
-      "color_type": "RGBA8",
-      "sha256": "53a9ff3a0d2bdbd3ffb2cb1475e0033608dc325d9310a03deabf11dd51bc5796",
-      "transparent_pixels": 821,
-      "opaque_pixels": 203,
-      "has_alpha": true,
-      "alpha_bbox": [
-        10,
-        4,
-        22,
-        27
-      ],
-      "source_path": "assets/art/source/tiles_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "derived 32px isometric props; common nearest scale; original warm colors"
-    },
-    {
-      "path": "assets/art/pixel_knight/tiles_warm/arch_left.png",
-      "width": 32,
-      "height": 32,
-      "color_type": "RGBA8",
-      "sha256": "1a8e7decc1bc04c130d70704899e6d0fe3987a64c3341fd48dd1affd4b6cdda4",
-      "transparent_pixels": 781,
-      "opaque_pixels": 243,
-      "has_alpha": true,
-      "alpha_bbox": [
-        5,
-        6,
-        27,
-        26
-      ],
-      "source_path": "assets/art/source/tiles_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "derived 32px isometric props; common nearest scale; original warm colors"
-    },
-    {
-      "path": "assets/art/pixel_knight/tiles_warm/arch_right.png",
-      "width": 32,
-      "height": 32,
-      "color_type": "RGBA8",
-      "sha256": "5442d8b2546e45e795cb66104f1dc25ea4e90c6278d42d1926aa4255ada6fd7a",
-      "transparent_pixels": 787,
-      "opaque_pixels": 237,
-      "has_alpha": true,
-      "alpha_bbox": [
-        5,
-        6,
-        26,
-        26
-      ],
-      "source_path": "assets/art/source/tiles_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "derived 32px isometric props; common nearest scale; original warm colors"
-    },
-    {
-      "path": "assets/art/pixel_knight/tiles_warm/brick_corpse_round.png",
-      "width": 32,
-      "height": 32,
-      "color_type": "RGBA8",
-      "sha256": "42576434e37698cc50ae1e73bcd5d7b4c89b437acf0ebb8aeaf929382fd3f934",
-      "transparent_pixels": 650,
-      "opaque_pixels": 374,
-      "has_alpha": true,
-      "alpha_bbox": [
-        4,
-        6,
-        28,
-        25
-      ],
-      "source_path": "assets/art/source/tiles_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "derived 32px isometric props; common nearest scale; original warm colors"
-    },
-    {
-      "path": "assets/art/pixel_knight/tiles_warm/brick_corpse_diamond.png",
-      "width": 32,
-      "height": 32,
-      "color_type": "RGBA8",
-      "sha256": "acaa8e4138dbfe237ba9babe67a8a186115c3d533cfefcf482aafb6fbd20b8eb",
-      "transparent_pixels": 649,
-      "opaque_pixels": 375,
-      "has_alpha": true,
-      "alpha_bbox": [
-        4,
-        6,
-        28,
-        25
-      ],
-      "source_path": "assets/art/source/tiles_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "derived 32px isometric props; common nearest scale; original warm colors"
-    },
-    {
-      "path": "assets/art/pixel_knight/tiles_warm/door_closed.png",
-      "width": 32,
-      "height": 32,
-      "color_type": "RGBA8",
-      "sha256": "2629b97d0d41e247411a49d80376bb8be862c6e96162525aa83856018a20251b",
-      "transparent_pixels": 649,
-      "opaque_pixels": 375,
-      "has_alpha": true,
-      "alpha_bbox": [
-        6,
-        5,
-        25,
-        27
-      ],
-      "source_path": "assets/art/source/tiles_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "derived 32px isometric props; common nearest scale; original warm colors"
-    },
-    {
-      "path": "assets/art/pixel_knight/tiles_warm/door_open.png",
-      "width": 32,
-      "height": 32,
-      "color_type": "RGBA8",
-      "sha256": "7fd1726e5b037b685e4639e76129095fae60befe584737144b8bf7a033515396",
-      "transparent_pixels": 629,
-      "opaque_pixels": 395,
-      "has_alpha": true,
-      "alpha_bbox": [
-        5,
-        4,
-        26,
-        27
-      ],
-      "source_path": "assets/art/source/tiles_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "derived 32px isometric props; common nearest scale; original warm colors"
-    },
-    {
-      "path": "assets/art/pixel_knight/tiles_warm/seam_marker.png",
-      "width": 32,
-      "height": 32,
-      "color_type": "RGBA8",
-      "sha256": "a37d4aa844db1abe360853119f8660bb476f8ccf4e0bb45afe69ba1b90c169da",
-      "transparent_pixels": 928,
-      "opaque_pixels": 96,
-      "has_alpha": true,
-      "alpha_bbox": [
-        4,
-        14,
-        28,
-        18
-      ],
-      "source_path": "assets/art/source/tiles_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "derived 32px isometric props; common nearest scale; original warm colors"
-    },
-    {
-      "path": "assets/art/pixel_knight/tiles_warm/checkpoint.png",
-      "width": 32,
-      "height": 32,
-      "color_type": "RGBA8",
-      "sha256": "960db086f85768495563c015387b05495a8f739a64144bedc9c5985039741308",
-      "transparent_pixels": 905,
-      "opaque_pixels": 119,
-      "has_alpha": true,
-      "alpha_bbox": [
-        11,
-        7,
-        21,
-        25
-      ],
-      "source_path": "assets/art/source/tiles_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "derived 32px isometric props; common nearest scale; original warm colors"
-    },
-    {
-      "path": "assets/art/pixel_knight/tiles_warm/button_down.png",
-      "width": 32,
-      "height": 32,
-      "color_type": "RGBA8",
-      "sha256": "c9a3030d312cea7467f719666646534d366b99999b73cfb2bf213bf950a69b41",
-      "transparent_pixels": 685,
-      "opaque_pixels": 339,
-      "has_alpha": true,
-      "alpha_bbox": [
-        6,
-        7,
-        25,
-        25
-      ],
-      "source_path": "assets/art/source/tiles_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "derived 32px isometric props; common nearest scale; original warm colors"
-    },
-    {
-      "path": "assets/art/pixel_knight/tiles_warm/button_up.png",
-      "width": 32,
-      "height": 32,
-      "color_type": "RGBA8",
-      "sha256": "b57c219c52190083075c4305ffd8ffb61ef447c0d4f10a5d948dd8778b818c7b",
-      "transparent_pixels": 702,
-      "opaque_pixels": 322,
-      "has_alpha": true,
-      "alpha_bbox": [
-        7,
-        7,
-        25,
-        25
-      ],
-      "source_path": "assets/art/source/tiles_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "derived 32px isometric props; common nearest scale; original warm colors"
-    },
-    {
-      "path": "assets/art/pixel_knight/tiles_cold/sheet.png",
-      "width": 128,
-      "height": 128,
-      "color_type": "RGBA8",
-      "sha256": "c0214af00617d5d3f45b7ab01737409a58072ae05a1be84f9848c4432fdce2ba",
-      "transparent_pixels": 12133,
-      "opaque_pixels": 4251,
-      "has_alpha": true,
-      "alpha_bbox": [
-        4,
-        4,
-        124,
-        121
-      ],
-      "source_path": "assets/art/source/tiles_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "derived 32px isometric props; common nearest scale; warm hue to cold blue HSV recolor"
-    },
-    {
-      "path": "assets/art/pixel_knight/tiles_cold/ground_top.png",
-      "width": 32,
-      "height": 32,
-      "color_type": "RGBA8",
-      "sha256": "b8a695bb02c5fd7eaf756a4807b8b9f50ed9c2e26c75077e08c02ddfd32d0d88",
-      "transparent_pixels": 837,
-      "opaque_pixels": 187,
-      "has_alpha": true,
-      "alpha_bbox": [
-        4,
-        11,
-        28,
-        20
-      ],
-      "source_path": "assets/art/source/tiles_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "derived 32px isometric props; common nearest scale; warm hue to cold blue HSV recolor"
-    },
-    {
-      "path": "assets/art/pixel_knight/tiles_cold/ground_fill.png",
-      "width": 32,
-      "height": 32,
-      "color_type": "RGBA8",
-      "sha256": "981b1181af9216d41c4d99f3177f0a031b34c56f49ec36588652eec945d913e6",
-      "transparent_pixels": 828,
-      "opaque_pixels": 196,
-      "has_alpha": true,
-      "alpha_bbox": [
-        4,
-        11,
-        28,
-        20
-      ],
-      "source_path": "assets/art/source/tiles_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "derived 32px isometric props; common nearest scale; warm hue to cold blue HSV recolor"
-    },
-    {
-      "path": "assets/art/pixel_knight/tiles_cold/wall.png",
-      "width": 32,
-      "height": 32,
-      "color_type": "RGBA8",
-      "sha256": "378ebd15c33ea10bca25e62e8e6f6e994ab0d45476b4733271d8bfee14f809b4",
-      "transparent_pixels": 579,
-      "opaque_pixels": 445,
-      "has_alpha": true,
-      "alpha_bbox": [
-        6,
-        4,
-        26,
-        28
-      ],
-      "source_path": "assets/art/source/tiles_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "derived 32px isometric props; common nearest scale; warm hue to cold blue HSV recolor"
-    },
-    {
-      "path": "assets/art/pixel_knight/tiles_cold/platform.png",
-      "width": 32,
-      "height": 32,
-      "color_type": "RGBA8",
-      "sha256": "2c8f8c4eed1caa0798e5f4b581bf51a48e8a896ce289b15bd528284edd32f12b",
-      "transparent_pixels": 880,
-      "opaque_pixels": 144,
-      "has_alpha": true,
-      "alpha_bbox": [
-        3,
-        13,
-        28,
-        19
-      ],
-      "source_path": "assets/art/source/tiles_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "derived 32px isometric props; common nearest scale; warm hue to cold blue HSV recolor"
-    },
-    {
-      "path": "assets/art/pixel_knight/tiles_cold/pillar_base.png",
-      "width": 32,
-      "height": 32,
-      "color_type": "RGBA8",
-      "sha256": "59b6353d0fe5deb4de9781a0eb9024b05e62ada39c8c98a7ed7b82b54837061a",
-      "transparent_pixels": 823,
-      "opaque_pixels": 201,
-      "has_alpha": true,
-      "alpha_bbox": [
-        10,
-        4,
-        22,
-        28
-      ],
-      "source_path": "assets/art/source/tiles_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "derived 32px isometric props; common nearest scale; warm hue to cold blue HSV recolor"
-    },
-    {
-      "path": "assets/art/pixel_knight/tiles_cold/pillar_mid.png",
-      "width": 32,
-      "height": 32,
-      "color_type": "RGBA8",
-      "sha256": "bfa0d7de10203729fb1bba426bd699d360c232e61efd0d1cc4c5c76b5d1231cd",
-      "transparent_pixels": 821,
-      "opaque_pixels": 203,
-      "has_alpha": true,
-      "alpha_bbox": [
-        10,
-        4,
-        22,
-        27
-      ],
-      "source_path": "assets/art/source/tiles_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "derived 32px isometric props; common nearest scale; warm hue to cold blue HSV recolor"
-    },
-    {
-      "path": "assets/art/pixel_knight/tiles_cold/arch_left.png",
-      "width": 32,
-      "height": 32,
-      "color_type": "RGBA8",
-      "sha256": "dfa13eaeb6d1559e06aedc189524a4e83bf7267d6100d6ab3ef475df0edbe8cc",
-      "transparent_pixels": 781,
-      "opaque_pixels": 243,
-      "has_alpha": true,
-      "alpha_bbox": [
-        5,
-        6,
-        27,
-        26
-      ],
-      "source_path": "assets/art/source/tiles_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "derived 32px isometric props; common nearest scale; warm hue to cold blue HSV recolor"
-    },
-    {
-      "path": "assets/art/pixel_knight/tiles_cold/arch_right.png",
-      "width": 32,
-      "height": 32,
-      "color_type": "RGBA8",
-      "sha256": "f3a53587616488c556111264af2f9d130ddeb27b77e88a100b2a8125407e56c1",
-      "transparent_pixels": 787,
-      "opaque_pixels": 237,
-      "has_alpha": true,
-      "alpha_bbox": [
-        5,
-        6,
-        26,
-        26
-      ],
-      "source_path": "assets/art/source/tiles_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "derived 32px isometric props; common nearest scale; warm hue to cold blue HSV recolor"
-    },
-    {
-      "path": "assets/art/pixel_knight/tiles_cold/brick_corpse_round.png",
-      "width": 32,
-      "height": 32,
-      "color_type": "RGBA8",
-      "sha256": "8d1f52c499ffb67ba191e1326d685bc92886e850dbe274a1e317ad8ad80d775d",
-      "transparent_pixels": 650,
-      "opaque_pixels": 374,
-      "has_alpha": true,
-      "alpha_bbox": [
-        4,
-        6,
-        28,
-        25
-      ],
-      "source_path": "assets/art/source/tiles_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "derived 32px isometric props; common nearest scale; warm hue to cold blue HSV recolor"
-    },
-    {
-      "path": "assets/art/pixel_knight/tiles_cold/brick_corpse_diamond.png",
-      "width": 32,
-      "height": 32,
-      "color_type": "RGBA8",
-      "sha256": "6c826c42dce4605a84f7574a07544ef1466b70bb03fd161626c6701960b39bdc",
-      "transparent_pixels": 649,
-      "opaque_pixels": 375,
-      "has_alpha": true,
-      "alpha_bbox": [
-        4,
-        6,
-        28,
-        25
-      ],
-      "source_path": "assets/art/source/tiles_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "derived 32px isometric props; common nearest scale; warm hue to cold blue HSV recolor"
-    },
-    {
-      "path": "assets/art/pixel_knight/tiles_cold/door_closed.png",
-      "width": 32,
-      "height": 32,
-      "color_type": "RGBA8",
-      "sha256": "ebe19ddb50b1a86e24002d68d54e5bd8f65104aeeec1bc69e5b22599293f02b6",
-      "transparent_pixels": 649,
-      "opaque_pixels": 375,
-      "has_alpha": true,
-      "alpha_bbox": [
-        6,
-        5,
-        25,
-        27
-      ],
-      "source_path": "assets/art/source/tiles_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "derived 32px isometric props; common nearest scale; warm hue to cold blue HSV recolor"
-    },
-    {
-      "path": "assets/art/pixel_knight/tiles_cold/door_open.png",
-      "width": 32,
-      "height": 32,
-      "color_type": "RGBA8",
-      "sha256": "af09b83bdee6f80270e4a51e28151d5d31798bf30a093bfee673227f603eceea",
-      "transparent_pixels": 629,
-      "opaque_pixels": 395,
-      "has_alpha": true,
-      "alpha_bbox": [
-        5,
-        4,
-        26,
-        27
-      ],
-      "source_path": "assets/art/source/tiles_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "derived 32px isometric props; common nearest scale; warm hue to cold blue HSV recolor"
-    },
-    {
-      "path": "assets/art/pixel_knight/tiles_cold/seam_marker.png",
-      "width": 32,
-      "height": 32,
-      "color_type": "RGBA8",
-      "sha256": "33e5654f29ba4b5269e835730b0c657288d9b3af337412e1142d74e58a06cd1e",
-      "transparent_pixels": 928,
-      "opaque_pixels": 96,
-      "has_alpha": true,
-      "alpha_bbox": [
-        4,
-        14,
-        28,
-        18
-      ],
-      "source_path": "assets/art/source/tiles_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "derived 32px isometric props; common nearest scale; warm hue to cold blue HSV recolor"
-    },
-    {
-      "path": "assets/art/pixel_knight/tiles_cold/checkpoint.png",
-      "width": 32,
-      "height": 32,
-      "color_type": "RGBA8",
-      "sha256": "9414a0585eff255811afe9bd7d22acc06d231ed08f06056cd84d4005ce4e0e1b",
-      "transparent_pixels": 905,
-      "opaque_pixels": 119,
-      "has_alpha": true,
-      "alpha_bbox": [
-        11,
-        7,
-        21,
-        25
-      ],
-      "source_path": "assets/art/source/tiles_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "derived 32px isometric props; common nearest scale; warm hue to cold blue HSV recolor"
-    },
-    {
-      "path": "assets/art/pixel_knight/tiles_cold/button_down.png",
-      "width": 32,
-      "height": 32,
-      "color_type": "RGBA8",
-      "sha256": "6443ee43da4b943a5e78096c9825d9049ba9ca5aa0fddfd17ad9fc1ecf766f28",
-      "transparent_pixels": 685,
-      "opaque_pixels": 339,
-      "has_alpha": true,
-      "alpha_bbox": [
-        6,
-        7,
-        25,
-        25
-      ],
-      "source_path": "assets/art/source/tiles_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "derived 32px isometric props; common nearest scale; warm hue to cold blue HSV recolor"
-    },
-    {
-      "path": "assets/art/pixel_knight/tiles_cold/button_up.png",
-      "width": 32,
-      "height": 32,
-      "color_type": "RGBA8",
-      "sha256": "f84a1a7d0fbad65d0902a857fec6d5977aa702d45999f4ec10d7ec11f8552a97",
-      "transparent_pixels": 702,
-      "opaque_pixels": 322,
-      "has_alpha": true,
-      "alpha_bbox": [
-        7,
-        7,
-        25,
-        25
-      ],
-      "source_path": "assets/art/source/tiles_sheet.png",
-      "provenance": "processed sprite",
-      "operation": "derived 32px isometric props; common nearest scale; warm hue to cold blue HSV recolor"
-    },
-    {
-      "path": "assets/art/pixel_knight/background/dual_castle.png",
-      "width": 512,
-      "height": 288,
-      "color_type": "RGBA8",
-      "sha256": "e251c878db8945715a90fa892665859fa8235230b70917e1c388b270c45198a2",
-      "transparent_pixels": 0,
-      "opaque_pixels": 147456,
-      "has_alpha": true,
-      "alpha_bbox": [
-        0,
-        0,
-        512,
-        288
-      ],
-      "source_path": "assets/art/source/dual_castle_background.png",
-      "provenance": "processed sprite",
-      "operation": "nearest reduction to 512x288; no chroma key"
-    },
-    {
-      "path": "assets/art/pixel_knight/background/cold_upper.png",
-      "width": 512,
-      "height": 144,
-      "color_type": "RGBA8",
-      "sha256": "85a957a7cf3fd7c0143c600fce193a1d1924dd35055f28b42dc261a19f89e07d",
-      "transparent_pixels": 0,
-      "opaque_pixels": 73728,
-      "has_alpha": true,
-      "alpha_bbox": [
-        0,
-        0,
-        512,
-        144
-      ],
-      "source_path": "assets/art/source/dual_castle_background.png",
-      "provenance": "processed sprite",
-      "operation": "upper crop of derived 512x288 background; not verified seamless"
-    },
-    {
-      "path": "assets/art/pixel_knight/background/warm_lower.png",
-      "width": 512,
-      "height": 144,
-      "color_type": "RGBA8",
-      "sha256": "7a3e98f1dce80334c27c923b7a0de343c4ce4b0eab93f9cf2c559c90a7919a52",
-      "transparent_pixels": 0,
-      "opaque_pixels": 73728,
-      "has_alpha": true,
-      "alpha_bbox": [
-        0,
-        0,
-        512,
-        144
-      ],
-      "source_path": "assets/art/source/dual_castle_background.png",
-      "provenance": "processed sprite",
-      "operation": "lower crop of derived 512x288 background; not verified seamless"
-    }
-  ],
-  "warnings": [
-    "Animation labels describe intended clips, not verified pose quality.",
-    "Source tile art is isometric props; not seamless modular terrain.",
-    "Checkpoint source looks like a shovel; button labels are DOWN then UP.",
-    "Door props have different silhouettes and are not an animation pair.",
-    "Original sword-icon FX are excluded; combat FX replaces them. Time-stop transition remains rough.",
-    "Ranged original death clip remapped to source frames 12,14; frame13 is living.",
-    "Background seamlessness is not verified."
-  ],
-  "counts": {
-    "png_files": 140,
-    "sources": 7,
-    "groups": 9,
-    "single_frames": 124,
-    "sheets": 9
   }
 }
