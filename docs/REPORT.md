@@ -5,7 +5,7 @@
 **작성자:** 202321594 최익진  
 **요구사항 기준:** `Term-2DGame.pptx` 3~7, 9~11번 슬라이드
 
-> 시연 영상은 내일 녹화 후 유튜브 링크를 첨부할 예정입니다. 이 문서는 게임 구현과 검증을 설명하는 레포트이며, 발표자료는 별도로 작성합니다.
+> 노션에 등록된 [플레이테스트 영상](https://youtu.be/Z4qawncGUQI)을 연결했습니다. 최종 제출 영상으로 사용할지는 별도로 확인해야 합니다. 이 문서는 구현·검증 레포트이며, 발표 초안과 대본은 별도 파일입니다.
 
 ## 1. 프로젝트 개요
 
@@ -179,7 +179,7 @@ VICTORY로 전체 클리어를 알리고 N / NEW GAME과 R / RETRY를 구분합�
 - GitHub 소스: https://github.com/seorune/knight-slimes (공개). 로그인 없이 접근할 수 있음을 확인했습니다.
 - 실행 파일: https://github.com/seorune/knight-slimes/releases/tag/v1.0.0 — Java 17용 JAR을 업로드하고 다시 내려받아 SHA-256 일치를 확인했습니다.
 - 레포트: 이 문서. 노션 원본과 함께 Git 저장소에 Markdown 사본을 보관합니다.
-- 시연 영상: 내일 녹화 후 유튜브 업로드·링크 첨부 필요. 아직 첨부하지 않았습니다.
+- 플레이테스트 영상: https://youtu.be/Z4qawncGUQI — 링크 확인 완료. 최종 제출용 영상 여부는 별도 확인이 필요합니다.
 - 발표자료: [PowerPoint 초안](presentation/KNIGHT_SLIMES_발표초안.pptx) · [PDF](presentation/KNIGHT_SLIMES_발표초안.pdf) · [대본](presentation/발표대본.md). 5장·권장 배분 110초이며, 시연 영상 추가와 리허설 후 확정합니다.
 - LMS 제출: 레포트·발표자료·영상 링크·GitHub 링크를 제출 전에 확인해야 합니다. 이 작업에서 LMS 제출은 수행하지 않았습니다.
 
