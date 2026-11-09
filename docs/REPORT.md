@@ -176,11 +176,11 @@ VICTORY로 전체 클리어를 알리고 N / NEW GAME과 R / RETRY를 구분합�
 ## 10. 제출 현황과 남은 항목
 
 - 게임 구현 및 소스: 위 최종 검사와 실행 확인 완료.
-- GitHub 소스: https://github.com/seorune/knight-slimes (비공개). 제출 전 채점자의 접근 권한 확인이 필요합니다.
+- GitHub 소스: https://github.com/seorune/knight-slimes (공개). 로그인 없이 접근할 수 있음을 확인했습니다.
 - 실행 파일: https://github.com/seorune/knight-slimes/releases/tag/v1.0.0 — Java 17용 JAR을 업로드하고 다시 내려받아 SHA-256 일치를 확인했습니다.
 - 레포트: 이 문서. 노션 원본과 함께 Git 저장소에 Markdown 사본을 보관합니다.
 - 시연 영상: 내일 녹화 후 유튜브 업로드·링크 첨부 필요. 아직 첨부하지 않았습니다.
-- 발표자료: 작성자가 내일 별도 제작합니다. 안내자료 기준 2분 이내입니다.
+- 발표자료: [PowerPoint 초안](presentation/KNIGHT_SLIMES_발표초안.pptx) · [PDF](presentation/KNIGHT_SLIMES_발표초안.pdf) · [대본](presentation/발표대본.md). 5장·권장 배분 110초이며, 시연 영상 추가와 리허설 후 확정합니다.
 - LMS 제출: 레포트·발표자료·영상 링크·GitHub 링크를 제출 전에 확인해야 합니다. 이 작업에서 LMS 제출은 수행하지 않았습니다.
 
 안내자료 11번 슬라이드는 11월 9일까지 발표자료·GitHub 링크 제출, 11월 10일 개인 발표를 명시합니다. 실제 마감은 최종 수업 공지와 함께 확인해야 합니다. 본 레포트는 요구사항을 설명하는 자료이며, 점수나 모든 예외 상황의 무결함을 보장하지 않습니다.

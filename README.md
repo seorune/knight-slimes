@@ -4,7 +4,7 @@
 
 ## 실행
 
-[실행 JAR 다운로드 — v1.0.0](https://github.com/seorune/knight-slimes/releases/tag/v1.0.0) · 비공개 저장소 접근 권한이 필요합니다. 다운로드한 JAR은 Java 17에서 `java -jar Project2-1.0.0.jar`로 실행합니다.
+[실행 JAR 다운로드 — v1.0.0](https://github.com/seorune/knight-slimes/releases/tag/v1.0.0) · 로그인 없이 다운로드할 수 있습니다. 다운로드한 JAR은 Java 17에서 `java -jar Project2-1.0.0.jar`로 실행합니다.
 
 Windows에서 `Play-Stage1.bat`를 실행합니다. `Play-Stage2.bat`, `Play-Stage3.bat`는 해당 스테이지부터 시작합니다. 실행기는 프로젝트의 `.tools` 설정이 있으면 사용하고, 없으면 설치된 JDK 17을 사용합니다. 첫 의존성 다운로드에는 인터넷이 필요할 수 있습니다.
 
@@ -58,6 +58,7 @@ python tools\render_smoke.py --scene bossmarkthawed
 - [개발 레포트](docs/REPORT.md): 과제 요구사항·구현·검증·제출 현황
 - [노션 레포트](https://app.notion.com/p/KNIGHT-SLIMES-4125efcaaaea8160b377e546c9dbf821)
 - [에셋 출처와 사용 범위](docs/ASSET_SOURCES.md)
+- [발표 초안 PPTX](docs/presentation/KNIGHT_SLIMES_발표초안.pptx) · [PDF](docs/presentation/KNIGHT_SLIMES_발표초안.pdf) · [발표 대본](docs/presentation/발표대본.md)
 
 - [StageModel.java](core/src/main/java/io/jbnu/test/StageModel.java): 120Hz 결정적 물리·전투·표적·진행 규칙
 - [StageOneLevel.java](core/src/main/java/io/jbnu/test/StageOneLevel.java), [StageTwoLevel.java](core/src/main/java/io/jbnu/test/StageTwoLevel.java), [StageThreeLevel.java](core/src/main/java/io/jbnu/test/StageThreeLevel.java): 지도
